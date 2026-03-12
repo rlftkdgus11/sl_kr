@@ -1,0 +1,591 @@
+
+||||||==================40==================|
+// Unknown to Mr. Afton
+// Mr. Afton to Unknown
+// use the V-form of distinction (if applicable in your language)
+
+[intro_1]
+sta=980
+dat1=당신이 기술적 차원에서 성취한 것은
+dat2=의심할 여지가 없습니다.
+
+[intro_2]
+sta=5020
+dat1=이것들은 분명히 최첨단입니다.
+
+
+[intro_3]
+sta=7665
+dat1=그러나 이 로봇들의 특정 디자인 측면에서
+dat2=저희가 완전히 이해할 수 없는
+
+[intro_4]
+sta=12995
+dat1=부분이 있습니다.
+
+[intro_5]
+sta=15875
+dat1=이 점에 대해
+dat2=해명해 주시길 바랍니다.
+
+--------------------
+[intro_6]
+sta=19960
+dat1=그녀는 춤을 추고 노래할 수도 있어요.
+
+[intro_7]
+sta=22485
+dat1=손가락 끝에서
+dat2=풍선을 불 수 있는
+
+[intro_8]
+sta=24420
+dat1=헬륨 탱크도
+dat2=내장되어 있고요.
+
+[intro_9]
+sta=27415
+dat1=신청곡을 받을 수 있고,
+dat2=아이스크림도 제공할 수 있습니다
+
+--------------------
+[intro_10]
+sta=32200
+dat1=죄송하지만,
+
+[intro_11]
+sta=33815
+dat1=이것들이 저희가 궁금했던
+dat2=디자인 선택입니다. Afton 씨.
+
+||||||==================40==================|
+// Miss Elizabeth Afton to her Daddy Mr. Afton
+// use the T-form of distinction (if applicable in your language)
+
+[line_1_1]
+sta=380
+end=3600
+dat1=아빠 왜 그녀랑
+dat2=놀지 못하게 하는 거예요?
+
+--------------------
+[line_2_1]
+sta=175
+dat1=아빠, 다른 애들은
+dat2=보러 가게 해주면서
+
+[line_2_2]
+sta=3765
+end=5800
+dat1=왜 저만 못 가게 하는 거예요?
+
+--------------------
+[line_3_1]
+sta=205
+dat1=아빠,
+dat2=딱 한 번만 그녀와 놀 수 있게 해주세요.
+
+[line_3_2]
+sta=3515
+dat1=그녀는 너무 예쁘고 빛이 나요.
+
+[line_3_3]
+sta=6195
+end=9200
+dat1=저만을 위해 만든 거 아니었나요?
+
+--------------------
+[line_4_1]
+sta=490
+dat1=아빠, 그녀는 풍선도 만들 수 있대요!
+
+[line_4_2]
+sta=4170
+dat1=풍선 만드는 거 봤어요?
+
+[line_4_3]
+sta=7445
+end=10800
+dat1=아빠, 그녀에게 갈래요!
+
+--------------------
+[line_5_1]
+sta=525
+end=2400
+dat1=아빠는 모를걸.
+
+--------------------
+[line_6_1]
+sta=590
+dat1=아빠한테 내가 여기 있다고 하지 마.
+dat2=나도 네 공연을 보고 싶으니까!
+
+
+
+
+
+[line_6_2]
+sta=5710
+dat1=왜 아빠가 널 보지 못하게 하는지
+dat2=모르겠어.
+
+[line_6_3]
+sta=8760
+dat1=너는 정말 멋져!
+
+[line_6_4]
+sta=11440
+end=13950
+dat1=그런데 다른 아이들은 어디로 갔어?
+
+||||||==================40==================|
+// HandUnit to Player
+// use the V-form of distinction (if applicable in your language)
+
+[/]alt0=출입 제한 구역을
+[/]alt0=실수로 들어와 버리신
+[/]alt0=것 같네요.
+
+[Hand_Unit_Final_Encounter_VOb_1]
+sta=110
+dat1=출입 제한 구역을 실수로
+dat2=들어와 버리신 것 같네요.
+
+[Hand_Unit_Final_Encounter_VOb_2]
+sta=4105
+dat1=이곳에서 민감한 것에
+dat2=노출되셨기
+
+[Hand_Unit_Final_Encounter_VOb_3]
+sta=6125
+dat1=때문에,
+
+[/]alt0=청소부가 도착하는
+[/]alt0=오전 6시까지는
+[/]alt0=이곳을 떠나실 수
+[/]alt0=없습니다.
+
+[Hand_Unit_Final_Encounter_VOb_4]
+sta=8090
+dat1=청소부가 도착하는 오전 6시까지는
+dat2=이곳을 떠나실 수 없습니다.
+
+
+
+
+
+[Hand_Unit_Final_Encounter_VOb_5]
+sta=12165
+dat1=그러니 참고 기다리세요!
+
+[/]alt0=즉시 구조된 후,
+[/]alt0=해고되어 집에 가시게 될 테니
+[/]alt0=안심하세요.
+
+[Hand_Unit_Final_Encounter_VOb_6]
+sta=13580
+dat1=즉시 구조된 후, 해고되어
+dat2=집에 가시게 될 테니 안심하세요.
+
+[Hand_Unit_Final_Encounter_VOb_7]
+sta=18425
+dat1=직원으로 일해 주셔서 감사합니다.
+
+[/]alt0=당신의 경험이
+[/]alt0=당신을 채용한 저희처럼
+[/]alt0=후회되는 일이 아니었길 바랍니다.
+
+[Hand_Unit_Final_Encounter_VOb_8]
+sta=20430
+end=24000
+dat1=당신의 경험이 당신을 채용한 저희처럼
+dat2=후회되는 일이 아니었길 바랍니다.
+
+||||||==================40==================|
+// Ennard/Circus Baby to Player
+// use the T-form of distinction (if applicable in your language)
+
+[youwontdie_1]
+sta=150
+end=1600
+dat1=너는 죽지 않을 거야.
+
+---------------------------------------------
+
+[B_final_01_1]
+sta=165
+end=2050
+dat1=왜 날 안 믿었어?
+
+--------------------
+[B_final_02_1]
+sta=155
+end=1800
+dat1=왜 날 안 믿었어?
+
+--------------------
+[B_final_03_1]
+sta=110
+end=2000
+dat1=왜 날 믿지 않았어?
+
+--------------------
+[/]alt0=때때로 나는 사람들이
+[/]alt0=행동을
+[/]alt0=이해할 수 없어.
+
+[B_final_04_1]
+sta=85
+end=4700
+dat1=때때로 나는 사람들의
+dat2=행동을 이해할 수 없어.
+
+--------------------
+[B_final_05_1]
+sta=95
+end=1850
+dat1=네가 날 좋아하는지 알았는데.
+
+--------------------
+[B_final_06_1]
+sta=200
+end=2300
+dat1=난 뭐든지 잘했다고 생각했는데.
+
+--------------------
+[B_final_07_1]
+sta=110
+dat1=아무도 다치게 하고 싶진 않아.
+
+[B_final_07_2]
+sta=2750
+end=4200
+dat1=다만 네가 필요할 뿐이야.
+
+--------------------
+[B_final_08_1]
+sta=110
+dat1=네가 있어야 우리가 떠날 수 있어.
+
+
+[B_final_08_2]
+sta=3625
+end=6900
+dat1=네가 있어야 우리가 숨을 수 있어.
+
+
+--------------------
+[B_final_09_1]
+sta=105
+dat1=네가 있어야 우리가...
+
+[B_final_09_2]
+sta=2255
+end=4300
+dat1=..너와 닮을 수 있어.
+
+--------------------
+[B_final_10_1]
+sta=150
+end=5050
+dat1=이 상태로 우리가 발각되면,
+dat2=다시 시도할 수 없을 거야.
+
+--------------------
+[B_final_11_1]
+sta=135
+dat1=이 상태로 우리가 발각되면,
+dat2=다시 시도할 수 없을 거야.
+
+[B_final_11_2]
+sta=6635
+end=11200
+dat1=우릴 도와줘야 해.
+dat2=우리를 방 안으로 들여보내 줘야 해.
+
+--------------------
+[B_final_12_1]
+sta=205
+end=3950
+dat2=우리를 방 안으로 들여보내 줘야 해.
+
+--------------------
+[B_final_13_1]
+sta=215
+end=4700
+dat1=네가 여기 온 이유가 그것 아니야?
+dat2=그녀와 다시 함께하기 위해?
+
+--------------------
+[B_final_14_1]
+sta=240
+end=1900
+dat1=이해가 되질 않아.
+
+--------------------
+[/]alt0=너는 죽지 않을 거야.
+[/]alt0=아주 잠깐만
+[/]alt0=아플 거야.
+
+[B_final_15_1]
+sta=140
+end=4600
+dat1=너는 죽지 않을 거야.
+dat2=아주 잠깐만 아플 거야.
+
+--------------------
+[B_final_16_1]
+sta=335
+end=2800
+dat1=내가 나가는 길을 찾을게.
+
+||||||==================40==================|
+// Ennard/Girl to Player
+// use the T-form of distinction (if applicable in your language)
+
+[Hello1_1]
+sta=225
+end=1100
+dat1=저기?
+
+--------------------
+[Hello2_1]
+sta=195
+end=1400
+dat1=저기?
+
+--------------------
+[Hello3_1]
+sta=195
+end=1300
+dat1=저기?
+
+--------------------
+[dont_understand1_1]
+sta=225
+end=2350
+dat1=이해가 되질 않아!
+
+--------------------
+[accident_1]
+sta=90
+end=2500
+dat1=사고였다는 건 알아.
+
+--------------------
+[everythingisok_1]
+sta=120
+end=3650
+dat1=아무 문제 없어. 내가 아직 여기 있어.
+
+--------------------
+[letmein_1]
+sta=195
+end=2800
+dat1=날 방에 들여 보내줘야 해!
+
+--------------------
+[bewithme_1]
+sta=200
+end=3900
+dat1=네가 여기 온 이유가 그것 아니야?
+dat2=나와 다시 함께하기 위해?
+
+--------------------
+[we_need_you_1]
+sta=185
+end=3350
+dat1=네가 있어야 우리가 떠날 수 있어!
+
+
+--------------------
+[to_hide_1]
+sta=45
+end=3500
+dat1=네가 있어야 우리가 숨을 수 있어!
+
+
+--------------------
+[dont_understand2_1]
+sta=150
+end=2100
+dat1=이해가 되질 않아.
+
+||||||==================40==================|
+// Ballora singing
+// use the T-form of distinction (if applicable in your language)
+
+[songv4_1]
+sta=665
+dat1=# 내가 하는 일이라곤 오직 혼자 춤추는 것
+
+[songv4_2]
+sta=5820
+end=11700
+dat1=# 하지만 지금 네 살과 뼈가
+dat2=내는 소리가 들리네
+
+[songv4_3]
+sta=13950
+dat1=# 난 온종일 이 홀을 혼자서 배회한다네
+
+[songv4_4]
+sta=19885
+end=26100
+dat1=# 하지만 이제 네가 여기 있네
+dat2=# 친구이자 먹이여. #
+
+||||||==================40==================|
+// Ballora to Player
+// use the T-form of distinction (if applicable in your language)
+
+[save me a dance_1]
+sta=195
+/end=4300
+end=9999
+dat1=하루만 더 춤추게
+dat2=해줄 수 있어?
+
+||||||==================40==================|
+// Funtime Freddy to Player
+// use the T-form of distinction (if applicable in your language)
+
+[Freddy_Intro_1]
+sta=190
+end=7000
+dat1=다시 만나네!
+dat2=두 번째 라운드 준비됐어?
+
+[Freddy_DontKeepWaiting_1]
+sta=170
+end=4400
+dat1=Bon-Bon, 친구들을
+dat2=기다리게 하지 말자고!
+
+[Freddy_readyornot_1]
+sta=235
+end=3650
+dat1=준비됐든 안 됐든, 내가 왔어!
+
+[Freddy_OhBirthdayBoy_1]
+sta=215
+end=2750
+dat1=오, 생일을 맞은 친구!
+
+[Freddy_KnockKnock_1]
+sta=200
+end=4000
+dat1=똑똑, 집에 누구 있어?!
+
+[Freddy_GoGetHim1_1]
+sta=515
+end=3550
+dat1=Bon-Bon, 그를 잡아!
+
+[Freddy_GoGetHim2_1]
+sta=270
+end=3700
+dat1=거기 Bon-Bon, 그를 잡아!
+
+[Freddy_Surprise_1]
+sta=325
+end=3550
+dat1=깜짝 놀랄 준비나 해!
+
+[party pooper_1]
+sta=280
+/end=2100
+end=9999
+dat1=분위기 깨는 녀석이네!
+
+||||||==================40==================|
+// Bidybabs to Player
+
+[Bidy01_1]
+sta=215
+end=2600
+dat1=숨바꼭질하고 싶진 않아.
+
+[Bidy02_1]
+sta=235
+end=2800
+dat1=안으로 들어갈 방법이나 찾을래.
+
+
+[going to get inside_2_1]
+sta=90
+/end=1900
+end=9999
+dat1=안으로 들어갈 거야!
+
+||||||==================40==================|
+// Minireena to Player
+// use the T-form of distinction (if applicable in your language)
+
+[take me with you_1]
+sta=120
+/end=1400
+end=9999
+dat1=나도 데려가!
+
+||||||==================40==================|
+// Michael Afton to his father
+// use the T-form of distinction (if applicable in your language)
+
+[/unknown_1]
+dat1=아빠.
+dat2=저예요. Michael이요.
+
+[/unknown_2]
+dat1=제가 해냈어요. 찾아냈다고요.
+
+[/unknown_3]
+dat1=아빠가 말씀하신 장소가 맞았어요.
+
+
+[/unknown_4]
+dat1=다 거기 있었어요.
+
+[/]alt0=그들이 처음에는...
+[/]alt0=..저를 알아보지 못했지만,
+[/]alt0=이윽고
+[/]alt0=저를 아빠라고 생각하던데요.
+
+[/unknown_5]
+dat1=그들이 처음에는...저를 알아보지 못했지만,
+dat2=이윽고 저를 아빠라고 생각하던데요.
+
+[/unknown_6]
+dat1=그리고 그녀를 찾았어요.
+
+[/unknown_7]
+dat1=아빠가 부탁한 대로
+dat2=그녀를 다시 조립했어요.
+
+[/unknown_8]
+dat1=이제 그녀는 자유의 몸이 되었어요.
+
+[/unknown_9]
+dat1=그런데 뭔가 잘못됐어요.
+
+[/unknown_10]
+dat1=제가 죽었어야 했는데, 그렇지 않았어요.
+
+
+[/unknown_11]
+dat1=저는 그림자 속에서 살아 왔죠.
+
+[/unknown_12]
+dat1=이제 제가 할 일은
+dat2=딱 하나예요.
+
+[/unknown_13]
+dat1=아빠를 찾으러 갈 거에요.
+
+[/unknown_14]
+dat1=아빠를 찾으러 갈 거에요.
+
+||||||==================40==================|
+// EOF
+
+// SUBS_USEALTS

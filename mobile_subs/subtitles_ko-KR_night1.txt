@@ -1,0 +1,403 @@
+
+||||||==================40==================|
+// HandUnit to Player
+// use the V-form of distinction (if applicable in your language)
+
+[HandUnit01c_1]
+sta=90
+dat1=새 직장에서의 신나는 첫 출근을
+dat2=환영합니다.
+
+[HandUnit01c_2]
+sta=3275
+dat1=여기에 오신 계기가 취업 박람회를 통해서든
+dat2=나사 볼트와 헤어핀 에
+
+[HandUnit01c_3]
+sta=5345
+dat1=실린 채용 광고를
+dat2=읽어서든
+
+[HandUnit01c_4]
+sta=7940
+dat1=아니면 도전 정신 때문이든
+dat2=저희는 당신을 환영합니다.
+
+[HandUnit01c_5]
+sta=11395
+dat1=저는 당신의 개인 길잡이가 되어
+dat2=새 직장에 적응하실 수 있게 도와드리겠습니다.
+
+[HandUnit01c_6]
+sta=14350
+dat1=저는 Handyman's Robotics and
+dat2=Unit Repair System의 모델 5입니다.
+
+[HandUnit01c_7]
+sta=18135
+dat1=그냥 HandUnit이라 불러주세요.
+
+[HandUnit01c_8]
+sta=20155
+dat1=새로운 직장에서는 도전과
+
+[HandUnit01c_9]
+sta=22175
+dat1=흥미, 그리고 끝없이 잡다한 일을
+dat2=맞닥뜨릴 기회가 있을 겁니다.
+
+--------------------
+[HandUnit01d_1]
+sta=100
+dat1=키패드를 사용해 위에 표시된 것처럼
+dat2=당신의 이름을 입력하세요.
+
+[HandUnit01d_2]
+sta=2940
+end=5600
+dat1=나중에 변경할 수 없으니
+dat2=신중히 입력하세요.
+
+--------------------
+[HandUnit02A_1]
+sta=240
+dat1=키패드 조작이
+dat2=서투르신 것 같군요.
+
+[HandUnit02A_2]
+sta=2935
+dat1=무엇을 입력하시려는지 알겠으니
+
+[HandUnit02A_3]
+sta=4410
+dat1=제가 자동으로 완성해 드리겠습니다.
+
+
+[HandUnit02A_4]
+sta=6235
+dat1=잠시만 기다려주세요.
+
+[HandUnit02A_5]
+sta=7360
+dat1=환영합니다,
+
+--------------------
+[HandUnit02B_1]
+sta=45
+dat1=에그 베네딕트.
+
+--------------------
+[HandUnit03_1]
+sta=225
+dat1=이제 밝은 빨간색
+
+[HandUnit03_2]
+sta=1910
+dat1=버튼을 누르면
+dat2=엘리베이터 문을 열 수 있습니다.
+
+[HandUnit03_3]
+sta=5495
+end=6350
+dat1=이제 일하러 가 봅시다!
+
+--------------------
+[HandUnit04A_1]
+sta=255
+dat1=얼마간 섬뜩할 수도 있는 이 정적을
+dat2=제가 가벼운 농담으로
+
+[HandUnit04A_2]
+sta=2560
+dat1=채워보겠습니다.
+
+[HandUnit04A_3]
+sta=4435
+dat1=Freddy Fazbear's Pizza의
+dat2=대성공, 그리고 그 이후의
+
+[HandUnit04A_4]
+sta=6690
+dat1=더 불행한
+dat2=폐업이 명백하게 보여준 것은
+
+[HandUnit04A_5]
+sta=9635
+dat1=어린이 엔터테인먼트 산업에
+
+
+[HandUnit04A_6]
+sta=11740
+dat1=또 다른 경쟁자를 위한
+
+[HandUnit04A_7]
+sta=12825
+dat1=여건이 조성됐다는 점입니다.
+dat2=이건 농담이 아닙니다.
+
+[HandUnit04A_8]
+sta=15620
+dat1=저희는 대다수 오락 시설과 달리,
+
+[/]alt0=낮에 열리는 개인 파티에
+[/]alt0=로봇 엔터테이너를
+[/]alt0=대여합니다.
+
+[HandUnit04A_9]
+sta=17580
+dat1=낮에 열리는 개인 파티에
+dat2=로봇 엔터테이너를 대여합니다.
+
+[HandUnit04A_10]
+sta=21630
+dat1=다음날 아침까지
+
+[HandUnit04A_11]
+sta=22615
+dat1=로봇이 정상적으로
+dat2=작동할 수 있도록
+
+[HandUnit04A_12]
+sta=25110
+end=26650
+dat1=관리하는 것이 당신의 임무입니다.
+
+--------------------
+[HandUnit04B_1]
+sta=275
+dat1=여기는
+dat2=주 제어 모듈입니다.
+
+[HandUnit04B_2]
+sta=2520
+dat1=사실은 두 전면 전시실
+dat2=사이의 좁은 공간입니다.
+
+[HandUnit04B_3]
+sta=5995
+dat1=그럼 이제 일상 업무를
+dat2=시작해 봅시다.
+
+[HandUnit04B_4]
+sta=9300
+dat1=왼편에 있는 창문을 보세요.
+
+[HandUnit04B_5]
+sta=11215
+dat1=이곳은 Ballora 갤러리의
+dat2=파티룸 및 댄스 스튜디오입니다.
+
+[HandUnit04B_6]
+sta=14455
+dat1=아이들이 뛰놀면서 피자도
+dat2=즐길 수 있는 곳이죠.
+
+[HandUnit04B_7]
+sta=17815
+dat1=불을 켜고
+dat2=Ballora가 무대 위에 있는지 확인해봅시다.
+
+[HandUnit04B_8]
+sta=21440
+end=24350
+dat1=왼쪽에 서 있는 키패드에서
+dat2=파란색 버튼을 누르세요.
+
+--------------------
+[HandUnit05_1]
+sta=85
+dat1=어, Ballora가
+dat2=춤을 출 기분이 아닌 것 같네요.
+
+[HandUnit05_2]
+sta=3525
+dat1=그녀에게 동기를 부여해 봅시다.
+
+[HandUnit05_3]
+sta=5275
+dat1=이제 빨간 버튼을 눌러
+dat2=전기 충격을 작동해 보세요.
+
+[HandUnit05_4]
+sta=9030
+end=11300
+dat1=그러면 Ballora가
+dat2=다시 춤 출 기분을 되찾을 겁니다.
+
+--------------------
+[HandUnit06_1]
+sta=210
+end=1500
+dat1=조명을 다시 확인합시다.
+
+--------------------
+[HandUnit07_1]
+sta=255
+dat1=잘하셨습니다. 이제 Ballora가
+dat2=예전의 기분을 되찾았으니
+
+[HandUnit07_2]
+sta=3355
+dat1=내일 있을 공연을
+dat2=준비할 것입니다.
+
+[HandUnit07_3]
+sta=6125
+dat1=이제 오른쪽에 있는 창문을 보세요.
+
+
+[HandUnit07_4]
+sta=8435
+dat1=저곳은 Funtime 강당입니다.
+
+[HandUnit07_5]
+sta=10265
+dat1=Funtime Foxy가 아이들이
+dat2=사이좋게 놀 수 있게 돕는 공간이죠.
+
+[HandUnit07_6]
+sta=14115
+end=17050
+dat1=불을 켜보세요.
+dat2=Funtime Foxy가 뭘 하고 있는지 봅시다.
+
+--------------------
+[HandUnit08_1]
+sta=315
+dat1=Funtime Foxy가
+dat2=쉬는 중인 것 같네요.
+
+[HandUnit08_2]
+sta=3235
+end=6250
+dat1=Funtime Foxy에게
+dat2=전기 충격을 줘서 동기를 부여해봅시다.
+
+--------------------
+[HandUnit09_1]
+sta=205
+end=2050
+dat1=다시 한 번 전기 충격을 줘보세요.
+
+--------------------
+[/]alt0=Funtime Foxy가
+[/]alt0=제대로 작동 중인 것 같네요.
+[/]alt0=잘하셨습니다!
+
+[HandUnit10_1]
+sta=310
+dat1=Funtime Foxy가
+dat2=제대로 작동 중인 것 같네요. 잘하셨습니다!
+
+
+
+
+
+[HandUnit10_2]
+sta=4595
+dat1=앞에 또 다른 환기구가 있습니다.
+
+
+[HandUnit10_3]
+sta=6760
+end=9600
+dat1=환기구를 기어서 통과하여
+dat2=Circus 갤러리 제어 모듈로 이동하세요.
+
+--------------------
+[HandUnit11_1]
+sta=270
+dat1=유리 너머는 Circus Baby의
+dat2=강당입니다.
+
+[HandUnit11_2]
+sta=3650
+end=6150
+dat1=조명을 점검하면서
+dat2=Baby가 뭘 하는지 확인합시다.
+
+--------------------
+[/]alt0=조명 몇 개가
+[/]alt0=고장난 것 같네요.
+[/]alt0=그건 나중에 고치도록 하죠.
+
+[HandUnit12_1]
+sta=290
+dat1=조명 몇 개가 나간 것 같네요.
+dat2=그건 나중에 고치도록 하죠.
+
+
+
+
+
+[HandUnit12_2]
+sta=3790
+end=6800
+dat1=Baby가 기운을 낼 수 있도록
+dat2=전기 충격을 줘봅시다.
+
+--------------------
+[HandUnit13_1]
+sta=215
+end=2400
+dat1=다시 한 번 전기 충격을 줘보세요.
+
+--------------------
+[HandUnit14_1]
+sta=170
+dat1=Circus Baby, 잘했어.
+dat2=믿고 있었다고.
+
+
+
+
+
+
+[HandUnit14_2]
+sta=3580
+dat1=이것으로 첫 야간 근무가
+dat2=끝났습니다.
+
+[/]alt0=당신이 과로한 상태로
+[/]alt0=퇴근하는 게 아니길 바랍니다.
+[/]alt0=내일 출근하지 못하면
+[/]alt0=안 되니까요.
+
+[HandUnit14_3]
+sta=6645
+dat1=당신이 과로한 상태로 퇴근하는 게 아니길
+dat2=바랍니다. 내일 출근하지 못하면 안 되니까요.
+
+
+[/]alt0=뒤에 있는
+[/]alt0=환기구를 통해 퇴근하세요.
+[/]alt0=내일 다시 뵙겠습니다.
+
+[HandUnit14_4]
+sta=10655
+end=14500
+dat1=뒤에 있는 환기구를 통해 퇴근하세요.
+dat2=내일 다시 뵙겠습니다.
+
+
+
+
+
+||||||==================40==================|
+// Computer
+
+[circus gallery_1]
+sta=95
+end=2550
+dat1=모션 트리거, Circus 갤러리 환기구.
+
+
+[denied_1]
+sta=125
+end=1500
+dat1=접근 거부됨.
+
+||||||==================40==================|
+// EOF
+
+// SUBS_USEALTS

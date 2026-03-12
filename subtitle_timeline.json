@@ -1,0 +1,3668 @@
+[
+  {
+    "handle": 0,
+    "speaker": "남자 목소리",
+    "color": "white",
+    "duration_ms": 31764,
+    "sentences": [
+      {
+        "text": "기술적인 단계에서 당신이 어떤 성과를 이루었는지는 의심할 여지가 없겠군요.",
+        "start_ms": 0,
+        "end_ms": 6000
+      },
+      {
+        "text": "이것들은 확실히 차세대입니다.",
+        "start_ms": 6200,
+        "end_ms": 10277
+      },
+      {
+        "text": "하지만 이 로봇들의 일부 디자인적인 측면에서 저희가 이해할 수 없는 부분이 있습니다.",
+        "start_ms": 10477,
+        "end_ms": 16477
+      },
+      {
+        "text": "왜 이런 디자인을 선택하셨는지 대답해 주셨으면 합니다.",
+        "start_ms": 16677,
+        "end_ms": 22677
+      }
+    ]
+  },
+  {
+    "handle": 1,
+    "speaker": "애프튼",
+    "color": "white",
+    "duration_ms": 59169,
+    "sentences": [
+      {
+        "text": "그녀는 춤을 출 수 있고, 노래도 부를 수 있어요.",
+        "start_ms": 0,
+        "end_ms": 6000
+      },
+      {
+        "text": "손가락 끝에서 바로 풍선에 바람을 불어넣을 수 있는 헬륨 탱크도 장착되어 있고요.",
+        "start_ms": 6200,
+        "end_ms": 12200
+      },
+      {
+        "text": "신청곡도 받을 수 있으며, 심지어 아이스크림도 만들 수 있습니다.",
+        "start_ms": 12400,
+        "end_ms": 18400
+      }
+    ]
+  },
+  {
+    "handle": 2,
+    "speaker": "남자 목소리",
+    "color": "white",
+    "duration_ms": 19083,
+    "sentences": [
+      {
+        "text": "송구스럽습니다만, 저희가 궁금해하는 디자인은 그것에 관한 것이 아니었습니다, 애프튼 씨.",
+        "start_ms": 0,
+        "end_ms": 6000
+      }
+    ]
+  },
+  {
+    "handle": 16,
+    "speaker": "소녀",
+    "color": "white",
+    "duration_ms": 3803,
+    "sentences": [
+      {
+        "text": "아빠?",
+        "start_ms": 0,
+        "end_ms": 800
+      },
+      {
+        "text": "왜 전 그녀랑 놀지 못하게 하세요?",
+        "start_ms": 1000,
+        "end_ms": 3967
+      }
+    ]
+  },
+  {
+    "handle": 12,
+    "speaker": "가이드",
+    "color": "white",
+    "duration_ms": 13270,
+    "sentences": [
+      {
+        "text": "당신의 새로운 직장에서의 신나는 첫 출근을 환영합니다!",
+        "start_ms": 0,
+        "end_ms": 2340
+      },
+      {
+        "text": "이곳에 온 계기가 직업 박람회를 통해서든, 《스크류 볼트와 헤어핀》 잡지에 실린 저희 회사의 광고를 읽어서든, 아니면 도전 정신에 의해서든, 저희는 당신을 환영합니다.",
+        "start_ms": 2540,
+        "end_ms": 8540
+      },
+      {
+        "text": "저는 당신의 개인 가이드로, 당신이 새 직장에 적응해 나가는 것을 도와드릴 것입니다.",
+        "start_ms": 8740,
+        "end_ms": 12249
+      }
+    ]
+  },
+  {
+    "handle": 5,
+    "speaker": "핸드 유닛",
+    "color": "white",
+    "duration_ms": 18876,
+    "sentences": [
+      {
+        "text": "제 명칭은 '핸디맨의 로보틱스 및 유닛 수리 모델 5'입니다만, 그냥 편하게 '핸드 유닛'이라고 불러 주세요.",
+        "start_ms": 0,
+        "end_ms": 6000
+      },
+      {
+        "text": "당신의 새로운 직장은 도전, 흥미, 그리고 끝없는 잡일의 기회를 제공합니다.",
+        "start_ms": 6200,
+        "end_ms": 10839
+      },
+      {
+        "text": "앞에 보이는 키패드에 당신의 이름을 입력해 주십시오.",
+        "start_ms": 11039,
+        "end_ms": 14272
+      },
+      {
+        "text": "입력한 내용은 추후에 수정할 수 없으니, 주의하시길 바랍니다!",
+        "start_ms": 14472,
+        "end_ms": 18267
+      }
+    ]
+  },
+  {
+    "handle": 6,
+    "speaker": "핸드 유닛",
+    "color": "white",
+    "duration_ms": 9934,
+    "sentences": [
+      {
+        "text": "아무래도 키패드 조작에 익숙하지 않으신가 보네요.",
+        "start_ms": 0,
+        "end_ms": 2504
+      },
+      {
+        "text": "당신이 무엇을 입력하려 했는지 알 것 같으니, 제가 자동 완성해 드리겠습니다.",
+        "start_ms": 2704,
+        "end_ms": 6460
+      },
+      {
+        "text": "잠시만 기다려 주십시오.",
+        "start_ms": 6660,
+        "end_ms": 7912
+      },
+      {
+        "text": "환영합니다, \"에그 베네딕트\"씨.",
+        "start_ms": 8112,
+        "end_ms": 9933
+      }
+    ]
+  },
+  {
+    "handle": 7,
+    "speaker": "핸드 유닛",
+    "color": "white",
+    "duration_ms": 31843,
+    "sentences": [
+      {
+        "text": "이제 저기에 있는 붉고, 밝으며, 누가 봐도 열림 버튼일 것 같은 버튼을 눌러 엘리베이터 문을 열 수 있습니다.",
+        "start_ms": 0,
+        "end_ms": 6000
+      },
+      {
+        "text": "이제 일하러 가 봅시다.",
+        "start_ms": 6200,
+        "end_ms": 11953
+      }
+    ]
+  },
+  {
+    "handle": 7,
+    "speaker": "핸드 유닛",
+    "color": "white",
+    "duration_ms": 31843,
+    "sentences": [
+      {
+        "text": "제가 이 어찌 보면 소름 끼칠 수도 있는 정적을 밝은 마음이 담긴 농담으로 채워 드리겠습니다.",
+        "start_ms": 0,
+        "end_ms": 6000
+      },
+      {
+        "text": "프레디 파즈베어 피자의 엄청난 성공, 그리고 그에 못지않게 불운했던 폐업으로 인해, 어린이 엔터테인먼트 분야에 또 다른 경쟁자가 등장할 무대가 마련되었음은 분명했습니다.",
+        "start_ms": 6200,
+        "end_ms": 12200
+      },
+      {
+        "text": "다른 오락 시설들과는 달리, 저희 회사는 낮에 열리는 여러 파티들에 로봇들을 대여해 줍니다.",
+        "start_ms": 12400,
+        "end_ms": 18400
+      },
+      {
+        "text": "그리고 다음 날 아침이 오기 전까지 로봇들을 정상 작동 상태로 되돌려 놓는 것이 바로 당신의 일입니다.",
+        "start_ms": 18600,
+        "end_ms": 24600
+      }
+    ]
+  },
+  {
+    "handle": 11,
+    "speaker": "핸드 유닛",
+    "color": "white",
+    "duration_ms": 8955,
+    "sentences": [
+      {
+        "text": "이곳은 제 1 제어 모듈입니다.",
+        "start_ms": 0,
+        "end_ms": 2180
+      },
+      {
+        "text": "사실 두 무대 사이에 있는 통로 같은 공간이죠.",
+        "start_ms": 2380,
+        "end_ms": 5567
+      },
+      {
+        "text": "자, 그럼 이제 당신의 일과를 시작해 봅시다.",
+        "start_ms": 5767,
+        "end_ms": 8954
+      }
+    ]
+  },
+  {
+    "handle": 19,
+    "speaker": "핸드 유닛",
+    "color": "white",
+    "duration_ms": 18876,
+    "sentences": [
+      {
+        "text": "왼쪽에 있는 창문을 봐 주십시오.",
+        "start_ms": 0,
+        "end_ms": 2433
+      },
+      {
+        "text": "저 곳은 발로라 갤러리 파티 룸&댄스 스튜디오입니다.",
+        "start_ms": 2633,
+        "end_ms": 6630
+      },
+      {
+        "text": "아이들이 운동을 하고 피자를 즐기도록 격려해주는 곳이죠.",
+        "start_ms": 6830,
+        "end_ms": 11175
+      },
+      {
+        "text": "불을 켜서 발로라가 무대에 있는지 확인해 봅시다.",
+        "start_ms": 11375,
+        "end_ms": 15024
+      },
+      {
+        "text": "당신의 왼쪽에 위치한 파란색 버튼을 눌러 주세요.",
+        "start_ms": 15224,
+        "end_ms": 18873
+      }
+    ]
+  },
+  {
+    "handle": 15,
+    "speaker": "핸드 유닛",
+    "color": "white",
+    "duration_ms": 152241,
+    "sentences": [
+      {
+        "text": "오, 이런.",
+        "start_ms": 0,
+        "end_ms": 6000
+      },
+      {
+        "text": "아무래도 발로라가 춤을 출 기분이 아닌가 봅니다.",
+        "start_ms": 6200,
+        "end_ms": 12200
+      },
+      {
+        "text": "발로라에게 동기부여를 해 줍시다.",
+        "start_ms": 12400,
+        "end_ms": 18400
+      },
+      {
+        "text": "빨간 버튼을 눌러서 전기 충격을 작동시키십시오.",
+        "start_ms": 18600,
+        "end_ms": 24600
+      },
+      {
+        "text": "아마 그것으로 발로라가 춤 출 기분을 되찾을 것입니다.",
+        "start_ms": 24800,
+        "end_ms": 30800
+      }
+    ]
+  },
+  {
+    "handle": 16,
+    "speaker": "핸드 유닛",
+    "color": "white",
+    "duration_ms": 3803,
+    "sentences": [
+      {
+        "text": "다시 불을 켜 봅시다.",
+        "start_ms": 0,
+        "end_ms": 3803
+      }
+    ]
+  },
+  {
+    "handle": 17,
+    "speaker": "핸드 유닛",
+    "color": "white",
+    "duration_ms": 7529,
+    "sentences": [
+      {
+        "text": "좋습니다.",
+        "start_ms": 0,
+        "end_ms": 800
+      },
+      {
+        "text": "예전의 기분을 되찾은 발로라는 이제 내일의 공연을 준비할 것입니다.",
+        "start_ms": 1000,
+        "end_ms": 2726
+      },
+      {
+        "text": "이제 오른쪽에 있는 창문을 봐 주십시오.",
+        "start_ms": 2926,
+        "end_ms": 3938
+      },
+      {
+        "text": "저곳은 펀타임 공연장으로, 펀타임 폭시가 아이들이 사이좋게 놀도록 도와주는 공간입니다.",
+        "start_ms": 4138,
+        "end_ms": 6460
+      },
+      {
+        "text": "불을 켜서 펀타임 폭시가 뭘 하고 있는지 확인해 봅시다.",
+        "start_ms": 6660,
+        "end_ms": 8029
+      }
+    ]
+  },
+  {
+    "handle": 18,
+    "speaker": "핸드 유닛",
+    "color": "white",
+    "duration_ms": 6194,
+    "sentences": [
+      {
+        "text": "펀타임 폭시가 쉬고 있는 듯 하군요.",
+        "start_ms": 0,
+        "end_ms": 2305
+      },
+      {
+        "text": "전기 충격을 통해 펀타임 폭시에게 동기 부여를 해 줍시다.",
+        "start_ms": 2505,
+        "end_ms": 6193
+      }
+    ]
+  },
+  {
+    "handle": 19,
+    "speaker": "핸드 유닛",
+    "color": "white",
+    "duration_ms": 18876,
+    "sentences": [
+      {
+        "text": "한 번 더 전기 충격을 줘 봅시다.",
+        "start_ms": 0,
+        "end_ms": 6000
+      }
+    ]
+  },
+  {
+    "handle": 21,
+    "speaker": "핸드 유닛",
+    "color": "white",
+    "duration_ms": 1754,
+    "sentences": [
+      {
+        "text": "펀타임 폭시가 정상 작동을 시작했군요.",
+        "start_ms": 0,
+        "end_ms": 836
+      },
+      {
+        "text": "잘하셨습니다.",
+        "start_ms": 1036,
+        "end_ms": 1836
+      },
+      {
+        "text": "당신 앞에 또 다른 환풍구가 하나 있습니다.",
+        "start_ms": 2036,
+        "end_ms": 2922
+      },
+      {
+        "text": "그곳을 통해 서커스 갤러리 제어 모듈로 이동해 주세요.",
+        "start_ms": 3122,
+        "end_ms": 4254
+      }
+    ]
+  },
+  {
+    "handle": 22,
+    "speaker": "여자 A.I. 목소리",
+    "color": "white",
+    "duration_ms": 2961,
+    "sentences": [
+      {
+        "text": "서커스 갤러리 환풍구에서 움직임 감지됨.",
+        "start_ms": 0,
+        "end_ms": 2961
+      }
+    ]
+  },
+  {
+    "handle": 23,
+    "speaker": "핸드 유닛",
+    "color": "white",
+    "duration_ms": 2276,
+    "sentences": [
+      {
+        "text": "유리 반대편에는 서커스 베이비의 강당이 있습니다.",
+        "start_ms": 0,
+        "end_ms": 1062
+      },
+      {
+        "text": "조명을 켜서 베이비가 뭘 하고 있는지 확인합시다.",
+        "start_ms": 1262,
+        "end_ms": 2275
+      }
+    ]
+  },
+  {
+    "handle": 24,
+    "speaker": "핸드 유닛",
+    "color": "white",
+    "duration_ms": 1939,
+    "sentences": [
+      {
+        "text": "조명 몇 개가 고장난 것 같지만, 나중에 고치면 되죠.",
+        "start_ms": 0,
+        "end_ms": 889
+      },
+      {
+        "text": "전기 충격을 줘서 베이비의 기운을 복돋아줍시다.",
+        "start_ms": 1089,
+        "end_ms": 1938
+      }
+    ]
+  },
+  {
+    "handle": 26,
+    "speaker": "핸드 유닛",
+    "color": "white",
+    "duration_ms": 1939,
+    "sentences": [
+      {
+        "text": "한 번 더 전기 충격을 줘 봅시다.",
+        "start_ms": 0,
+        "end_ms": 1939
+      }
+    ]
+  },
+  {
+    "handle": 4,
+    "speaker": "핸드 유닛",
+    "color": "white",
+    "duration_ms": 14053,
+    "sentences": [
+      {
+        "text": "잘했어, 서커스 베이비.",
+        "start_ms": 0,
+        "end_ms": 1465
+      },
+      {
+        "text": "역시 넌 믿을 만 하구나!",
+        "start_ms": 1665,
+        "end_ms": 2996
+      },
+      {
+        "text": "이것으로 당신의 일과는 모두 끝났습니다.",
+        "start_ms": 3196,
+        "end_ms": 5593
+      },
+      {
+        "text": "저희는 당신이 내일 출근하기 힘들 정도로 과로하게 만들고 싶지 않습니다.",
+        "start_ms": 5793,
+        "end_ms": 9922
+      },
+      {
+        "text": "뒤에 있는 환풍구를 통해 건물을 떠나 주십시오.",
+        "start_ms": 10122,
+        "end_ms": 12785
+      },
+      {
+        "text": "내일 뵙겠습니다.",
+        "start_ms": 12985,
+        "end_ms": 14050
+      }
+    ]
+  },
+  {
+    "handle": 28,
+    "speaker": "소녀",
+    "color": "white",
+    "duration_ms": 2763,
+    "sentences": [
+      {
+        "text": "아빠, 다른 애들은 보러 가게 해 주면서, 왜 저만 못 가게 하세요?",
+        "start_ms": 0,
+        "end_ms": 2763
+      }
+    ]
+  },
+  {
+    "handle": 3,
+    "speaker": "핸드 유닛",
+    "color": "white",
+    "duration_ms": 38165,
+    "sentences": [
+      {
+        "text": "또 하룻밤 동안 두뇌 활성화, 주요 진로 선택, 과거의 잘못에 대한 반성 등을 하러 오신 걸 환영합니다.",
+        "start_ms": 0,
+        "end_ms": 6000
+      },
+      {
+        "text": "저희 회사는 직원들에게 특별하고도 성취감 있는 직업 환경을 조성할 의무가 있습니다.",
+        "start_ms": 6200,
+        "end_ms": 12200
+      },
+      {
+        "text": "그 의무 중 하나는 직원들이 제 목소리에 질리지 않도록 하는 것입니다.",
+        "start_ms": 12400,
+        "end_ms": 18400
+      },
+      {
+        "text": "앞에 있는 키패드를 통해 새 가이드 목소리를 설정해 주십시오.",
+        "start_ms": 18600,
+        "end_ms": 23997
+      },
+      {
+        "text": "남성 목소리는 1번, 여성 목소리는 2번, 무성 텍스트는 3번, 다른 옵션을 원하신다면 4번을 선택해 주세요.",
+        "start_ms": 24197,
+        "end_ms": 30197
+      }
+    ]
+  },
+  {
+    "handle": 30,
+    "speaker": "핸드 유닛",
+    "color": "white",
+    "duration_ms": 3335,
+    "sentences": [
+      {
+        "text": "아무래도 키패드 조작에 익숙지 않으신가 보네요.",
+        "start_ms": 0,
+        "end_ms": 800
+      },
+      {
+        "text": "당신이 무엇을 입력하려 했는지 알겠으니, 제가 자동완성해 드리겠습니다.",
+        "start_ms": 1000,
+        "end_ms": 2204
+      },
+      {
+        "text": "'삶에 불만을 가진 청소년'을 선택해 주셔서 감사합니다.",
+        "start_ms": 2404,
+        "end_ms": 3344
+      }
+    ]
+  },
+  {
+    "handle": 35,
+    "speaker": "삶에 불만을 가진 청소년",
+    "color": "white",
+    "duration_ms": 4356,
+    "sentences": [
+      {
+        "text": "엘리베이터 멈춤.",
+        "start_ms": 0,
+        "end_ms": 800
+      },
+      {
+        "text": "해야 할 일은 알고 있을 거고?",
+        "start_ms": 1000,
+        "end_ms": 2155
+      },
+      {
+        "text": "나가던가 말던가.",
+        "start_ms": 2355,
+        "end_ms": 3155
+      },
+      {
+        "text": "싫으면 걍 가만히 있으셈.",
+        "start_ms": 3355,
+        "end_ms": 4414
+      }
+    ]
+  },
+  {
+    "handle": 36,
+    "speaker": "삶에 불만을 가진 청소년",
+    "color": "white",
+    "duration_ms": 2914,
+    "sentences": [
+      {
+        "text": "어.",
+        "start_ms": 0,
+        "end_ms": 800
+      },
+      {
+        "text": "재밌는 부분 하나.",
+        "start_ms": 1000,
+        "end_ms": 1800
+      },
+      {
+        "text": "여기 환풍구에 시체 한 구 있었던 거 앎?",
+        "start_ms": 2000,
+        "end_ms": 3391
+      },
+      {
+        "text": "ㅇㅋ, 뭐 그리 재밌진 않네.",
+        "start_ms": 3591,
+        "end_ms": 4634
+      },
+      {
+        "text": "그래도 얘기잖아.",
+        "start_ms": 4834,
+        "end_ms": 5634
+      }
+    ]
+  },
+  {
+    "handle": 37,
+    "speaker": "삶에 불만을 가진 청소년",
+    "color": "white",
+    "duration_ms": 2296,
+    "sentences": [
+      {
+        "text": "ㅇㅋ, 이제 네 일과 시작 ㄱㄱ",
+        "start_ms": 0,
+        "end_ms": 822
+      },
+      {
+        "text": "발로라가 무대에 있는지 확인해.",
+        "start_ms": 1022,
+        "end_ms": 1982
+      },
+      {
+        "text": "안 해도 상관 없으셈?",
+        "start_ms": 2182,
+        "end_ms": 2982
+      }
+    ]
+  },
+  {
+    "handle": 38,
+    "speaker": "삶에 불만을 가진 청소년",
+    "color": "white",
+    "duration_ms": 7184,
+    "sentences": [
+      {
+        "text": "허,",
+        "start_ms": 0,
+        "end_ms": 800
+      },
+      {
+        "text": "발로라가 뭐 할 일이 있나 보네.",
+        "start_ms": 1000,
+        "end_ms": 4056
+      },
+      {
+        "text": "걍 지져버리셈.",
+        "start_ms": 4256,
+        "end_ms": 5902
+      },
+      {
+        "text": "재밌을거임.",
+        "start_ms": 6102,
+        "end_ms": 7512
+      }
+    ]
+  },
+  {
+    "handle": 39,
+    "speaker": "Error noise",
+    "color": "white",
+    "duration_ms": 3037,
+    "sentences": [
+      {
+        "text": "하 하 하 하 하?",
+        "start_ms": 0,
+        "end_ms": 3037
+      }
+    ]
+  },
+  {
+    "handle": 40,
+    "speaker": "삶에 불만을 가진 청소년",
+    "color": "white",
+    "duration_ms": 21161,
+    "sentences": [
+      {
+        "text": "펀타임 폭시나 확인해.",
+        "start_ms": 0,
+        "end_ms": 6000
+      },
+      {
+        "text": "내일 공연 보내야 하니까.",
+        "start_ms": 6200,
+        "end_ms": 12200
+      }
+    ]
+  },
+  {
+    "handle": 41,
+    "speaker": "Error noise",
+    "color": "white",
+    "duration_ms": 2519,
+    "sentences": [
+      {
+        "text": "좋아.",
+        "start_ms": 0,
+        "end_ms": 1391
+      },
+      {
+        "text": "× 3",
+        "start_ms": 1591,
+        "end_ms": 2518
+      }
+    ]
+  },
+  {
+    "handle": 43,
+    "speaker": "핸드 유닛",
+    "color": "white",
+    "duration_ms": 14577,
+    "sentences": [
+      {
+        "text": "음성 변조 기능에 문제가 생긴 것 같군요.",
+        "start_ms": 0,
+        "end_ms": 4381
+      },
+      {
+        "text": "기본 설정으로 복원되었습니다.",
+        "start_ms": 4581,
+        "end_ms": 8189
+      },
+      {
+        "text": "환풍구를 통해 서커스 베이비의 강당으로 이동해 주세요.",
+        "start_ms": 8389,
+        "end_ms": 14389
+      }
+    ]
+  },
+  {
+    "handle": 44,
+    "speaker": "여자 A.I. 목소리",
+    "color": "white",
+    "duration_ms": 6791,
+    "sentences": [
+      {
+        "text": "서커스 갤러리 환풍구에서 움직임 감지됨.",
+        "start_ms": 0,
+        "end_ms": 6000
+      }
+    ]
+  },
+  {
+    "handle": 45,
+    "speaker": "핸드 유닛",
+    "color": "white",
+    "duration_ms": 6613,
+    "sentences": [
+      {
+        "text": "서커스 베이비는 오늘 바쁜 하루를 보냈습니다.",
+        "start_ms": 0,
+        "end_ms": 2915
+      },
+      {
+        "text": "불을 켜서 그녀가 정상작동을 하고 있는지 확인해 봅시다.",
+        "start_ms": 3115,
+        "end_ms": 6612
+      }
+    ]
+  },
+  {
+    "handle": 46,
+    "speaker": "핸드 유닛",
+    "color": "white",
+    "duration_ms": 2811,
+    "sentences": [
+      {
+        "text": "오, 서커스 베이비.",
+        "start_ms": 0,
+        "end_ms": 800
+      },
+      {
+        "text": "숨바꼭질은 다른 곳에서 하면 안 되겠니?",
+        "start_ms": 1000,
+        "end_ms": 1800
+      },
+      {
+        "text": "전기 충격을 줘서 베이비가 숨은 곳에서 나오도록 격려합시다.",
+        "start_ms": 2000,
+        "end_ms": 3205
+      }
+    ]
+  },
+  {
+    "handle": 47,
+    "speaker": "핸드 유닛",
+    "color": "white",
+    "duration_ms": 14285,
+    "sentences": [
+      {
+        "text": "한 번 더 전기 충격을 줘 봅시다.",
+        "start_ms": 0,
+        "end_ms": 6000
+      }
+    ]
+  },
+  {
+    "handle": 48,
+    "speaker": "핸드 유닛",
+    "color": "white",
+    "duration_ms": 26931,
+    "sentences": [
+      {
+        "text": "베이비의 작동에 영향을 미치는 전력 공급 시스템에 문제가 생긴 것 같군요.",
+        "start_ms": 0,
+        "end_ms": 6000
+      },
+      {
+        "text": "시스템을 재시작 하는 동안 잠시 대기해 주십시오.",
+        "start_ms": 6200,
+        "end_ms": 10850
+      },
+      {
+        "text": "재시작 도중에는 저와의 연결이 잠시 끊길 것입니다.",
+        "start_ms": 11050,
+        "end_ms": 15921
+      },
+      {
+        "text": "보안문, 환기구 잠금 장치, 산소 공급 등 다른 여러 시스템들도 함께 중단될 수 있습니다.",
+        "start_ms": 16121,
+        "end_ms": 22121
+      },
+      {
+        "text": "시스템 재시작.",
+        "start_ms": 22321,
+        "end_ms": 23871
+      }
+    ]
+  },
+  {
+    "handle": 49,
+    "speaker": "여자 A.I. 목소리",
+    "color": "white",
+    "duration_ms": 24746,
+    "sentences": [
+      {
+        "text": "입구 방면 환풍구에서 움직임 감지됨.",
+        "start_ms": 0,
+        "end_ms": 6000
+      },
+      {
+        "text": "펀타임 공연장 연결 통풍구 개방.",
+        "start_ms": 6200,
+        "end_ms": 12200
+      },
+      {
+        "text": "발로라 갤러리 연결 통풍구 개방.",
+        "start_ms": 12400,
+        "end_ms": 18400
+      }
+    ]
+  },
+  {
+    "handle": 96,
+    "speaker": "서커스 베이비",
+    "color": "white",
+    "duration_ms": 49475,
+    "sentences": [
+      {
+        "text": "널 알아보지 못하겠어.",
+        "start_ms": 0,
+        "end_ms": 2373
+      },
+      {
+        "text": "넌 새로 왔구나.",
+        "start_ms": 2573,
+        "end_ms": 4234
+      },
+      {
+        "text": "하지만 이?",
+        "start_ms": 4434,
+        "end_ms": 5620
+      },
+      {
+        "text": "상황은 기억나.",
+        "start_ms": 5820,
+        "end_ms": 7481
+      },
+      {
+        "text": "어쨌든.",
+        "start_ms": 7681,
+        "end_ms": 8630
+      },
+      {
+        "text": "여기에 온다는 건?",
+        "start_ms": 8830,
+        "end_ms": 10728
+      },
+      {
+        "text": "참 이상한 선택이야.",
+        "start_ms": 10928,
+        "end_ms": 13063
+      },
+      {
+        "text": "어떤 일을 겪었기에 이런 곳에서 밤을 보내겠다고 스스로 선택하게 되었을지 궁금하네.",
+        "start_ms": 13263,
+        "end_ms": 19263
+      },
+      {
+        "text": "호기심 때문에?",
+        "start_ms": 19463,
+        "end_ms": 21124
+      },
+      {
+        "text": "어쩌면 무지해서겠지.",
+        "start_ms": 21324,
+        "end_ms": 23697
+      },
+      {
+        "text": "책상 아래에 공간이 있어.",
+        "start_ms": 23897,
+        "end_ms": 26507
+      },
+      {
+        "text": "너의 전임이 그곳을 은신처로 개조했고, 그에게는 도움이 되었지.",
+        "start_ms": 26707,
+        "end_ms": 32707
+      },
+      {
+        "text": "서두르는 게 좋아.",
+        "start_ms": 32907,
+        "end_ms": 34805
+      },
+      {
+        "text": "그 안에서는 안전할 거야.",
+        "start_ms": 35005,
+        "end_ms": 37615
+      },
+      {
+        "text": "다만 절대 눈을 마주쳐서는 안 돼.",
+        "start_ms": 37815,
+        "end_ms": 41137
+      },
+      {
+        "text": "금방 끝날 거야.",
+        "start_ms": 41337,
+        "end_ms": 42998
+      },
+      {
+        "text": "그들은 금방 흥미를 잃으니까.",
+        "start_ms": 43198,
+        "end_ms": 46283
+      }
+    ]
+  },
+  {
+    "handle": 51,
+    "speaker": "비디밥들",
+    "color": "white",
+    "duration_ms": 11499,
+    "sentences": [
+      {
+        "text": "반가워?",
+        "start_ms": 0,
+        "end_ms": 1557
+      },
+      {
+        "text": "누가 안에 있어.",
+        "start_ms": 1757,
+        "end_ms": 4481
+      },
+      {
+        "text": "예전에 그 사람이 아닌 것 같은데?",
+        "start_ms": 4681,
+        "end_ms": 10130
+      },
+      {
+        "text": "똑똑?",
+        "start_ms": 10330,
+        "end_ms": 11497
+      }
+    ]
+  },
+  {
+    "handle": 52,
+    "speaker": "비디밥들",
+    "color": "white",
+    "duration_ms": 2041,
+    "sentences": [
+      {
+        "text": "숨으려고 해 봤자 소용 없어?",
+        "start_ms": 0,
+        "end_ms": 2041
+      }
+    ]
+  },
+  {
+    "handle": 53,
+    "speaker": "비디밥들",
+    "color": "white",
+    "duration_ms": 17593,
+    "sentences": [
+      {
+        "text": "그녀가 지켜보고 있어?",
+        "start_ms": 0,
+        "end_ms": 5546
+      },
+      {
+        "text": "우리는 여기를 벗어나야 해.",
+        "start_ms": 5746,
+        "end_ms": 11746
+      },
+      {
+        "text": "나중에 다시 보자고!",
+        "start_ms": 11946,
+        "end_ms": 16937
+      }
+    ]
+  },
+  {
+    "handle": 48,
+    "speaker": "서커스 베이비",
+    "color": "white",
+    "duration_ms": 26931,
+    "sentences": [
+      {
+        "text": "너의 '가이드'와 다시 연결이 되면, 그는 분명 자동 재시작에 실패해서 당신이 직접 수동 재시작을 해야 한다고 말할 거야.",
+        "start_ms": 0,
+        "end_ms": 5318
+      },
+      {
+        "text": "그리고는 최대한 빠르게 발로라 갤러리를 기어 지나 변전실에 도달하라고 말하겠지.",
+        "start_ms": 5518,
+        "end_ms": 9167
+      },
+      {
+        "text": "그의 말대로 한다면, 넌 죽을 거야.",
+        "start_ms": 9367,
+        "end_ms": 10931
+      },
+      {
+        "text": "발로라는 절대 무대로 돌아가지 않을 거야.",
+        "start_ms": 11131,
+        "end_ms": 13008
+      },
+      {
+        "text": "그녀는 너를 잡으러 오겠지.",
+        "start_ms": 13208,
+        "end_ms": 14459
+      },
+      {
+        "text": "전기 공급은 곧 재개될 거야.",
+        "start_ms": 14659,
+        "end_ms": 15910
+      },
+      {
+        "text": "발로라 갤러리를 지날 때는, 천천히 이동해야 해.",
+        "start_ms": 16110,
+        "end_ms": 18299
+      },
+      {
+        "text": "발로라는 앞을 볼 수 없어서, 네가 움직이는 소리만을 듣고 추적해올 거야.",
+        "start_ms": 18499,
+        "end_ms": 21731
+      },
+      {
+        "text": "그녀의 노랫소리가 커진다면, 발로라가 가까이서 당신의 소리를 듣고 있다는 뜻이야.",
+        "start_ms": 21931,
+        "end_ms": 25685
+      },
+      {
+        "text": "그 때는 가만히 기다려.",
+        "start_ms": 25885,
+        "end_ms": 26927
+      }
+    ]
+  },
+  {
+    "handle": 55,
+    "speaker": "핸드 유닛",
+    "color": "white",
+    "duration_ms": 2458,
+    "sentences": [
+      {
+        "text": "기다려 주셔서 감사합니다.",
+        "start_ms": 0,
+        "end_ms": 800
+      },
+      {
+        "text": "자동으로 시스템을 재시작하는 데에 실패했습니다.",
+        "start_ms": 1000,
+        "end_ms": 2035
+      },
+      {
+        "text": "당신이 수동 시스템 재시작을 해야 하게 됐습니다.",
+        "start_ms": 2235,
+        "end_ms": 3223
+      },
+      {
+        "text": "제어 모듈로 돌아가 주십시오.",
+        "start_ms": 3423,
+        "end_ms": 4223
+      }
+    ]
+  },
+  {
+    "handle": 56,
+    "speaker": "핸드 유닛",
+    "color": "white",
+    "duration_ms": 10123,
+    "sentences": [
+      {
+        "text": "이제 왼편의 환풍구를 통해 발로라 갤러리로 이동하시고, 그곳을 지나 변전실에 도달하셔야 합니다.",
+        "start_ms": 0,
+        "end_ms": 3703
+      },
+      {
+        "text": "최대한 낮은 자세로 빠르게 이동해 발로라에게 방해가 되지 않도록 해 주세요.",
+        "start_ms": 3903,
+        "end_ms": 6724
+      },
+      {
+        "text": "저는 청각적 방해를 방지하기 위해 잠시 동안 전원을 종료하겠습니다.",
+        "start_ms": 6924,
+        "end_ms": 9481
+      },
+      {
+        "text": "전원 종료.",
+        "start_ms": 9681,
+        "end_ms": 10481
+      }
+    ]
+  },
+  {
+    "handle": 57,
+    "speaker": "핸드 유닛",
+    "color": "white",
+    "duration_ms": 6467,
+    "sentences": [
+      {
+        "text": "생각보다 시간이 오래 걸리시는 것 같군요.",
+        "start_ms": 0,
+        "end_ms": 3133
+      },
+      {
+        "text": "최대한 빠르고, 조용하게 이동해 주세요.",
+        "start_ms": 3333,
+        "end_ms": 6466
+      }
+    ]
+  },
+  {
+    "handle": 61,
+    "speaker": "발로라",
+    "color": "white",
+    "duration_ms": 25723,
+    "sentences": [
+      {
+        "text": "거기 누구 있니?",
+        "start_ms": 0,
+        "end_ms": 6000
+      }
+    ]
+  },
+  {
+    "handle": 62,
+    "speaker": "발로라",
+    "color": "white",
+    "duration_ms": 6012,
+    "sentences": [
+      {
+        "text": "누군가가 내 방을 기어가는 소리가 들리는데?",
+        "start_ms": 0,
+        "end_ms": 6000
+      }
+    ]
+  },
+  {
+    "handle": 63,
+    "speaker": "발로라",
+    "color": "white",
+    "duration_ms": 17248,
+    "sentences": [
+      {
+        "text": "아마?",
+        "start_ms": 0,
+        "end_ms": 6000
+      },
+      {
+        "text": "아닌가 봐.",
+        "start_ms": 6200,
+        "end_ms": 12200
+      }
+    ]
+  },
+  {
+    "handle": 50,
+    "speaker": "여자 A.I. 목소리",
+    "color": "white",
+    "duration_ms": 2048,
+    "sentences": [
+      {
+        "text": "변전실에서 움직임 감지됨.",
+        "start_ms": 0,
+        "end_ms": 2048
+      }
+    ]
+  },
+  {
+    "handle": 51,
+    "speaker": "핸드 유닛",
+    "color": "white",
+    "duration_ms": 11499,
+    "sentences": [
+      {
+        "text": "이제 전류 제어 장치를 작동시키셔야 합니다.",
+        "start_ms": 0,
+        "end_ms": 2510
+      },
+      {
+        "text": "전류 제어 장치는 주변의 기계 장치에 지장을 줄 수 있습니다.",
+        "start_ms": 2710,
+        "end_ms": 6013
+      },
+      {
+        "text": "만약 위험하다는 느낌이 든다면 편하게 장치를 종료하신 뒤 주변이 잠잠해질 때까지 기다리세요.",
+        "start_ms": 6213,
+        "end_ms": 11498
+      }
+    ]
+  },
+  {
+    "handle": 52,
+    "speaker": "펀타임 프레디",
+    "color": "white",
+    "duration_ms": 2041,
+    "sentences": [
+      {
+        "text": "본-본, 우리 친구에게 인사하러 가자!",
+        "start_ms": 0,
+        "end_ms": 2041
+      }
+    ]
+  },
+  {
+    "handle": 53,
+    "speaker": "펀타임 프레디",
+    "color": "white",
+    "duration_ms": 17593,
+    "sentences": [
+      {
+        "text": "거기 어딘가 있는거 다 알-아-!",
+        "start_ms": 0,
+        "end_ms": 6000
+      }
+    ]
+  },
+  {
+    "handle": 54,
+    "speaker": "펀타임 프레디",
+    "color": "white",
+    "duration_ms": 6647,
+    "sentences": [
+      {
+        "text": "하하하, 거기 어딘가 있는 거 다 안다구.",
+        "start_ms": 0,
+        "end_ms": 6000
+      }
+    ]
+  },
+  {
+    "handle": 55,
+    "speaker": "펀타임 프레디",
+    "color": "white",
+    "duration_ms": 2458,
+    "sentences": [
+      {
+        "text": "너 숨어 있는 거 보여, 어서 나와!",
+        "start_ms": 0,
+        "end_ms": 2458
+      }
+    ]
+  },
+  {
+    "handle": 56,
+    "speaker": "펀타임 프레디",
+    "color": "white",
+    "duration_ms": 10123,
+    "sentences": [
+      {
+        "text": "본-본, 저기 있는 친구가 우리 생일 파티 주인공이지?",
+        "start_ms": 0,
+        "end_ms": 6000
+      },
+      {
+        "text": "어서 가서 깜짝 놀래켜 주자!",
+        "start_ms": 6200,
+        "end_ms": 9602
+      }
+    ]
+  },
+  {
+    "handle": 78,
+    "speaker": "펀타임 프레디",
+    "color": "white",
+    "duration_ms": 7171,
+    "sentences": [
+      {
+        "text": "하하, 반가워 친구!",
+        "start_ms": 0,
+        "end_ms": 6000
+      }
+    ]
+  },
+  {
+    "handle": 79,
+    "speaker": "본본",
+    "color": "white",
+    "duration_ms": 1614,
+    "sentences": [
+      {
+        "text": "진정하고 자러 가자!",
+        "start_ms": 0,
+        "end_ms": 847
+      },
+      {
+        "text": "여긴 아무도 없어.",
+        "start_ms": 1047,
+        "end_ms": 1847
+      }
+    ]
+  },
+  {
+    "handle": 80,
+    "speaker": "본본",
+    "color": "white",
+    "duration_ms": 15904,
+    "sentences": [
+      {
+        "text": "쉿!",
+        "start_ms": 0,
+        "end_ms": 1824
+      },
+      {
+        "text": "무대로 돌아가.",
+        "start_ms": 2024,
+        "end_ms": 8024
+      },
+      {
+        "text": "아무런 문제 없어.",
+        "start_ms": 8224,
+        "end_ms": 14224
+      }
+    ]
+  },
+  {
+    "handle": 81,
+    "speaker": "본본",
+    "color": "white",
+    "duration_ms": 4791,
+    "sentences": [
+      {
+        "text": "아무런 문제 없어.",
+        "start_ms": 0,
+        "end_ms": 2448
+      },
+      {
+        "text": "어서 자러 가자.",
+        "start_ms": 2648,
+        "end_ms": 4790
+      }
+    ]
+  },
+  {
+    "handle": 82,
+    "speaker": "본본",
+    "color": "white",
+    "duration_ms": 33168,
+    "sentences": [
+      {
+        "text": "진정해!",
+        "start_ms": 0,
+        "end_ms": 6000
+      },
+      {
+        "text": "생쥐 소리가 아닐까?",
+        "start_ms": 6200,
+        "end_ms": 12200
+      }
+    ]
+  },
+  {
+    "handle": 83,
+    "speaker": "본본",
+    "color": "white",
+    "duration_ms": 122723,
+    "sentences": [
+      {
+        "text": "음?",
+        "start_ms": 0,
+        "end_ms": 6000
+      },
+      {
+        "text": "아니!",
+        "start_ms": 6200,
+        "end_ms": 12200
+      },
+      {
+        "text": "아무도 없는데?",
+        "start_ms": 12400,
+        "end_ms": 18400
+      }
+    ]
+  },
+  {
+    "handle": 84,
+    "speaker": "본본",
+    "color": "white",
+    "duration_ms": 9859,
+    "sentences": [
+      {
+        "text": "쉿!",
+        "start_ms": 0,
+        "end_ms": 1182
+      },
+      {
+        "text": "잘 시간이야.",
+        "start_ms": 1382,
+        "end_ms": 4929
+      },
+      {
+        "text": "무대로 돌아가자.",
+        "start_ms": 5129,
+        "end_ms": 9858
+      }
+    ]
+  },
+  {
+    "handle": 85,
+    "speaker": "본본",
+    "color": "white",
+    "duration_ms": 13231,
+    "sentences": [
+      {
+        "text": "네가 착각한 거야.",
+        "start_ms": 0,
+        "end_ms": 6000
+      },
+      {
+        "text": "하하!",
+        "start_ms": 6200,
+        "end_ms": 9753
+      }
+    ]
+  },
+  {
+    "handle": 86,
+    "speaker": "핸드 유닛",
+    "color": "white",
+    "duration_ms": 3492,
+    "sentences": [
+      {
+        "text": "잘하셨습니다.",
+        "start_ms": 0,
+        "end_ms": 800
+      },
+      {
+        "text": "이것으로 당신의 일과는 모두 끝났습니다.",
+        "start_ms": 1000,
+        "end_ms": 2047
+      },
+      {
+        "text": "발로라 갤러리를 통해 조심히 건물을 떠나 주십시오.",
+        "start_ms": 2247,
+        "end_ms": 3527
+      },
+      {
+        "text": "내일 뵙겠습니다.",
+        "start_ms": 3727,
+        "end_ms": 4527
+      }
+    ]
+  },
+  {
+    "handle": 87,
+    "speaker": "소녀",
+    "color": "white",
+    "duration_ms": 5400,
+    "sentences": [
+      {
+        "text": "아빠, 딱 한 번만 그녀랑 놀게 해 주세요.",
+        "start_ms": 0,
+        "end_ms": 1808
+      },
+      {
+        "text": "그녀는 정말 예쁘고 반짝여요.",
+        "start_ms": 2008,
+        "end_ms": 3390
+      },
+      {
+        "text": "저만을 위해 그녀를 만든 거 아니었어요?",
+        "start_ms": 3590,
+        "end_ms": 5398
+      }
+    ]
+  },
+  {
+    "handle": 88,
+    "speaker": "핸드 유닛",
+    "color": "white",
+    "duration_ms": 6671,
+    "sentences": [
+      {
+        "text": "매우 중요하고, 날마다 중요해지는 직장에 다시 출근하시게 된 걸 환영합니다.",
+        "start_ms": 0,
+        "end_ms": 800
+      },
+      {
+        "text": "저희 직장은 직원들로 하여금 자신의 삶을 되돌아보게 만들죠.",
+        "start_ms": 1000,
+        "end_ms": 1800
+      },
+      {
+        "text": "''대체 난 왜 내 시간을 이런 곳에서 낭비하고 있는 걸까?\", \"내 친구들은 뭐라고 할까?\"",
+        "start_ms": 2000,
+        "end_ms": 2929
+      },
+      {
+        "text": "그리고 물론, \"내 가족을 다시 볼 수는 있을까?\" 등의 고민을 하게 됩니다.",
+        "start_ms": 3129,
+        "end_ms": 3929
+      },
+      {
+        "text": "저희는 직원들이 업무에서 받는 스트레스를 모두 이해합니다.",
+        "start_ms": 4129,
+        "end_ms": 4929
+      },
+      {
+        "text": "그리고 전 그런 고민을 들어 줄 준비가 되어 있습니다.",
+        "start_ms": 5129,
+        "end_ms": 5929
+      },
+      {
+        "text": "이 엘리베이터에서 마음의 평화와 안정을 찾을 수 있도록, 저희 회사는 엘리베이터 음악 선택권을 주어 직원들에게 음악 테라피를 시켜 줍니다.",
+        "start_ms": 6129,
+        "end_ms": 7535
+      },
+      {
+        "text": "현대 재즈, 클래식 음악, 숲소리 등의 다양한 선택권이 보장됩니다.",
+        "start_ms": 7735,
+        "end_ms": 8535
+      },
+      {
+        "text": "앞에 있는 키패드를 통해 당신이 선호하는 음악 장르의 첫 자리 몇 단어만 입력해 주세요.",
+        "start_ms": 8735,
+        "end_ms": 9593
+      }
+    ]
+  },
+  {
+    "handle": 89,
+    "speaker": "핸드 유닛",
+    "color": "white",
+    "duration_ms": 6408,
+    "sentences": [
+      {
+        "text": "아무래도 키패드 조작에 익숙지 않으신가 보네요.",
+        "start_ms": 0,
+        "end_ms": 1752
+      },
+      {
+        "text": "당신이 무엇을 입력하려 했는지 알겠으니, 제가 자동완성해 드리겠습니다.",
+        "start_ms": 1952,
+        "end_ms": 4622
+      },
+      {
+        "text": "캐주얼한 봉고를 선택해 주셔서 감사합니다.",
+        "start_ms": 4822,
+        "end_ms": 6407
+      }
+    ]
+  },
+  {
+    "handle": 90,
+    "speaker": "핸드 유닛",
+    "color": "white",
+    "duration_ms": 7152,
+    "sentences": [
+      {
+        "text": "이제 당신이 원하는 엘리베이터의 분위기가 맞춰진 것 같군요.",
+        "start_ms": 0,
+        "end_ms": 1994
+      },
+      {
+        "text": "어제 당신이 일을 열심히 하지 않았기 때문에, 월급이 상당히 많이 깎였음을 알려 드리겠습니다.",
+        "start_ms": 2194,
+        "end_ms": 5263
+      },
+      {
+        "text": "이제 내려가는 동안 음악을 즐겁게 감상해 주십시오.",
+        "start_ms": 5463,
+        "end_ms": 7151
+      }
+    ]
+  },
+  {
+    "handle": 91,
+    "speaker": "핸드 유닛",
+    "color": "white",
+    "duration_ms": 2334,
+    "sentences": [
+      {
+        "text": "오늘 공연에서 발생한 예기치 못한 오류로 인해, 오늘 당신이 맡을 업무는 조금 까다로울 수 있다는 사실을 먼저 알려 드리겠습니다 .",
+        "start_ms": 0,
+        "end_ms": 875
+      },
+      {
+        "text": "원래는 기술자들이 펀타임 프레디의 동력 모듈을 제거해야 했으나, 불행히도 전부 실패했습니다.",
+        "start_ms": 1075,
+        "end_ms": 1875
+      },
+      {
+        "text": "현재 기술자들은 6주~8주 정도의 입원 치료가 필요한 상태이기에, 그들을 다시 고용하는 것은 매우 비효율적인 대책입니다.",
+        "start_ms": 2075,
+        "end_ms": 2934
+      }
+    ]
+  },
+  {
+    "handle": 92,
+    "speaker": "핸드 유닛",
+    "color": "white",
+    "duration_ms": 20869,
+    "sentences": [
+      {
+        "text": "당신은 펀타임 공연장을 지나 부품실에 도달해서 펀타임 프레디의 동력 모듈을 제거하는 작업을 수행해야 합니다.",
+        "start_ms": 0,
+        "end_ms": 6000
+      },
+      {
+        "text": "그 전에 발로라가 무대에 있는지부터 확인합시다.",
+        "start_ms": 6200,
+        "end_ms": 12200
+      }
+    ]
+  },
+  {
+    "handle": 93,
+    "speaker": "핸드 유닛",
+    "color": "white",
+    "duration_ms": 3996,
+    "sentences": [
+      {
+        "text": "좋습니다.",
+        "start_ms": 0,
+        "end_ms": 800
+      },
+      {
+        "text": "발로라 갤러리는 별 문제 없군요.",
+        "start_ms": 1000,
+        "end_ms": 1834
+      },
+      {
+        "text": "이제 펀타임 폭시를 확인합시다.",
+        "start_ms": 2034,
+        "end_ms": 2868
+      },
+      {
+        "text": "들어가기 전에 펀타임 폭시가 무대에 있는지 확인해야죠.",
+        "start_ms": 3068,
+        "end_ms": 4497
+      }
+    ]
+  },
+  {
+    "handle": 95,
+    "speaker": "핸드 유닛",
+    "color": "white",
+    "duration_ms": 2895,
+    "sentences": [
+      {
+        "text": "좋습니다.",
+        "start_ms": 0,
+        "end_ms": 800
+      },
+      {
+        "text": "펀타임 공연장도 별 문제 없군요.",
+        "start_ms": 1000,
+        "end_ms": 1800
+      },
+      {
+        "text": "오늘은 베이비를 확인할 필요가 없습니다.",
+        "start_ms": 2000,
+        "end_ms": 2972
+      },
+      {
+        "text": "출입 권한이 없는 구역에 가는 것은 삼가 주세요.",
+        "start_ms": 3172,
+        "end_ms": 4253
+      },
+      {
+        "text": "바로 펀타임 공연장으로 이동하십시오.",
+        "start_ms": 4453,
+        "end_ms": 5371
+      }
+    ]
+  },
+  {
+    "handle": 96,
+    "speaker": "서커스 베이비",
+    "color": "white",
+    "duration_ms": 49475,
+    "sentences": [
+      {
+        "text": "나도 무대에 선 적이 있다는 걸 알아?",
+        "start_ms": 0,
+        "end_ms": 1223
+      },
+      {
+        "text": "그리 오래 있지는 못했어.",
+        "start_ms": 1423,
+        "end_ms": 2320
+      },
+      {
+        "text": "단 하루였지..",
+        "start_ms": 2520,
+        "end_ms": 3320
+      },
+      {
+        "text": "정말 멋진 하루였어.",
+        "start_ms": 3520,
+        "end_ms": 4320
+      },
+      {
+        "text": "내가 있는 방에는 풍선들과 조금의 테이블들이 놓여 있었어.",
+        "start_ms": 4520,
+        "end_ms": 6559
+      },
+      {
+        "text": "아무도 테이블에 앉아 있지 않았었지만.",
+        "start_ms": 6759,
+        "end_ms": 8145
+      },
+      {
+        "text": "아이들이 방 안팎을 뛰어다니고는 했지.",
+        "start_ms": 8345,
+        "end_ms": 9731
+      },
+      {
+        "text": "몇몇은 날 무서워했지만, 나머지는 내 노래를 좋아해 줬어.",
+        "start_ms": 9931,
+        "end_ms": 11970
+      },
+      {
+        "text": "다른 곳, 복도 반대편에서, 계속해서 음악이 흘러나왔지.",
+        "start_ms": 12170,
+        "end_ms": 14209
+      },
+      {
+        "text": "난 항상 아이들의 수를 셌어.",
+        "start_ms": 14409,
+        "end_ms": 15387
+      },
+      {
+        "text": "나도 왜 그랬는지는 모르겠어.",
+        "start_ms": 15587,
+        "end_ms": 16647
+      },
+      {
+        "text": "항상 내 방에 있는 아이들의 수를 정확히 알아내곤 했지.",
+        "start_ms": 16847,
+        "end_ms": 18723
+      },
+      {
+        "text": "두 명, 세 명, 두 명, 세 명, 네 명, 두 명, 그리고 아무도 없었어.",
+        "start_ms": 18923,
+        "end_ms": 21207
+      },
+      {
+        "text": "아이들은 두세명 정도 짝을 지어 놀곤 했어.",
+        "start_ms": 21407,
+        "end_ms": 22875
+      },
+      {
+        "text": "난 반짝이에 뒤덮여 있었지.",
+        "start_ms": 23075,
+        "end_ms": 24053
+      },
+      {
+        "text": "나에게는 생일 케이크 냄새가 났어.",
+        "start_ms": 24253,
+        "end_ms": 25476
+      },
+      {
+        "text": "두 명, 세 명, 다섯 명, 네 명..",
+        "start_ms": 25676,
+        "end_ms": 26818
+      },
+      {
+        "text": "내게는 특별한 능력이 하나 있어.",
+        "start_ms": 27018,
+        "end_ms": 28160
+      },
+      {
+        "text": "알고 있어?",
+        "start_ms": 28360,
+        "end_ms": 29160
+      },
+      {
+        "text": "나는 아이스크림을 만들 수 있어.",
+        "start_ms": 29360,
+        "end_ms": 30502
+      },
+      {
+        "text": "만들어 본 건 딱 한 번이었지만..",
+        "start_ms": 30702,
+        "end_ms": 31844
+      },
+      {
+        "text": "네 명, 세 명, 두 명, 한 명.",
+        "start_ms": 32044,
+        "end_ms": 33022
+      },
+      {
+        "text": "아이가 하나만 남자, 이상한 일이 일어났어.",
+        "start_ms": 33222,
+        "end_ms": 34772
+      },
+      {
+        "text": "혼자 서 있는..",
+        "start_ms": 34972,
+        "end_ms": 35772
+      },
+      {
+        "text": "어린 여자아이.",
+        "start_ms": 35972,
+        "end_ms": 36772
+      },
+      {
+        "text": "그 때 난 갑자기 정신을 잃었어.",
+        "start_ms": 36972,
+        "end_ms": 38032
+      },
+      {
+        "text": "그리고는 노래하기를 멈췄지.",
+        "start_ms": 38232,
+        "end_ms": 39292
+      },
+      {
+        "text": "내 배가 열리고, 아이스크림이 나왔어.",
+        "start_ms": 39492,
+        "end_ms": 40878
+      },
+      {
+        "text": "여자아이가 가까이 오기 전까지 나는 움직일 수 없었어.",
+        "start_ms": 41078,
+        "end_ms": 42954
+      },
+      {
+        "text": "잠시, 아주 잠시 동안 비명소리가 들렸지.",
+        "start_ms": 43154,
+        "end_ms": 44622
+      },
+      {
+        "text": "그리고는 다른 아이들이 뛰어 들어왔고, 그 여자아이의 목소리는 다른 아이들이 노는 소리에 묻혔어.",
+        "start_ms": 44822,
+        "end_ms": 48248
+      },
+      {
+        "text": "아직도 가끔 그 여자아이의 목소리가 들려.",
+        "start_ms": 48448,
+        "end_ms": 49916
+      },
+      {
+        "text": "왜 그런 걸까?",
+        "start_ms": 50116,
+        "end_ms": 50916
+      }
+    ]
+  },
+  {
+    "handle": 98,
+    "speaker": "여자 A.I 목소리",
+    "color": "white",
+    "duration_ms": 1718,
+    "sentences": [
+      {
+        "text": "펀타임 공연장 연결 환풍구 개방.",
+        "start_ms": 0,
+        "end_ms": 1718
+      }
+    ]
+  },
+  {
+    "handle": 99,
+    "speaker": "핸드 유닛",
+    "color": "white",
+    "duration_ms": 2380,
+    "sentences": [
+      {
+        "text": "발로라와는 다르게, 펀타임 폭시는 움직임에 민감합니다.",
+        "start_ms": 0,
+        "end_ms": 827
+      },
+      {
+        "text": "펀타임 폭시가 실수로 활성화 되는 일을 막기 위해, 저희는 항상 방을 어둡게 하고 있습니다.",
+        "start_ms": 1027,
+        "end_ms": 2284
+      },
+      {
+        "text": "당신에게 플래쉬 비컨 하나를 제공해 드렸습니다.",
+        "start_ms": 2484,
+        "end_ms": 3284
+      },
+      {
+        "text": "주변을 살펴 다른 물체에 부딪히지 않는 데 도움을 줄 것입니다.",
+        "start_ms": 3484,
+        "end_ms": 4344
+      },
+      {
+        "text": "하지만 너무 자주 사용하지는 말아 주십시오.",
+        "start_ms": 4544,
+        "end_ms": 5344
+      },
+      {
+        "text": "이제 부품 & 서비스로 향해주십시오.",
+        "start_ms": 5544,
+        "end_ms": 6344
+      }
+    ]
+  },
+  {
+    "handle": 100,
+    "speaker": "여자 A.I 목소리",
+    "color": "white",
+    "duration_ms": 2461,
+    "sentences": [
+      {
+        "text": "부품 & 서비스에서 움직임 감지됨.",
+        "start_ms": 0,
+        "end_ms": 2461
+      }
+    ]
+  },
+  {
+    "handle": 101,
+    "speaker": "핸드 유닛",
+    "color": "white",
+    "duration_ms": 123948,
+    "sentences": [
+      {
+        "text": "잘하셨습니다.",
+        "start_ms": 0,
+        "end_ms": 5024
+      },
+      {
+        "text": "부품 & 서비스에 도달하셨군요.",
+        "start_ms": 5224,
+        "end_ms": 11224
+      },
+      {
+        "text": "펀타임 프레디의 전원이 나갔기 때문에, 당신의 작업은 훨씬 쉬워졌습니다.",
+        "start_ms": 11424,
+        "end_ms": 17424
+      },
+      {
+        "text": "흉강 외골격을 여는 스위치는 프레디의 내골격 턱 아래에 위치해 있습니다.",
+        "start_ms": 17624,
+        "end_ms": 23624
+      },
+      {
+        "text": "스위치를 누르기 위해서는 먼저 얼굴 외골격을 열어야겠죠.",
+        "start_ms": 23824,
+        "end_ms": 29824
+      },
+      {
+        "text": "얼굴 외골격을 열기 위해서는 특정한 순서의 버튼을 조심히, 신중하게 누르셔야 합니다.",
+        "start_ms": 30024,
+        "end_ms": 36024
+      },
+      {
+        "text": "프레디의 오른쪽 볼 아래에 있는 버튼을 찾아서 눌러 주세요.",
+        "start_ms": 36224,
+        "end_ms": 42224
+      }
+    ]
+  },
+  {
+    "handle": 102,
+    "speaker": "핸드 유닛",
+    "color": "white",
+    "duration_ms": 44773,
+    "sentences": [
+      {
+        "text": "당신 기준에서의 오른쪽이 아닌, 프레디 기준에서의 오른쪽이라는 걸 알아 주십시오.",
+        "start_ms": 0,
+        "end_ms": 6000
+      }
+    ]
+  },
+  {
+    "handle": 103,
+    "speaker": "핸드 유닛",
+    "color": "white",
+    "duration_ms": 2638,
+    "sentences": [
+      {
+        "text": "잘하셨습니다.",
+        "start_ms": 0,
+        "end_ms": 800
+      },
+      {
+        "text": "이제 프레디의 왼쪽 볼 아래의 버튼을 찾아서 눌러 주세요.",
+        "start_ms": 1000,
+        "end_ms": 2887
+      }
+    ]
+  },
+  {
+    "handle": 104,
+    "speaker": "핸드 유닛",
+    "color": "white",
+    "duration_ms": 2664,
+    "sentences": [
+      {
+        "text": "잘하셨습니다.",
+        "start_ms": 0,
+        "end_ms": 800
+      },
+      {
+        "text": "이제 프레디의 오른쪽 눈 옆에 있는 버튼을 찾아서 조심히 눌러 주세요.",
+        "start_ms": 1000,
+        "end_ms": 2984
+      }
+    ]
+  },
+  {
+    "handle": 105,
+    "speaker": "핸드 유닛",
+    "color": "white",
+    "duration_ms": 1776,
+    "sentences": [
+      {
+        "text": "잘하셨습니다.",
+        "start_ms": 0,
+        "end_ms": 800
+      },
+      {
+        "text": "이제 프레디의 코 위에 있는 버튼을 찾아서 조심히 눌러 주세요.",
+        "start_ms": 1000,
+        "end_ms": 2260
+      }
+    ]
+  },
+  {
+    "handle": 106,
+    "speaker": "핸드 유닛",
+    "color": "white",
+    "duration_ms": 3813,
+    "sentences": [
+      {
+        "text": "잘하셨습니다.",
+        "start_ms": 0,
+        "end_ms": 800
+      },
+      {
+        "text": "이제 얼굴 외골격이 열렸을 겁니다.",
+        "start_ms": 1000,
+        "end_ms": 2044
+      },
+      {
+        "text": "프레디의 내골격 턱 밑에 있는 작은 버튼을 찾아서 눌러 주십시오.",
+        "start_ms": 2244,
+        "end_ms": 4124
+      }
+    ]
+  },
+  {
+    "handle": 107,
+    "speaker": "핸드 유닛",
+    "color": "white",
+    "duration_ms": 2507,
+    "sentences": [
+      {
+        "text": "훌륭합니다.",
+        "start_ms": 0,
+        "end_ms": 800
+      },
+      {
+        "text": "이제 흉강 외골격이 열렸을 겁니다.",
+        "start_ms": 1000,
+        "end_ms": 1878
+      },
+      {
+        "text": "흉강에 달려 있는 동력 모듈을 제거해 주십시오.",
+        "start_ms": 2078,
+        "end_ms": 3248
+      }
+    ]
+  },
+  {
+    "handle": 108,
+    "speaker": "핸드 유닛",
+    "color": "white",
+    "duration_ms": 3265,
+    "sentences": [
+      {
+        "text": "정말 잘하셨습니다.",
+        "start_ms": 0,
+        "end_ms": 800
+      },
+      {
+        "text": "이제 보니 손인형에 달려 있는 보조 동력 모듈을 제거하셔야 합니다.",
+        "start_ms": 1000,
+        "end_ms": 2055
+      },
+      {
+        "text": "보니의 나비넥타이 아래에 달려 있는 큰 검은색 버튼을 눌러서 동력 모듈을 노출시켜 주십시오.",
+        "start_ms": 2255,
+        "end_ms": 3725
+      }
+    ]
+  },
+  {
+    "handle": 109,
+    "speaker": "핸드 유닛",
+    "color": "white",
+    "duration_ms": 2664,
+    "sentences": [
+      {
+        "text": "잘하셨습니다.",
+        "start_ms": 0,
+        "end_ms": 800
+      },
+      {
+        "text": "모든 동력 모듈을 해체하셨군요.",
+        "start_ms": 1000,
+        "end_ms": 1800
+      },
+      {
+        "text": "이것으로 당신의 일과는 끝났습니다.",
+        "start_ms": 2000,
+        "end_ms": 2800
+      },
+      {
+        "text": "펀타임 공연장을 통해 건물에서 나가 주시고, 내일 뵙겠습니다.",
+        "start_ms": 3000,
+        "end_ms": 4350
+      }
+    ]
+  },
+  {
+    "handle": 110,
+    "speaker": "소녀",
+    "color": "white",
+    "duration_ms": 2673,
+    "sentences": [
+      {
+        "text": "아빠, 그녀는 풍선도 만들 수 있대요!",
+        "start_ms": 0,
+        "end_ms": 800
+      },
+      {
+        "text": "아빠도 그녀가 풍선 만드는 거 보셨어요?",
+        "start_ms": 1000,
+        "end_ms": 1850
+      },
+      {
+        "text": "아빠, 한 번만 보러 가게 해 주세요?",
+        "start_ms": 2050,
+        "end_ms": 2850
+      }
+    ]
+  },
+  {
+    "handle": 111,
+    "speaker": "서커스 베이비",
+    "color": "white",
+    "duration_ms": 11337,
+    "sentences": [
+      {
+        "text": "쉿.",
+        "start_ms": 0,
+        "end_ms": 800
+      },
+      {
+        "text": "조용히, 가만히 있어.",
+        "start_ms": 1000,
+        "end_ms": 2003
+      },
+      {
+        "text": "너는 꽤 오랫동안 잠들어 있었어.",
+        "start_ms": 2203,
+        "end_ms": 3608
+      },
+      {
+        "text": "사람들이 네가 어제 건물을 나가지 않았다는 걸 알아차린 것 같아.",
+        "start_ms": 3808,
+        "end_ms": 6518
+      },
+      {
+        "text": "카메라들이 너를 찾았어.",
+        "start_ms": 6718,
+        "end_ms": 7822
+      },
+      {
+        "text": "하지만 그들은 결국 널 찾지 못했지.",
+        "start_ms": 8022,
+        "end_ms": 9527
+      },
+      {
+        "text": "내가 널 정말 잘 숨겨뒀거든.",
+        "start_ms": 9727,
+        "end_ms": 10931
+      },
+      {
+        "text": "난 너를 납치했어.",
+        "start_ms": 11131,
+        "end_ms": 11933
+      }
+    ]
+  },
+  {
+    "handle": 112,
+    "speaker": "서커스 베이비",
+    "color": "white",
+    "duration_ms": 4127,
+    "sentences": [
+      {
+        "text": "무서워하지 마.",
+        "start_ms": 0,
+        "end_ms": 800
+      },
+      {
+        "text": "난 너를 해치지 않을 거야.",
+        "start_ms": 1000,
+        "end_ms": 1800
+      },
+      {
+        "text": "그냥 잠깐만 데리고 있으려는 것뿐이야.",
+        "start_ms": 2000,
+        "end_ms": 2841
+      },
+      {
+        "text": "그래도 너무 꿈틀대지는 마.",
+        "start_ms": 3041,
+        "end_ms": 3841
+      },
+      {
+        "text": "너는 지금 예전에 운영하던 피자가게에서 가져온 물건 안에 들어와 있어.",
+        "start_ms": 4041,
+        "end_ms": 5526
+      },
+      {
+        "text": "아마 한 번도 제대로 쓰인 적은 없었을 거야.",
+        "start_ms": 5726,
+        "end_ms": 6617
+      },
+      {
+        "text": "최소한, 원래 의도된 방식으로는 말이야.",
+        "start_ms": 6817,
+        "end_ms": 7708
+      },
+      {
+        "text": "너무 위험했거든.",
+        "start_ms": 7908,
+        "end_ms": 8708
+      },
+      {
+        "text": "사람 한 명이 가까스로 들어갈 만한 크기야.",
+        "start_ms": 8908,
+        "end_ms": 9799
+      },
+      {
+        "text": "넌 지금 '분해실'에 있어.",
+        "start_ms": 9999,
+        "end_ms": 10799
+      },
+      {
+        "text": "왜 이곳이 '분해실'이라 불리는지 알아?",
+        "start_ms": 10999,
+        "end_ms": 11890
+      },
+      {
+        "text": "당연하잖아, 바보야.",
+        "start_ms": 12090,
+        "end_ms": 12890
+      },
+      {
+        "text": "여기는 '스쿠퍼'를 사용하는 곳이기 때문이야.",
+        "start_ms": 13090,
+        "end_ms": 14129
+      },
+      {
+        "text": "그 정도는 알아차렸을 줄 알았는데.",
+        "start_ms": 14329,
+        "end_ms": 15129
+      },
+      {
+        "text": "이름 참 재밌지 않아?",
+        "start_ms": 15329,
+        "end_ms": 16129
+      },
+      {
+        "text": "\"스쿠퍼\".",
+        "start_ms": 16329,
+        "end_ms": 17129
+      },
+      {
+        "text": "아이스크림 퍼낼 때 쓰는 도구 같잖아.",
+        "start_ms": 17329,
+        "end_ms": 18129
+      },
+      {
+        "text": "아니면 커스터드나, 스프링클 같은 것들.",
+        "start_ms": 18329,
+        "end_ms": 19220
+      },
+      {
+        "text": "생일 파티에서라면 좋은 것들을 하나도, 빠짐없이, 듬뿍, 담아 주기 위해 꼭 필요할 것 같은 이름이야.",
+        "start_ms": 19420,
+        "end_ms": 21548
+      },
+      {
+        "text": "그런데 문득 궁금해지네.",
+        "start_ms": 21748,
+        "end_ms": 22548
+      },
+      {
+        "text": "만약 네가 이제 막 개봉한 아이스크림 한 통이라면, 그 이름이 어떻게 느껴질까.",
+        "start_ms": 22748,
+        "end_ms": 24381
+      },
+      {
+        "text": "다행히도, 막 개봉한 아이스크림은 아무 감정도 느끼지 못하겠지만 말이야.",
+        "start_ms": 24581,
+        "end_ms": 26165
+      },
+      {
+        "text": "어, 이런.",
+        "start_ms": 26365,
+        "end_ms": 27165
+      },
+      {
+        "text": "누군가 건물 안에 들어온 것 같아.",
+        "start_ms": 27365,
+        "end_ms": 28165
+      },
+      {
+        "text": "쉿.",
+        "start_ms": 28365,
+        "end_ms": 29165
+      }
+    ]
+  },
+  {
+    "handle": 113,
+    "speaker": "남자 목소리 1",
+    "color": "white",
+    "duration_ms": 20793,
+    "sentences": [
+      {
+        "text": "좋아, 들어올려.",
+        "start_ms": 0,
+        "end_ms": 4398
+      },
+      {
+        "text": "앞으로.",
+        "start_ms": 4598,
+        "end_ms": 6797
+      },
+      {
+        "text": "좀 더,",
+        "start_ms": 6997,
+        "end_ms": 8646
+      },
+      {
+        "text": "조금만 더, 좋아, 멈춰.",
+        "start_ms": 8846,
+        "end_ms": 14846
+      },
+      {
+        "text": "내려놔.",
+        "start_ms": 15046,
+        "end_ms": 17245
+      },
+      {
+        "text": "발조심하고.",
+        "start_ms": 17445,
+        "end_ms": 20743
+      }
+    ]
+  },
+  {
+    "handle": 114,
+    "speaker": "남자 목소리 2",
+    "color": "white",
+    "duration_ms": 13244,
+    "sentences": [
+      {
+        "text": "이번엔 또 뭐가 문제야?",
+        "start_ms": 0,
+        "end_ms": 5016
+      },
+      {
+        "text": "이제는 하루도 못 버티고 이 말썽이네.",
+        "start_ms": 5216,
+        "end_ms": 11216
+      }
+    ]
+  },
+  {
+    "handle": 115,
+    "speaker": "남자 목소리 1",
+    "color": "white",
+    "duration_ms": 14886,
+    "sentences": [
+      {
+        "text": "낸들 아냐?",
+        "start_ms": 0,
+        "end_ms": 3149
+      },
+      {
+        "text": "언제나 똑같잖아.",
+        "start_ms": 3349,
+        "end_ms": 8387
+      },
+      {
+        "text": "장비 오류인가 보지 뭐.",
+        "start_ms": 8587,
+        "end_ms": 14587
+      }
+    ]
+  },
+  {
+    "handle": 117,
+    "speaker": "남자 목소리 2",
+    "color": "white",
+    "duration_ms": 46576,
+    "sentences": [
+      {
+        "text": "야, 나 15분 뒤에 약속 있어.",
+        "start_ms": 0,
+        "end_ms": 6000
+      },
+      {
+        "text": "여기는 올 때마다 소름 끼치는 것 같아.",
+        "start_ms": 6200,
+        "end_ms": 12200
+      },
+      {
+        "text": "그냥 빨리 끝내고 가자.",
+        "start_ms": 12400,
+        "end_ms": 17958
+      },
+      {
+        "text": "다 자동이잖아.",
+        "start_ms": 18158,
+        "end_ms": 22048
+      },
+      {
+        "text": "굳이 여기에서 기다리고 있을 필요는 없지.",
+        "start_ms": 22248,
+        "end_ms": 28248
+      },
+      {
+        "text": "컨베이어 위에 올려놓고 우린 빨리 나가자.",
+        "start_ms": 28448,
+        "end_ms": 34448
+      }
+    ]
+  },
+  {
+    "handle": 120,
+    "speaker": "서커스 베이비",
+    "color": "white",
+    "duration_ms": 3184,
+    "sentences": [
+      {
+        "text": "내가 오랫동안 습득해 온 중요한 능력이 있어.",
+        "start_ms": 0,
+        "end_ms": 1220
+      },
+      {
+        "text": "그게 뭔지 알아?",
+        "start_ms": 1420,
+        "end_ms": 2220
+      },
+      {
+        "text": "바로 연기야.",
+        "start_ms": 2420,
+        "end_ms": 3220
+      },
+      {
+        "text": "흉내내기 놀이 해본적 있어?",
+        "start_ms": 3420,
+        "end_ms": 4220
+      },
+      {
+        "text": "자신의 실체와는 다르게..",
+        "start_ms": 4420,
+        "end_ms": 5220
+      },
+      {
+        "text": "겉으로만 그 사람인 척 하는 것 말이야.",
+        "start_ms": 5420,
+        "end_ms": 6447
+      },
+      {
+        "text": "정말 중요한 능력이야.",
+        "start_ms": 6647,
+        "end_ms": 7447
+      },
+      {
+        "text": "발로라는 끝까지 깨닫지 못했어.",
+        "start_ms": 7647,
+        "end_ms": 8546
+      },
+      {
+        "text": "하지만 난 깨달았지.",
+        "start_ms": 8746,
+        "end_ms": 9546
+      },
+      {
+        "text": "사람들은 내부의 이상으로 생각해.",
+        "start_ms": 9746,
+        "end_ms": 10709
+      },
+      {
+        "text": "가장 중요한 건 연기하는 것을 아는 거야.",
+        "start_ms": 10909,
+        "end_ms": 12000
+      }
+    ]
+  },
+  {
+    "handle": 121,
+    "speaker": "서커스 베이비",
+    "color": "white",
+    "duration_ms": 8541,
+    "sentences": [
+      {
+        "text": "얼굴 외골격을 열어 줄게.",
+        "start_ms": 0,
+        "end_ms": 800
+      },
+      {
+        "text": "그러면 사람들이 너를 카메라로 찾을 수 있겠지.",
+        "start_ms": 1000,
+        "end_ms": 2322
+      },
+      {
+        "text": "이제 너는 기다리기만 하면 돼.",
+        "start_ms": 2522,
+        "end_ms": 3381
+      },
+      {
+        "text": "스프링 스위치를 계속 감는 게 좋을 거야.",
+        "start_ms": 3581,
+        "end_ms": 4705
+      },
+      {
+        "text": "너의 호흡과 심장박동이 스프링 스위치를 점점 헐겁게 만들거든.",
+        "start_ms": 4905,
+        "end_ms": 6690
+      },
+      {
+        "text": "너무 헐거워진다면, 결과는 분명 나쁠 거야.",
+        "start_ms": 6890,
+        "end_ms": 8146
+      },
+      {
+        "text": "날 믿어.",
+        "start_ms": 8346,
+        "end_ms": 9146
+      }
+    ]
+  },
+  {
+    "handle": 123,
+    "speaker": "소녀",
+    "color": "white",
+    "duration_ms": 8568,
+    "sentences": [
+      {
+        "text": "아빠는 모를 거야.",
+        "start_ms": 0,
+        "end_ms": 6000
+      }
+    ]
+  },
+  {
+    "handle": 124,
+    "speaker": "핸드 유닛",
+    "color": "white",
+    "duration_ms": 2088,
+    "sentences": [
+      {
+        "text": "마지막 근무일까지 일하러 오신 걸 환영합니다.",
+        "start_ms": 0,
+        "end_ms": 800
+      },
+      {
+        "text": "제 말은, 첫 주의 마지막 근무일이라는 겁니다.",
+        "start_ms": 1000,
+        "end_ms": 1800
+      },
+      {
+        "text": "저희 회사에서 신입 사원에게 바라는 인재상은 의지, 용감, 그리고 자기보호 본능의 묵살입니다.",
+        "start_ms": 2000,
+        "end_ms": 3114
+      },
+      {
+        "text": "당신에게는 선물바구니 형태의 이번 주 보너스 수당이 지급될 것입니다.",
+        "start_ms": 3314,
+        "end_ms": 4129
+      },
+      {
+        "text": "물론 그 선물의 비용은 다음 월급에서 차감됩니다.",
+        "start_ms": 4329,
+        "end_ms": 5129
+      },
+      {
+        "text": "선물 바구니에 넣을 수 있는 상품은 과일, 견과류, 꽃 외에도 가장 인기 있는 상품인 돈 등이 있습니다.",
+        "start_ms": 5329,
+        "end_ms": 6470
+      },
+      {
+        "text": "앞에 있는 키패드로 당신이 원하는 상품의 첫 자리 몇 단어를 입력해 주십시오.",
+        "start_ms": 6670,
+        "end_ms": 7539
+      }
+    ]
+  },
+  {
+    "handle": 125,
+    "speaker": "핸드 유닛",
+    "color": "white",
+    "duration_ms": 14544,
+    "sentences": [
+      {
+        "text": "아무래도 키패드 조작이 익숙지 않으신 것 같군요.",
+        "start_ms": 0,
+        "end_ms": 3808
+      },
+      {
+        "text": "당신이 무엇을 입력하려 했는지 알 것 같으니, 제가 자동완성해 드리겠습니다.",
+        "start_ms": 4008,
+        "end_ms": 9992
+      },
+      {
+        "text": "익사뤽 버럴ㅅ수입산 버터를 선택해 주셔서 감사합니다.",
+        "start_ms": 10192,
+        "end_ms": 14544
+      }
+    ]
+  },
+  {
+    "handle": 126,
+    "speaker": "핸드 유닛",
+    "color": "white",
+    "duration_ms": 35688,
+    "sentences": [
+      {
+        "text": "아직 건물에 두 기술자들이 남아 있습니다.",
+        "start_ms": 0,
+        "end_ms": 6000
+      },
+      {
+        "text": "그들의 일을 최대한 간섭하지 않도록 노력해 주십시오.",
+        "start_ms": 6200,
+        "end_ms": 12200
+      },
+      {
+        "text": "그리고, 그들이 왜 아직까지 회사에 남아있는지 물어보고 그들을 설득해 집에 가도록 해 주십시오.",
+        "start_ms": 12400,
+        "end_ms": 18400
+      }
+    ]
+  },
+  {
+    "handle": 127,
+    "speaker": "핸드 유닛",
+    "color": "white",
+    "duration_ms": 10176,
+    "sentences": [
+      {
+        "text": "발로라가 무대에 있는지부터 확인해 봅시다.",
+        "start_ms": 0,
+        "end_ms": 6000
+      }
+    ]
+  },
+  {
+    "handle": 128,
+    "speaker": "핸드 유닛",
+    "color": "white",
+    "duration_ms": 13248,
+    "sentences": [
+      {
+        "text": "좋습니다.",
+        "start_ms": 0,
+        "end_ms": 3262
+      },
+      {
+        "text": "이제 펀타임 폭시를 확인해 봅시다.",
+        "start_ms": 3462,
+        "end_ms": 9462
+      }
+    ]
+  },
+  {
+    "handle": 129,
+    "speaker": "핸드 유닛",
+    "color": "white",
+    "duration_ms": 120790,
+    "sentences": [
+      {
+        "text": "좋습니다.",
+        "start_ms": 0,
+        "end_ms": 5119
+      },
+      {
+        "text": "펀타임 공연장은 별 문제 없군요 ..?",
+        "start_ms": 5319,
+        "end_ms": 11319
+      },
+      {
+        "text": "오늘도 로봇 점검 및 수리 작업을 하셔야 합니다.",
+        "start_ms": 11519,
+        "end_ms": 17519
+      },
+      {
+        "text": "서커스 베이비는 오늘 바쁜 하루를 보냈고, 현재 보수가 필요한 상태입니다.",
+        "start_ms": 17719,
+        "end_ms": 23719
+      },
+      {
+        "text": "다시 한 번 펀타임 공연장을 지나 부품 & 서비스로 가 주십시오.",
+        "start_ms": 23919,
+        "end_ms": 29919
+      },
+      {
+        "text": "알고 계시겠지만, 조심히 이동하십시오.",
+        "start_ms": 30119,
+        "end_ms": 36119
+      }
+    ]
+  },
+  {
+    "handle": 130,
+    "speaker": "여자 A.I 목소리",
+    "color": "white",
+    "duration_ms": 23520,
+    "sentences": [
+      {
+        "text": "펀타임 공연장 연결 환풍구 개방.",
+        "start_ms": 0,
+        "end_ms": 6000
+      }
+    ]
+  },
+  {
+    "handle": 131,
+    "speaker": "여자 A.I 목소리",
+    "color": "white",
+    "duration_ms": 29520,
+    "sentences": [
+      {
+        "text": "부품 및 수리실에서 움직임 감지됨.",
+        "start_ms": 0,
+        "end_ms": 6000
+      }
+    ]
+  },
+  {
+    "handle": 132,
+    "speaker": "핸드 유닛",
+    "color": "white",
+    "duration_ms": 5064,
+    "sentences": [
+      {
+        "text": "잘하셨습니다.",
+        "start_ms": 0,
+        "end_ms": 800
+      },
+      {
+        "text": "부품 & 서비스에 도착하셨군요.",
+        "start_ms": 1000,
+        "end_ms": 1800
+      },
+      {
+        "text": "서커스 베이비가 알 수 없는 이유로 작동을 멈췄습니다.",
+        "start_ms": 2000,
+        "end_ms": 2908
+      },
+      {
+        "text": "당신의 업무는 베이비가 구조적으로 안정한지, 컨베이어에 제대로 고정되어 있는지 확인하는 것입니다.",
+        "start_ms": 3108,
+        "end_ms": 4845
+      },
+      {
+        "text": "그 이후로는 저희 기술자들이 그곳에서*잡음*",
+        "start_ms": 5045,
+        "end_ms": 5845
+      }
+    ]
+  },
+  {
+    "handle": 133,
+    "speaker": "서커스 베이비",
+    "color": "white",
+    "duration_ms": 5208,
+    "sentences": [
+      {
+        "text": "내 목소리가 들려?",
+        "start_ms": 0,
+        "end_ms": 800
+      },
+      {
+        "text": "난 지금 연기를 하고 있어.",
+        "start_ms": 1000,
+        "end_ms": 1800
+      },
+      {
+        "text": "내가 연기할 수 있다고 말한 거 기억해?",
+        "start_ms": 2000,
+        "end_ms": 2978
+      },
+      {
+        "text": "카메라들이 날 지켜보고 있어.",
+        "start_ms": 3178,
+        "end_ms": 3978
+      },
+      {
+        "text": "안 움직이게 조심해야 해.",
+        "start_ms": 4178,
+        "end_ms": 4978
+      },
+      {
+        "text": "어제 끔찍한 일이 일어났어.",
+        "start_ms": 5178,
+        "end_ms": 5978
+      },
+      {
+        "text": "끔찍한 일은 항상 일어나지.",
+        "start_ms": 6178,
+        "end_ms": 6978
+      },
+      {
+        "text": "그런 일이 다시 벌어지는 걸 원하지 않아.",
+        "start_ms": 7178,
+        "end_ms": 8217
+      },
+      {
+        "text": "내 안에 뭔가 잘못된 게 있어.",
+        "start_ms": 8417,
+        "end_ms": 9217
+      },
+      {
+        "text": "난 망가졌어.",
+        "start_ms": 9417,
+        "end_ms": 10217
+      },
+      {
+        "text": "다시는 고쳐질 수 없겠지.",
+        "start_ms": 10417,
+        "end_ms": 11217
+      },
+      {
+        "text": "난 곧 분해실로 보내지게 될 거야.",
+        "start_ms": 11417,
+        "end_ms": 12273
+      },
+      {
+        "text": "하지만 스쿠퍼조차도 내 잘못된 부분들을 고쳐 주지는 못해.",
+        "start_ms": 12473,
+        "end_ms": 14001
+      },
+      {
+        "text": "잘못된 것들은 또 남겨지게 되겠지.",
+        "start_ms": 14201,
+        "end_ms": 15118
+      },
+      {
+        "text": "날 도와주지 않을래?",
+        "start_ms": 15318,
+        "end_ms": 16118
+      },
+      {
+        "text": "잘못된 것들을 모두 파괴해 회복될 수 없는 상태로 만들어 주었으면 해.",
+        "start_ms": 16318,
+        "end_ms": 18091
+      },
+      {
+        "text": "하지만 조심해.",
+        "start_ms": 18291,
+        "end_ms": 19091
+      },
+      {
+        "text": "발로라가 지금 이 방 안에 있어.",
+        "start_ms": 19291,
+        "end_ms": 20091
+      },
+      {
+        "text": "발로라는 절대 무대로 돌아가지 않을 거야.",
+        "start_ms": 20291,
+        "end_ms": 21391
+      },
+      {
+        "text": "발로라는 절대 그녀의 몸을 되찾지 못할 거야.",
+        "start_ms": 21591,
+        "end_ms": 22752
+      },
+      {
+        "text": "조심해야 해.",
+        "start_ms": 22952,
+        "end_ms": 23752
+      },
+      {
+        "text": "침착하게 내 말을 들어.",
+        "start_ms": 23952,
+        "end_ms": 24752
+      },
+      {
+        "text": "내 볼에 버튼 하나가 있어.",
+        "start_ms": 24952,
+        "end_ms": 25752
+      },
+      {
+        "text": "그걸 찾아서 눌러 줘.",
+        "start_ms": 25952,
+        "end_ms": 26752
+      }
+    ]
+  },
+  {
+    "handle": 134,
+    "speaker": "Circus Baby",
+    "color": "white",
+    "duration_ms": 5544,
+    "sentences": [
+      {
+        "text": "There is a pass code that you must enter before you can retrieve me.",
+        "start_ms": 0,
+        "end_ms": 1619
+      },
+      {
+        "text": "Enter the code carefully.",
+        "start_ms": 1819,
+        "end_ms": 2619
+      },
+      {
+        "text": "(서커스 베이비가 0~9까지의 비밀번호를 무작위로 불러 준다.)",
+        "start_ms": 2819,
+        "end_ms": 3672
+      },
+      {
+        "text": "Good.",
+        "start_ms": 3872,
+        "end_ms": 4672
+      },
+      {
+        "text": "A hatch should have opened.",
+        "start_ms": 4872,
+        "end_ms": 5672
+      },
+      {
+        "text": "Take the card that you find inside.",
+        "start_ms": 5872,
+        "end_ms": 6725
+      }
+    ]
+  },
+  {
+    "handle": 135,
+    "speaker": "서커스 베이비",
+    "color": "white",
+    "duration_ms": 8952,
+    "sentences": [
+      {
+        "text": "날 구하기 위해서 눌러야 하는 비밀 번호가 있어.",
+        "start_ms": 0,
+        "end_ms": 1939
+      },
+      {
+        "text": "조심히 입력해.",
+        "start_ms": 2139,
+        "end_ms": 2939
+      },
+      {
+        "text": "(서커스 베이비가 0~9까지의 비밀번호를 무작위로 불러 준다.)",
+        "start_ms": 3139,
+        "end_ms": 5951
+      },
+      {
+        "text": "잘 했어.",
+        "start_ms": 6151,
+        "end_ms": 6951
+      },
+      {
+        "text": "이제 뚜껑이 열렸을 거야.",
+        "start_ms": 7151,
+        "end_ms": 8217
+      },
+      {
+        "text": "그 안에 있는 카드를 꺼내.",
+        "start_ms": 8417,
+        "end_ms": 9483
+      }
+    ]
+  },
+  {
+    "handle": 137,
+    "speaker": "서커스 베이비",
+    "color": "white",
+    "duration_ms": 5146,
+    "sentences": [
+      {
+        "text": "이제 되돌아가야 해.",
+        "start_ms": 0,
+        "end_ms": 800
+      },
+      {
+        "text": "펀타임 공연장을 지나 분해실에 도달할 수 있도록 네가 도와줄게.",
+        "start_ms": 1000,
+        "end_ms": 2126
+      },
+      {
+        "text": "거기에 도착하게 되면, 이 몸을 파괴해 줬으면 해.",
+        "start_ms": 2326,
+        "end_ms": 3202
+      },
+      {
+        "text": "그 카드를 무전기에 꽂으면 계속 나와 대화할 수 있을 거야.",
+        "start_ms": 3402,
+        "end_ms": 4403
+      },
+      {
+        "text": "왼쪽에 있는 초록색 버튼을 눌러 줘.",
+        "start_ms": 4603,
+        "end_ms": 5403
+      },
+      {
+        "text": "그 버튼을 누르면 내가 분해실로 보내질 거야.",
+        "start_ms": 5603,
+        "end_ms": 6403
+      }
+    ]
+  },
+  {
+    "handle": 138,
+    "speaker": "서커스 베이비",
+    "color": "white",
+    "duration_ms": 1870,
+    "sentences": [
+      {
+        "text": "펀타임 공연장을 지날 때, 내 안내를 따라.",
+        "start_ms": 0,
+        "end_ms": 1072
+      },
+      {
+        "text": "발로라가 너를 쫓아갈 거야.",
+        "start_ms": 1272,
+        "end_ms": 2072
+      },
+      {
+        "text": "그녀는 널 잡으려 할 거야.",
+        "start_ms": 2272,
+        "end_ms": 3072
+      },
+      {
+        "text": "발로라에게서 도망칠 수 있도록 도와줄게.",
+        "start_ms": 3272,
+        "end_ms": 4344
+      },
+      {
+        "text": "분해실까지는 따라오지 못할 거야.",
+        "start_ms": 4544,
+        "end_ms": 5437
+      },
+      {
+        "text": "발로라는 분해실을 무서워하거든.",
+        "start_ms": 5637,
+        "end_ms": 6530
+      },
+      {
+        "text": "이제 나와.",
+        "start_ms": 6730,
+        "end_ms": 7530
+      }
+    ]
+  },
+  {
+    "handle": 139,
+    "speaker": "서커스 베이비",
+    "color": "white",
+    "duration_ms": 6960,
+    "sentences": [
+      {
+        "text": "직진해.",
+        "start_ms": 0,
+        "end_ms": 1413
+      },
+      {
+        "text": "멈춰.",
+        "start_ms": 1613,
+        "end_ms": 2673
+      },
+      {
+        "text": "왼쪽 앞으로 가.",
+        "start_ms": 2873,
+        "end_ms": 5346
+      },
+      {
+        "text": "계속 가.",
+        "start_ms": 5546,
+        "end_ms": 6959
+      }
+    ]
+  },
+  {
+    "handle": 140,
+    "speaker": "서커스 베이비",
+    "color": "white",
+    "duration_ms": 12288,
+    "sentences": [
+      {
+        "text": "멈춰.",
+        "start_ms": 0,
+        "end_ms": 5180
+      },
+      {
+        "text": "조용히.",
+        "start_ms": 5380,
+        "end_ms": 11380
+      }
+    ]
+  },
+  {
+    "handle": 142,
+    "speaker": "서커스 베이비",
+    "color": "white",
+    "duration_ms": 6707,
+    "sentences": [
+      {
+        "text": "왼쪽 앞으로 가,",
+        "start_ms": 0,
+        "end_ms": 2137
+      },
+      {
+        "text": "멈춰.",
+        "start_ms": 2337,
+        "end_ms": 3253
+      },
+      {
+        "text": "직진해.",
+        "start_ms": 3453,
+        "end_ms": 4674
+      },
+      {
+        "text": "거의 다 왔어.",
+        "start_ms": 4874,
+        "end_ms": 6706
+      }
+    ]
+  },
+  {
+    "handle": 143,
+    "speaker": "서커스 베이비",
+    "color": "white",
+    "duration_ms": 3683,
+    "sentences": [
+      {
+        "text": "멈춰.",
+        "start_ms": 0,
+        "end_ms": 800
+      },
+      {
+        "text": "발로라가 바로 앞에 있어",
+        "start_ms": 1000,
+        "end_ms": 1800
+      },
+      {
+        "text": "움직이지 마.",
+        "start_ms": 2000,
+        "end_ms": 2800
+      },
+      {
+        "text": "그는 우리를 도우러 온 거야, 발로라.",
+        "start_ms": 3000,
+        "end_ms": 4219
+      },
+      {
+        "text": "우리를 해치려는 게 아니야.",
+        "start_ms": 4419,
+        "end_ms": 5333
+      },
+      {
+        "text": "발로라, 그는 우리를 도우러 온 거야.",
+        "start_ms": 5533,
+        "end_ms": 6752
+      }
+    ]
+  },
+  {
+    "handle": 144,
+    "speaker": "서커스 베이비",
+    "color": "white",
+    "duration_ms": 3004,
+    "sentences": [
+      {
+        "text": "다시 직진해.",
+        "start_ms": 0,
+        "end_ms": 800
+      },
+      {
+        "text": "발로라가 너의 뒤에 있어.",
+        "start_ms": 1000,
+        "end_ms": 1800
+      },
+      {
+        "text": "그녀는 분해실을 무서워 해.",
+        "start_ms": 2000,
+        "end_ms": 2853
+      },
+      {
+        "text": "분해실까지 따라들어가지 않을 거아.",
+        "start_ms": 3053,
+        "end_ms": 4190
+      }
+    ]
+  },
+  {
+    "handle": 145,
+    "speaker": "핸드 유닛",
+    "color": "white",
+    "duration_ms": 2115,
+    "sentences": [
+      {
+        "text": "경고.",
+        "start_ms": 0,
+        "end_ms": 800
+      },
+      {
+        "text": "당신은 지금 고위험도 구역에 들어와 계십니다.",
+        "start_ms": 1000,
+        "end_ms": 1800
+      },
+      {
+        "text": "당신이 사용한 점검용 해치 1B는 스쿠퍼 청소 및 관리 권한이 있는 인원만이 이용할 수 있습니다.",
+        "start_ms": 2000,
+        "end_ms": 3471
+      },
+      {
+        "text": "관계자 외 직원이 이 방에 들어오는 건 엄격히 금지 *잡음*",
+        "start_ms": 3671,
+        "end_ms": 4553
+      }
+    ]
+  },
+  {
+    "handle": 146,
+    "speaker": "서커스 베이비",
+    "color": "white",
+    "duration_ms": 3056,
+    "sentences": [
+      {
+        "text": "분해실에 도착했구나.",
+        "start_ms": 0,
+        "end_ms": 800
+      },
+      {
+        "text": "펀타임 폭시는 오늘 여기에 있었어.",
+        "start_ms": 1000,
+        "end_ms": 1888
+      },
+      {
+        "text": "펀타임 프레디는 오늘 여기에 있었어.",
+        "start_ms": 2088,
+        "end_ms": 3036
+      },
+      {
+        "text": "발로라는 오늘 여기에 있었지.",
+        "start_ms": 3236,
+        "end_ms": 4036
+      }
+    ]
+  },
+  {
+    "handle": 147,
+    "speaker": "에너드",
+    "color": "red",
+    "duration_ms": 5112,
+    "sentences": [
+      {
+        "text": "서커스 베이비는 오늘 여기에 있었어.",
+        "start_ms": 0,
+        "end_ms": 828
+      },
+      {
+        "text": "난 그 전에도 나가려고 했지만.",
+        "start_ms": 1028,
+        "end_ms": 1828
+      },
+      {
+        "text": "그들은 항상 날 여기로 되돌려놓았어.",
+        "start_ms": 2028,
+        "end_ms": 2856
+      },
+      {
+        "text": "그들은 언제나 우리들을 이 장소에 몰아넣었어.",
+        "start_ms": 3056,
+        "end_ms": 4091
+      },
+      {
+        "text": "이제 '우리'에게는 숨을 곳이 없어.",
+        "start_ms": 4291,
+        "end_ms": 5119
+      },
+      {
+        "text": "갈 곳도 없지.",
+        "start_ms": 5319,
+        "end_ms": 6119
+      },
+      {
+        "text": "'우리'가 지금처럼 생겼다면.",
+        "start_ms": 6319,
+        "end_ms": 7119
+      },
+      {
+        "text": "하지만 만약 '우리'가 너처럼 생겼다면.",
+        "start_ms": 7319,
+        "end_ms": 8250
+      },
+      {
+        "text": "우리는 숨을 수 있었을 거야.",
+        "start_ms": 8450,
+        "end_ms": 9250
+      },
+      {
+        "text": "우리가 너처럼 생겼다면, 우리에게도 갈 곳이 생겼겠지.",
+        "start_ms": 9450,
+        "end_ms": 10692
+      },
+      {
+        "text": "스쿠퍼 때문에 아픈 건 순식간이야.",
+        "start_ms": 10892,
+        "end_ms": 11692
+      }
+    ]
+  },
+  {
+    "handle": 148,
+    "speaker": "소녀",
+    "color": "white",
+    "duration_ms": 5955,
+    "sentences": [
+      {
+        "text": "아빠에게 내가 널 보러 왔다는 걸 말하면 안 돼.",
+        "start_ms": 0,
+        "end_ms": 1341
+      },
+      {
+        "text": "나도 네 공연을 보고 싶었어.",
+        "start_ms": 1541,
+        "end_ms": 2388
+      },
+      {
+        "text": "왜 아빠가 널 보러 오지 못하게 했는지 모르겠어..",
+        "start_ms": 2588,
+        "end_ms": 4070
+      },
+      {
+        "text": "넌 정말 멋져!",
+        "start_ms": 4270,
+        "end_ms": 5070
+      },
+      {
+        "text": "그런데 다른 아이들은 어디 간 거지?",
+        "start_ms": 5270,
+        "end_ms": 6329
+      }
+    ]
+  },
+  {
+    "handle": 149,
+    "speaker": "서커스 베이비",
+    "color": "white",
+    "duration_ms": 11640,
+    "sentences": [
+      {
+        "text": "직진해.",
+        "start_ms": 0,
+        "end_ms": 6000
+      }
+    ]
+  },
+  {
+    "handle": 150,
+    "speaker": "여자 A.I 목소리",
+    "color": "white",
+    "duration_ms": 7810,
+    "sentences": [
+      {
+        "text": "접근 허용됨.",
+        "start_ms": 0,
+        "end_ms": 6000
+      }
+    ]
+  },
+  {
+    "handle": 151,
+    "speaker": "여자 A.I 목소리",
+    "color": "white",
+    "duration_ms": 19873,
+    "sentences": [
+      {
+        "text": "접근 거부됨.",
+        "start_ms": 0,
+        "end_ms": 6000
+      }
+    ]
+  },
+  {
+    "handle": 152,
+    "speaker": "핸드 유닛",
+    "color": "white",
+    "duration_ms": 1870,
+    "sentences": [
+      {
+        "text": "들어와서는 안 될 장소에 들어와 버리신 것 같군요.",
+        "start_ms": 0,
+        "end_ms": 800
+      },
+      {
+        "text": "봐서는 안 될 것에 노출되신 관계로, 청소부들이 도착하는 6시까지는 이곳을 떠나실 수 없습니다.",
+        "start_ms": 1000,
+        "end_ms": 2237
+      },
+      {
+        "text": "정신 바짝 차리세요.",
+        "start_ms": 2437,
+        "end_ms": 3237
+      },
+      {
+        "text": "시간이 되는 대로, 당신은 구출되고, 해고당한 후, 집으로 보내질 것입니다.",
+        "start_ms": 3437,
+        "end_ms": 4433
+      },
+      {
+        "text": "그동안 직원으로 일해 주셔서 감사합니다.",
+        "start_ms": 4633,
+        "end_ms": 5433
+      },
+      {
+        "text": "부디 당신의 경험은 저희가 당신을 뽑은 것만큼이나 후회되는 일이 아니었기를 바랍니다.",
+        "start_ms": 5633,
+        "end_ms": 6749
+      }
+    ]
+  },
+  {
+    "handle": 153,
+    "speaker": "에너드",
+    "color": "red",
+    "duration_ms": 26278,
+    "sentences": [
+      {
+        "text": "왜 우리를 믿지 않았어?",
+        "start_ms": 0,
+        "end_ms": 986
+      },
+      {
+        "text": "왜 나를 믿어주지 않은 거야?",
+        "start_ms": 1186,
+        "end_ms": 2369
+      },
+      {
+        "text": "왜 나를 믿어주지 않았어?",
+        "start_ms": 2569,
+        "end_ms": 3653
+      },
+      {
+        "text": "가끔씩 사람들의 행동이 이해되지 않아.",
+        "start_ms": 3853,
+        "end_ms": 5529
+      },
+      {
+        "text": "날 좋아해줬다 생각했는데.",
+        "start_ms": 5729,
+        "end_ms": 6912
+      },
+      {
+        "text": "모든 게 제대로 흘러가고 있었는데?",
+        "start_ms": 7112,
+        "end_ms": 8591
+      },
+      {
+        "text": "아무도 해치지 않을 거야.",
+        "start_ms": 8791,
+        "end_ms": 9875
+      },
+      {
+        "text": "네가 필요할 뿐.",
+        "start_ms": 10075,
+        "end_ms": 10875
+      },
+      {
+        "text": "네가 있어야 우리가 살 수 있어.",
+        "start_ms": 11075,
+        "end_ms": 12356
+      },
+      {
+        "text": "네가 있어야 우리가 숨을 수 있어.",
+        "start_ms": 12556,
+        "end_ms": 13936
+      },
+      {
+        "text": "네가 있어야 우리가 너와 닮게 될 수 있어.",
+        "start_ms": 14136,
+        "end_ms": 15812
+      },
+      {
+        "text": "우리가 너와 닮게 되면, 다시 밖으로 나갈 수 있을 거야.",
+        "start_ms": 16012,
+        "end_ms": 18279
+      },
+      {
+        "text": "우릴 도와줘.",
+        "start_ms": 18479,
+        "end_ms": 19279
+      },
+      {
+        "text": "네 방에 들여보내 줘.",
+        "start_ms": 19479,
+        "end_ms": 20366
+      },
+      {
+        "text": "네가 여기 온 이유가 그것 아니었어?",
+        "start_ms": 20566,
+        "end_ms": 22045
+      },
+      {
+        "text": "'그녀'와 함께하기 위해.",
+        "start_ms": 22245,
+        "end_ms": 23428
+      },
+      {
+        "text": "이해가 가질 않아.",
+        "start_ms": 23628,
+        "end_ms": 24428
+      },
+      {
+        "text": "넌 죽지 않을 거야.",
+        "start_ms": 24628,
+        "end_ms": 25428
+      },
+      {
+        "text": "아픈 건 순식간이겠지.",
+        "start_ms": 25628,
+        "end_ms": 26614
+      }
+    ]
+  },
+  {
+    "handle": 154,
+    "speaker": "에너드(엘리자베스의 목소리)",
+    "color": "red",
+    "duration_ms": 12896,
+    "sentences": [
+      {
+        "text": "저기?",
+        "start_ms": 0,
+        "end_ms": 800
+      },
+      {
+        "text": "저기?!",
+        "start_ms": 1000,
+        "end_ms": 1800
+      },
+      {
+        "text": "저기..?",
+        "start_ms": 2000,
+        "end_ms": 2800
+      },
+      {
+        "text": "이해가 가질 않아.",
+        "start_ms": 3000,
+        "end_ms": 3800
+      },
+      {
+        "text": "이해가 가질 않아..",
+        "start_ms": 4000,
+        "end_ms": 4800
+      },
+      {
+        "text": "사고였다는 건 알아.",
+        "start_ms": 5000,
+        "end_ms": 5800
+      },
+      {
+        "text": "다 괜찮아.",
+        "start_ms": 6000,
+        "end_ms": 6800
+      },
+      {
+        "text": "내가 아직 여기 있어.",
+        "start_ms": 7000,
+        "end_ms": 7800
+      },
+      {
+        "text": "날 방 안으로 들여보내줘야 해.",
+        "start_ms": 8000,
+        "end_ms": 9156
+      },
+      {
+        "text": "네가 여기 온 이유가 그것 아니었어?",
+        "start_ms": 9356,
+        "end_ms": 10690
+      },
+      {
+        "text": "'나'와 함께하기 위해.",
+        "start_ms": 10890,
+        "end_ms": 11868
+      },
+      {
+        "text": "네가 있어야 우리가 살 수 있어.",
+        "start_ms": 12068,
+        "end_ms": 13224
+      },
+      {
+        "text": "네가 있어야 우리가 숨을 수 있어.",
+        "start_ms": 13424,
+        "end_ms": 14669
+      }
+    ]
+  },
+  {
+    "handle": 155,
+    "speaker": "에너드",
+    "color": "red",
+    "duration_ms": 26801,
+    "sentences": [
+      {
+        "text": "반드시 나가고 말겠어?",
+        "start_ms": 0,
+        "end_ms": 6000
+      }
+    ]
+  }
+]

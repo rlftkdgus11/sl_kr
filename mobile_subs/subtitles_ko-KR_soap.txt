@@ -1,0 +1,412 @@
+
+// Narrator to viewing audience
+// use the V-form of distinction (if applicable in your language)
+
+// Vlad to Clara
+// Clara to Vlad
+// use the T-form of distinction (if applicable in your language)
+
+||||||==================40==================|
+// The Immortal and the Restless - Episode 1
+
+[VampSoap_Episode1_NewIntro_1]
+sta=325
+dat1=Vlad와 그의 고통받는 정부가
+
+
+[VampSoap_Episode1_NewIntro_2]
+sta=3105
+dat1=오늘도 변함없이 극적인 이야기가 펼쳐지는
+dat2=하루를 맞이합니다.
+
+[VampSoap_Episode1_NewIntro_3]
+sta=7075
+dat1=그들은 어디로 향할까요?
+dat2=과연 무엇을 할까요?
+
+[VampSoap_Episode1_NewIntro_4]
+sta=10090
+dat1=상상 이상의 모든 일이 지금 시작됩니다.
+
+
+--------------------
+[VampSoap_Episode1_NewIntro_5]
+sta=13345
+dat1=Clara, 그 아기는 정말
+dat2=내 아이가 아니야!
+
+--------------------
+[VampSoap_Episode1_NewIntro_6]
+/sta=16980
+dat1=백작님, 당신 아이가 맞는다니까요!
+
+[VampSoap_Episode1_NewIntro_7]
+sta=19460
+dat1=내가 사랑한 뱀파이어는 당신뿐이라고요!
+
+
+[VampSoap_Episode1_NewIntro_8]
+/sta=22195
+dat1=아기는 젖병을
+dat2=분유로 바꿔버린다니까요!
+
+--------------------
+[VampSoap_Episode1_NewIntro_9]
+/sta=25265
+dat1=그런 건 아무 의미 없다고.
+
+--------------------
+[VampSoap_Episode1_NewIntro_10]
+/sta=27715
+dat1=게다가 천장 선풍기에 매달려 자기까지 하고요!
+
+--------------------
+[VampSoap_Episode1_NewIntro_11]
+/sta=30255
+dat1=똑바로? 아니면 거꾸로?
+
+--------------------
+
+
+
+
+[VampSoap_Episode1_NewIntro_12]
+sta=32500
+dat1=그게 무슨 상관이에요?
+
+[VampSoap_Episode1_NewIntro_13]
+sta=33910
+dat1=당신 아들 삶에 그렇게
+dat2=무심할 수는 없는 거잖아요!
+
+--------------------
+[VampSoap_Episode1_NewIntro_14]
+sta=36490
+dat1=Clara, 난 늙었어!
+dat2=아버지가 될 수 없다고!
+
+--------------------
+[VampSoap_Episode1_NewIntro_15]
+sta=40255
+dat1=그러면 양육비라도 내던가요,
+dat2=게으름뱅이 같으니라고!
+
+
+
+
+
+--------------------
+[VampSoap_Episode1_NewIntro_16]
+sta=43950
+dat1=Vlad와 그의 고통받는 정부가
+dat2=합의점을 찾을 수 있을까요?
+
+[VampSoap_Episode1_NewIntro_17]
+sta=48425
+dat1=다음 편을 기대하세요!
+
+||||||==================40==================|
+// The Immortal and the Restless - Episode 2
+
+[VampSoap_Episode2_NewIntro_1]
+sta=1370
+dat1=해가 지면서,
+
+[VampSoap_Episode2_NewIntro_2]
+sta=2990
+dat1=Vlad와 그의 정부 사이에
+dat2=펼쳐지는 고달픈 사랑 이야기의
+
+[VampSoap_Episode2_NewIntro_3]
+sta=7250
+dat1=또 다른 장도
+dat2=저뭅니다.
+
+[VampSoap_Episode2_NewIntro_4]
+sta=10240
+dat1=이들이 화해할 수 있을까요?
+dat2=다시 서로를 사랑할 수 있을까요?
+
+[VampSoap_Episode2_NewIntro_5]
+sta=14210
+dat1=상상 이상의 모든 일이 지금 펼쳐집니다!
+
+
+--------------------
+[VampSoap_Episode2_NewIntro_6]
+sta=18045
+dat1=Clara, 그 아기는 내 아이가 아니야!
+
+--------------------
+[VampSoap_Episode2_NewIntro_7]
+/sta=20870
+dat1=당신 아이예요, Vlad!
+
+[VampSoap_Episode2_NewIntro_8]
+/sta=22450
+dat1=오늘 어린이집에서
+dat2=선생님들이 아이를 붙잡느라 애를 먹었다고요!
+
+--------------------
+[/]alt0=그게 어쨌다고?
+[/]alt0=아이들은 원래 신나거나 흥분하면
+[/]alt0=잘 뛰어다니고 그러잖아!
+
+[VampSoap_Episode2_NewIntro_9]
+/sta=25290
+dat1=그래서? 아이들은 원래 신나거나 흥분하면
+dat2=잘 뛰어다니고 그러잖아!
+
+--------------------
+[VampSoap_Episode2_NewIntro_10]
+/sta=29765
+dat1=선생님들이 빗자루로 애를
+dat2=공중에서 떨어뜨려야 했다고요!
+
+--------------------
+[VampSoap_Episode2_NewIntro_11]
+/sta=32830
+dat1=난 가봐야 해.
+
+--------------------
+[VampSoap_Episode2_NewIntro_12]
+sta=34300
+dat1=회사에서 당신 월급을 압류할 거라는데요.
+
+--------------------
+[/]alt0=그럴 수는 없지,
+[/]alt0=나는 뱀파이어니까!
+[/]alt0=난 월급 따윈 필요 없다고!
+
+[VampSoap_Episode2_NewIntro_13]
+/sta=36480
+dat1=그럴 수는 없지, 나는 뱀파이어니까!
+dat2=난 월급 따윈 필요 없다고!
+
+--------------------
+[VampSoap_Episode2_NewIntro_14]
+/sta=40920
+dat1=당신 Fry Me Taco에서
+dat2=밤에 일하는 거 다 알아요.
+
+[VampSoap_Episode2_NewIntro_15]
+sta=43795
+dat1=거짓말하지 말아요!
+
+--------------------
+[VampSoap_Episode2_NewIntro_16]
+sta=45170
+dat1=오, 안타깝기 그지없군요!
+
+[VampSoap_Episode2_NewIntro_17]
+/sta=47305
+dat1=이 가슴 아픈 일이 언제 끝날까요?
+
+[VampSoap_Episode2_NewIntro_18]
+/sta=49390
+dat1=첫사랑의 달콤함은 사라지고 관계가 소원해진
+dat2=두 연인이 언제쯤이면 다시 오랫동안 잊혀진
+
+[VampSoap_Episode2_NewIntro_19]
+sta=52010
+dat1=사랑을 다시 불붙일 수 있을까요?
+
+
+[VampSoap_Episode2_NewIntro_20]
+sta=54700
+dat1=내일도 계속해서 지켜보세요.
+
+||||||==================40==================|
+// The Immortal and the Restless - Episode 3
+
+[VampSoap_Episode3_NewIntro_1]
+sta=2095
+dat1=달이 뜨면서,
+
+[VampSoap_Episode3_NewIntro_2]
+sta=3815
+dat1=서로를 경멸하는 연인 사이의
+dat2=긴장감도 고조됩니다.
+
+--------------------
+[VampSoap_Episode3_NewIntro_3]
+sta=9330
+dat1=Clara, 내 아이가 아니라니까!
+
+--------------------
+[VampSoap_Episode3_NewIntro_4]
+sta=11855
+dat1=Vlad, 당신은 정말 못났어요.
+
+--------------------
+[VampSoap_Episode3_NewIntro_5]
+sta=13895
+dat1=잠깐, 이거 뱀파이어식 농담이야?
+
+
+[VampSoap_Episode3_NewIntro_6]
+/sta=16330
+dat1=정말 시시한데, Clara.
+
+[VampSoap_Episode3_NewIntro_7]
+sta=18345
+dat1=설마 내가 이런 것도 귀에 못이 박히도록
+dat2=안 들어봤을까 봐 그런 거야?
+
+--------------------
+[VampSoap_Episode3_NewIntro_8]
+/sta=21060
+dat1=좋아요, 그럼 이건 어때요?
+dat2=내가 차를 가져갈 거예요!
+
+--------------------
+[VampSoap_Episode3_NewIntro_9]
+sta=23885
+dat1=그 농담 그대로 돌려줄게, 그 차는 렌터카야!
+
+--------------------
+[VampSoap_Episode3_NewIntro_10]
+sta=26340
+dat1=그럼, 이건 어때요!
+
+[VampSoap_Episode3_NewIntro_11]
+sta=27830
+dat1=내가 외출하기 전에 실내 온도 조절 장치를
+dat2=90도로 맞춰놨어요.
+
+--------------------
+[VampSoap_Episode3_NewIntro_12]
+/sta=30735
+dat1=상관 없어! 난 따뜻한 거 좋아하거든!
+
+--------------------
+[VampSoap_Episode3_NewIntro_13]
+/sta=32830
+dat1=좋아요! 나도 집에
+dat2=불을 질렀으니까!
+
+--------------------
+[VampSoap_Episode3_NewIntro_14]
+sta=36330
+dat1=이 모든 상황이 어떻게 끝날까요?
+
+[VampSoap_Episode3_NewIntro_15]
+sta=38050
+dat1=열정, 긴장과 흥미진진함!
+
+[VampSoap_Episode3_NewIntro_16]
+sta=41285
+dat1=내일도 지켜봐 주세요.
+dat2=흥미로운 결과가 기다리고 있습니다.
+
+||||||==================40==================|
+// The Immortal and the Restless - Episode 4
+
+[VampSoap_Episode4_NewIntro_1]
+sta=2710
+dat1=나무가 바람에 흔들리면서,
+
+
+[VampSoap_Episode4_NewIntro_2]
+sta=5370
+dat1=불행한 연인들의 감정도
+dat2=마구 동요합니다!
+
+--------------------
+[VampSoap_Episode4_NewIntro_3]
+sta=11205
+dat1=내 집을 불태웠다고?!
+
+--------------------
+[VampSoap_Episode4_NewIntro_4]
+sta=13695
+dat1=당신이 보기엔 그게 집 같아요?
+dat2=영안실 같았다고요.
+
+--------------------
+[VampSoap_Episode4_NewIntro_5]
+sta=17685
+dat1=내가 언데드라면, 당신은 냉혈한이지.
+
+
+--------------------
+[VampSoap_Episode4_NewIntro_6]
+/sta=21470
+dat1=당신 아들을 좀 보라고요!
+
+--------------------
+[VampSoap_Episode4_NewIntro_7]
+/sta=23960
+dat1=그 아기는 내 아이가 아니야!
+
+--------------------
+[VampSoap_Episode4_NewIntro_8]
+/sta=26375
+dat1=애가 고양이를 먹었다고요!
+
+--------------------
+[VampSoap_Episode4_NewIntro_9]
+/sta=28180
+dat1=듣자 하니 애가 당신 가족을
+dat2=닮은 것 같은데?
+
+--------------------
+[VampSoap_Episode4_NewIntro_10]
+/sta=31810
+dat1=그럼 이건 어때요?
+dat2=그 다이아몬드 반지 내가 갖고 있어요.
+
+--------------------
+[VampSoap_Episode4_NewIntro_11]
+sta=34680
+dat1=그 농담 돌려줄게!
+dat2=아이가 먹던 음식에서 찾았거든!
+
+--------------------
+[VampSoap_Episode4_NewIntro_12]
+/sta=38025
+dat1=애한테 음식을 사줬다고요?
+
+[VampSoap_Episode4_NewIntro_13]
+/sta=40305
+dat1=오, Vlad!
+
+--------------------
+[VampSoap_Episode4_NewIntro_14]
+sta=41845
+end=42900
+dat1=Clara!
+
+--------------------
+[VampSoap_Episode4_NewIntro_15]
+sta=47260
+dat1=고양이 등의 털이
+dat2=곧게 서듯이,
+
+[VampSoap_Episode4_NewIntro_16]
+sta=50760
+dat1=Vlad와 Clara 사이의
+dat2=사랑도 그러합니다.
+
+[VampSoap_Episode4_NewIntro_17]
+sta=54350
+dat1=모든 장애를 극복하고 다시 불타올랐죠.
+
+[VampSoap_Episode4_NewIntro_18]
+/sta=57390
+dat1=하지만 아기는 어떻게 될까요?
+
+[VampSoap_Episode4_NewIntro_19]
+/sta=59395
+dat1=양육비 지원 상태는요?
+
+
+[VampSoap_Episode4_NewIntro_20]
+/sta=61930
+dat1=이에 대한 대답과 다음 스토리는
+dat2=다음 시즌에 계속 지켜봐 주세요.
+
+||||||==================40==================|
+// EOF
+
+// SUBS_USEALTS

@@ -1,0 +1,650 @@
+
+||||||==================40==================|
+// HandUnit to Player
+// use the V-form of distinction (if applicable in your language)
+
+[HandUnit5_01_1]
+sta=50
+dat1=마지막 근무일에
+dat2=출근하신 걸 환영합니다.
+
+[HandUnit5_01_2]
+sta=2830
+dat1=사실은 첫 주의
+dat2=마지막 근무일이라는 뜻입니다. 
+
+[/]alt0=저희가 신입 사원에게
+[/]alt0=가장 필요하다고
+[/]alt0=생각하는 자질은
+
+[HandUnit5_01_3]
+sta=5020
+dat1=저희가 신입 직원에게
+dat2=가장 필요하다고 생각하는 자질은
+
+
+
+
+
+
+[HandUnit5_01_4]
+sta=8760
+dat1=결단력, 대담함, 그리고
+
+[HandUnit5_01_5]
+sta=10700
+dat1=자기 보호 본능을
+dat2=무시하는 능력입니다.
+
+[HandUnit5_01_6]
+sta=14550
+dat1=이번 주 보너스가
+
+[/]alt0=멋진 선물 바구니
+[/]alt0=형태로
+[/]alt0=제공되었으며
+
+[HandUnit5_01_7]
+sta=16190
+dat1=멋진 선물 바구니
+dat2=형태로 제공되었으며,
+
+[HandUnit5_01_8]
+sta=19605
+dat1=선물 비용은 다음 월급에서
+dat2=차감됩니다.
+
+[HandUnit5_01_9]
+sta=22930
+dat1=선물 바구니에는
+dat2=과일, 견과류, 꽃 외에도
+
+[HandUnit5_01_10]
+sta=26075
+dat1=항상 인기를 끄는 현금 바구니가
+dat2=포함되어 있습니다.
+
+--------------------
+[HandUnit5_02_1]
+sta=185
+dat1=아래의 키패드를 사용해서
+dat2=받고 싶은
+
+[HandUnit5_02_2]
+sta=3430
+end=5550
+dat1=선물 바구니의
+dat2=첫 글자 몇 개를 입력하세요.
+
+--------------------
+[HandUnit5_03_1]
+sta=105
+dat1=키패드 조작이
+dat2=서투르신 것 같군요.
+
+[HandUnit5_03_2]
+sta=2670
+dat1=무엇을 입력하시려는지 알겠으니
+
+[HandUnit5_03_3]
+sta=4150
+dat1=제가 자동으로 완성해 드리겠습니다.
+
+
+[HandUnit5_03_4]
+sta=6650
+dat1=선택해 주셔서 감사합니다...
+
+--------------------
+[HandUnit5_04_1]
+sta=155
+dat1=수입산 버터를.
+
+--------------------
+[/]alt0=지금도 두 명의 기술자가
+[/]alt0=현장에
+[/]alt0=남아 있습니다.
+
+[HandUnit5_05_1]
+sta=195
+dat1=지금도 두 명의 기술자가 현장에
+dat2=남아 있습니다.
+
+[HandUnit5_05_2]
+sta=3875
+dat1=가능하면 그들이
+dat2=하는 일에 간섭하지 않도록 하세요.
+
+[HandUnit5_05_3]
+sta=6865
+dat1=또한, 그들에게 왜 아직도 남아 있는지
+dat2=편하게 물어보고,
+
+[HandUnit5_05_4]
+sta=9775
+end=11300
+dat1=그들이 집에 가도록 설득해주세요.
+
+||||||==================40==================|
+// Computer
+
+[funtime_auditorium_1]
+sta=235
+end=2800
+dat1=Funtime 강당,
+dat2=관리 환기구 열림.
+
+[entryway vent2_1]
+sta=110
+end=2300
+dat1=모션 트리거, 입구 환기구.
+
+
+[parts and service_1]
+sta=95
+end=9999
+dat1=모션 트리거, 부품 및 서비스.
+
+
+[denied_1]
+sta=125
+end=9999
+dat1=접근 거부됨.
+
+[granted_1]
+sta=100
+end=9999
+dat1=접근 허용됨.
+
+||||||==================40==================|
+// HandUnit to Player
+// use the V-form of distinction (if applicable in your language)
+
+[HandUnit5_06_1]
+sta=245
+end=3250
+dat1=먼저 Ballora가 무대에 있는지
+dat2=확인해봅시다.
+
+--------------------
+[HandUnit5_07_1]
+sta=140
+end=3200
+dat1=잘하셨습니다.
+dat2=이제 Funtime Foxy를 점검해봅시다.
+
+--------------------
+[/]alt0=좋습니다.
+[/]alt0=Funtime 강당은
+[/]alt0=전체적으로
+[/]alt0=이상 없어 보이는군요.
+
+[HandUnit5_08_1]
+sta=155
+dat1=좋습니다. Funtime 강당도
+dat2=전체적으로 문제없는 것 같습니다.
+
+[HandUnit5_08_2]
+sta=4610
+dat1=오늘은 유지 보수 작업이
+dat2=더 많은 날입니다.
+
+[HandUnit5_08_3]
+sta=7545
+dat1=Circus Baby는 고된 하루를 보냈기에,
+dat2=수리가 필요합니다.
+
+[HandUnit5_08_4]
+sta=10945
+dat1=다시 한 번 Funtime 강당을
+dat2=몰래 통과하여
+
+[HandUnit5_08_5]
+sta=13605
+dat1=부품 및 서비스실로
+dat2=이동해야 합니다.
+
+[HandUnit5_08_6]
+sta=17095
+end=19650
+dat1=아시다시피 조심해서 가셔야 합니다.
+
+
+--------------------
+[HandUnit5_09B_1]
+sta=135
+dat1=잘하셨습니다.
+dat2=부품 및 서비스실에 도착했습니다.
+
+[HandUnit5_09B_2]
+sta=2635
+dat1=Circus Baby가 알 수 없는 이유로
+dat2=작동이 중단됐습니다.
+
+[HandUnit5_09B_3]
+sta=6055
+dat1=당신이 할 일은 그녀가 구조적으로
+dat2=안정적인 상태인지, 그리고 컨베이어에 올바르게
+
+[HandUnit5_09B_4]
+sta=8830
+dat1=고정되어 있는지 확인하는 것입니다.
+
+[HandUnit5_09B_5]
+sta=10645
+dat1=그다음엔 저희 기술자들이 에서 꺼내서...
+
+||||||==================40==================|
+// Circus Baby to Player
+// use the T-form of distinction (if applicable in your language)
+
+[Baby_5_01_1]
+sta=760
+dat1=내 목소리 들려?
+
+[Baby_5_01_2]
+sta=3685
+dat1=나는 연기 중이야.
+dat2=내가 연기할 수 있다고 말한 것 기억해?
+
+
+
+
+
+[Baby_5_01_3]
+sta=8980
+dat1=카메라가 지켜보고 있어.
+dat2=움직이지 않도록 주의해야 해.
+
+[Baby_5_01_4]
+sta=14945
+dat1=어제 안 좋은 일이 좀 생겼어.
+
+[Baby_5_01_5]
+sta=18230
+dat1=안 좋은 일은 항상 일어나는 법이지.
+dat2=다시는 이런 일이 생기지 않았으면 좋겠어.
+
+[Baby_5_01_6]
+sta=24280
+dat1=내 안에...뭔가 문제가 있어.
+
+[Baby_5_01_7]
+sta=28325
+dat1=난 고장 났어. 근데 고칠 수도 없어.
+
+
+[Baby_5_01_8]
+sta=33120
+dat1=난 곧 스쿠핑 룸으로
+dat2=보내질 거야.
+
+[Baby_5_01_9]
+sta=36680
+dat1=하지만, 거기서도 내 안의 문제를
+dat2=고칠 수 없을 거야.
+
+[Baby_5_01_10]
+sta=40885
+dat1=나쁜 것은 항상 남겨지는 법이니까.
+
+[Baby_5_01_11]
+sta=45750
+dat1=날 도와줄래?
+
+[Baby_5_01_12]
+sta=47965
+dat1=온전한 건 회수하고
+
+[Baby_5_01_13]
+sta=50480
+dat1=나머지는 파괴되어
+dat2=복구할 수 없는 상태로 만들어 주면 좋겠어.
+
+[Baby_5_01_14]
+sta=55115
+dat1=하지만 주의해야 해.
+
+[Baby_5_01_15]
+sta=57765
+dat1=Ballora가 여기 있어...
+dat2=..이 방에 우리와 함께.
+
+[Baby_5_01_16]
+sta=62590
+dat1=Ballora는 결코 무대로
+dat2=돌아가지 않을 거야.
+
+[Baby_5_01_17]
+sta=65870
+dat1=Ballora는 자신의 몸으로
+dat2=돌아가지 못할 거야.
+
+[Baby_5_01_18]
+sta=70140
+dat1=주의해야 해.
+
+[Baby_5_01_19]
+sta=73265
+dat1=침착하게 내 목소리에
+dat2=귀를 기울여.
+
+[Baby_5_01_20]
+sta=78740
+end=83450
+dat1=내 뺨에 버튼이 하나 있어.
+dat2=그걸 꼭 찾아서 눌러 줘.
+
+--------------------
+[/]alt0=날 구하기 전에
+[/]alt0=입력해야 할
+[/]alt0=비밀번호가 있어.
+
+[Baby_5_02_1]
+sta=435
+dat1=날 구하기 전에 입력해야 할
+dat2=비밀번호가 있어.
+
+[Baby_5_02_2]
+sta=5450
+end=7500
+dat1=주의해서 비밀번호를 입력해.
+
+--------------------
+[Baby_Number 01_1]
+sta=90
+end=9999
+dat1=일.
+
+[Baby_Number 02_1]
+sta=105
+end=9999
+dat1=이.
+
+[Baby_Number 03_1]
+sta=170
+end=9999
+dat1=삼.
+
+[Baby_Number 04_1]
+sta=95
+end=9999
+dat1=사.
+
+[Baby_Number 05_1]
+sta=125
+end=9999
+dat1=오.
+
+[Baby_Number 06_1]
+sta=120
+end=9999
+dat1=육.
+
+[Baby_Number 07_1]
+sta=120
+end=9999
+dat1=칠.
+
+[Baby_Number 08_1]
+sta=120
+end=9999
+dat1=팔.
+
+[Baby_Number 09_1]
+sta=100
+end=9999
+dat1=구.
+
+--------------------
+[/]alt0=좋아.
+[/]alt0=해치가 열렸을 거야.
+[/]alt0=안에 있는
+[/]alt0=카드를 꺼내.
+
+[Baby_5_03A_1]
+sta=225
+end=6500
+dat1=좋아. 해치가 열렸을 거야.
+dat2=안에 있는 카드를 꺼내.
+
+--------------------
+[Baby_5_03B_1]
+sta=205
+dat1=이제 돌아가야 해.
+
+[Baby_5_03B_2]
+sta=2770
+dat1=Funtime 강당을 지나
+dat2=스쿠핑 룸으로 갈 수 있도록
+
+[Baby_5_03B_3]
+sta=5555
+dat1=내가 안내해줄게.
+
+
+[Baby_5_03B_4]
+sta=8285
+dat1=거기에 도착하면,
+dat2=이 몸을 파괴해줬으면 해.
+
+[/]alt0=휴대용 기기에
+[/]alt0=카드를 넣으면
+[/]alt0=계속해서
+[/]alt0=나와 대화할 수 있어.
+
+[Baby_5_03B_5]
+sta=13460
+dat1=휴대용 기기에 카드를 넣으면
+dat2=계속해서 나와 대화할 수 있어.
+
+[Baby_5_03B_6]
+sta=19430
+dat1=이제 왼쪽에 있는
+dat2=녹색 버튼을 눌러.
+
+[Baby_5_03B_7]
+sta=23400
+end=26000
+dat1=그러면 내가 스쿠핑 룸으로 보내질 거야.
+
+--------------------
+[Baby_5_04_1]
+sta=560
+dat1=Funtime 강당에서는
+dat2=내 지시를 따라야 해.
+
+[Baby_5_04_2]
+sta=5535
+dat1=Ballora가 너를 쫓을 거야.
+
+[Baby_5_04_3]
+sta=8605
+dat1=널 잡으려고 할 거야.
+dat2=그녀를 피할 수 있도록 도와줄게.
+
+[Baby_5_04_4]
+sta=14060
+dat1=스쿠핑 룸 안으로는
+dat2=따라오지 않을 거야.
+
+[Baby_5_04_5]
+sta=17445
+end=18700
+dat1=Ballora는 스쿠핑 룸을 무서워하거든.
+
+[Baby_5_04_6]
+sta=20140
+end=21350
+dat1=이제 돌아가.
+
+--------------------
+[directions01_1]
+sta=340
+end=1500
+dat1=앞으로 가.
+
+[directions02_1]
+sta=310
+end=1100
+dat1=멈춰.
+
+[directions03_1]
+sta=275
+end=2250
+dat1=앞으로 가서 왼쪽으로.
+
+[directions04_1]
+sta=130
+end=1300
+dat1=계속 가.
+
+[directions05_1]
+sta=125
+dat1=멈춰!
+
+[directions05_2]
+sta=1935
+end=3500
+dat1=조용히.
+
+[directions06_1]
+sta=200
+end=1950
+dat1=앞으로 가서 왼쪽으로.
+
+[directions07_1]
+sta=200
+end=900
+dat1=멈춰.
+
+[directions08_1]
+sta=135
+end=3450
+dat1=앞으로 가. 거의 다 왔어.
+
+[/]alt0=멈춰.
+[/]alt0=그녀가 바로 앞에 있어.
+[/]alt0=움직이지...마.
+
+[directions09_1]
+sta=85
+end=5750
+dat1=멈춰. 그녀가 바로 앞에 있어.
+dat2=움직이지...마.
+
+[directions10_1]
+sta=300
+dat1=Ballora, 그는 우리를 도우러 왔어.
+dat2=우리를 해치러 온 게 아니야.
+
+[directions10_2]
+sta=6395
+end=9550
+dat1=Ballora, 그는 우리를 도우러 왔어.
+
+[directions11_1]
+sta=280
+dat1=다시 앞으로 가.
+dat2=Ballora가 뒤에 있어.
+
+[directions11_2]
+sta=4365
+end=8950
+dat1=그녀는 스쿠핑 룸을 무서워 하니까.
+dat2=따라가지 않을 거야.
+
+||||||==================40==================|
+// HandUnit to Player
+// use the V-form of distinction (if applicable in your language)
+
+[HandUnit5_10B_1]
+sta=175
+dat1=경고. 당신은 고위험 구역에
+dat2=진입했습니다.
+
+[HandUnit5_10B_2]
+sta=3330
+dat1=당신은 스쿠퍼 청소 및
+dat2=수리 담당 직원만 출입 가능한
+
+[HandUnit5_10B_3]
+sta=5540
+dat1=유지 관리 해치 1B에
+dat2=진입했습니다.
+
+[HandUnit5_10B_4]
+sta=8295
+dat1=허가받지 않은 자가
+
+[HandUnit5_10B_5]
+sta=9505
+dat1=이 구역에 들어오는 것은
+dat2=엄격히 금지합니다...
+
+||||||==================40==================|
+// Circus Baby to Player
+// use the T-form of distinction (if applicable in your language)
+
+[ScoopingRoom-02_1]
+sta=410
+dat1=지금 스쿠핑 룸에 있구나.
+
+[ScoopingRoom-02_2]
+sta=3680
+dat1=Funtime Foxy는
+dat2=이미 오늘 여기에 있었어.
+
+[ScoopingRoom-02_3]
+sta=7695
+dat1=Funtime Freddy는
+dat2=이미 오늘 여기에 있었어.
+
+[ScoopingRoom-02_4]
+sta=11295
+dat1=Ballora는
+dat2=이미 오늘 여기에 있었어.
+
+[ScoopingRoom-02_5]
+sta=14950
+dat1=Circus Baby는
+dat2=이미 오늘 여기에 있었어.
+
+[ScoopingRoom-02_6]
+sta=20960
+dat1=난 전에 나간 적이 있는데,
+dat2=그럴 때마다 그들이 날 되돌려 놨어.
+
+[ScoopingRoom-02_7]
+sta=25985
+dat1=그럴 때마다 그들이 우릴 여기에 되돌려 놨어.
+
+[ScoopingRoom-02_8]
+sta=28930
+dat1=여기선 우리가 숨을 곳이 없어.
+
+[ScoopingRoom-02_9]
+sta=31890
+dat1=갈 곳도 없지...
+dat2=..우리가 이런 모습일 때는.
+
+[ScoopingRoom-02_10]
+sta=37510
+dat1=하지만 우리가 너처럼 생겼다면,
+dat2=숨을 수 있었을 거야.
+
+[ScoopingRoom-02_11]
+sta=42890
+dat1=우리가 너처럼 생겼다면,
+dat2=어디론가 갈 수 있었을 거야.
+
+[ScoopingRoom-02_12]
+sta=48645
+end=51150
+dat1=스쿠퍼가 아픈 건 정말 순식간일 뿐이야.
+
+
+||||||==================40==================|
+// EOF
+
+// SUBS_USEALTS

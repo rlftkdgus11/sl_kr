@@ -1,0 +1,22 @@
+﻿# build outputs
+*.obj
+*.lib
+*.exp
+*.dll
+*.exe
+*.pdb
+
+# runtime logs/traces
+*.log
+*.bak
+forensic_runtime_trace.tsv
+mmfs2_handle_calls.tsv
+
+# temp/static dump noise
+_tmp_*
+._static_*
+DebugDumps/
+runtime_segments/
+
+# editor
+.vscode/

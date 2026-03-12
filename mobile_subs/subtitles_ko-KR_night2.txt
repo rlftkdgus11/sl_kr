@@ -1,0 +1,783 @@
+
+||||||==================40==================|
+// HandUnit to Player
+// use the V-form of distinction (if applicable in your language)
+
+[Night 2-01_1]
+sta=85
+dat1=지적인 자극과
+dat2=중요한 직업 선택,
+
+[Night 2-01_2]
+sta=3505
+dat1=과거의 실수에 대한 자기 성찰의
+dat2=밤에 다시 오신 것을 환영합니다.
+
+[/]alt0=저희는 특별하면서
+[/]alt0=성취감을 북돋우는 업무 환경을
+[/]alt0=조성하기 위해 노력하고 있습니다.
+
+[Night 2-01_3]
+sta=7900
+dat1=저희는 특별하면서 성취감을 북돋우는
+dat2=업무 환경을 조성하기 위해 노력하고 있습니다.
+
+[Night 2-01_4]
+sta=11865
+dat1=그러한 노력의 일환으로
+dat2=지금 듣고 계시는 음성이
+
+[Night 2-01_5]
+sta=15115
+dat1=따분해지지 않도록
+dat2=각별히 신경 쓰고 있습니다.
+
+--------------------
+[Night 2-02_1]
+sta=345
+dat1=아래의 키패드를 사용해서
+dat2=새로운 길잡이 음성을 선택하세요.
+
+[Night 2-02_2]
+sta=4685
+dat1=남성은 1번.
+
+[Night 2-02_3]
+sta=6585
+dat1=여성은 2번.
+
+[Night 2-02_4]
+sta=8950
+dat1=텍스트만 보기 원하면 3번.
+
+[Night 2-02_5]
+sta=11330
+end=13500
+dat1=기타 옵션은 4번을 눌러주세요.
+
+--------------------
+[Night 2-04_1]
+sta=210
+dat1=키패드 조작이
+dat2=서투르신 것 같군요.
+
+[Night 2-04_2]
+sta=3140
+dat1=무엇을 입력하시려는지 알겠으니
+
+[Night 2-04_3]
+sta=4845
+dat1=제가 자동으로 완성해 드리겠습니다.
+
+
+[Night 2-04_4]
+sta=7315
+dat1=선택해 주셔서 감사합니다...
+
+--------------------
+[Night 2-05_1]
+sta=125
+dat1=방황하는 10대 청소년을.
+
+||||||==================40==================|
+// HandUnit/Angsty Teen to Player
+// use the V-form of distinction (if applicable in your language)
+
+[Angsty01_1]
+sta=325
+dat1=엘리베이터가 멈췄네.
+dat2=뭘 해야 하는지는 알고 있을 거고.
+
+
+
+
+
+[Angsty01_2]
+sta=3615
+dat1=지금 밖으로 나가던지,
+dat2=아니면...어떻게든 되겠지.
+
+[Angsty01_3]
+sta=6360
+end=7600
+dat1=안 나가도 상관 없고.
+
+--------------------
+[/]alt0=재밌는 이야기인데,
+[/]alt0=이 환기구에서
+[/]alt0=시신 한 구가 나온 적이 있어.
+
+[Angsty02_1]
+sta=290
+dat1=재밌는 이야기 하나 있는데,
+dat2=이 환기구에서 시신 한 구가 나온 적이 있어.
+
+
+
+
+
+
+[Angsty02_2]
+sta=5140
+end=9200
+dat1=그래 뭐, 별로 재밌지는 않지만
+dat2=적어도 이야깃거리는 되잖아.
+
+--------------------
+[Angsty03_1]
+sta=290
+dat1=좋아, 이제 밤 근무를
+dat2=시작해 보자고.
+
+[Angsty03_2]
+sta=3285
+dat1=Ballora가 무대에 있는지
+
+[Angsty03_3]
+sta=4535
+end=7650
+dat1=확인해.
+dat2=뭐...안 해도 상관 없고.
+
+--------------------
+[Angsty04_1]
+sta=405
+dat1=어, Ballora한테
+dat2=더 중요한 일이 있나 본대.
+
+[Angsty04_2]
+sta=4320
+end=6800
+dat1=놀라게 해 주자. 재밌겠다.
+
+--------------------
+[Angsty06_1]
+sta=280
+dat1=Funtime Foxy를 확인해볼까.
+
+[Angsty06_2]
+sta=2295
+end=4500
+dat1=내일 공연 준비가
+dat2=되었는지 봐야지.
+
+--------------------
+[great5_1]
+sta=10
+end=950
+dat1=좋아.
+
+||||||==================40==================|
+// HandUnit to Player
+// use the V-form of distinction (if applicable in your language)
+
+[Night 2-06_1]
+sta=195
+dat1=음성 합성장치에
+dat2=문제가 있는 것 같습니다.
+
+[Night 2-06_2]
+sta=3280
+dat1=기본 설정으로 복원되었습니다.
+
+
+[Night 2-06_3]
+sta=5475
+dat1=앞에 있는 환기구를 통해
+dat2=Circus Baby의 강당으로
+
+[Night 2-06_4]
+sta=7475
+end=9400
+dat1=이동해 주세요.
+
+--------------------
+[Night 2-08_1]
+sta=195
+dat1=오늘 Circus Baby는 바쁜
+dat2=하루를 보냈습니다!
+
+[Night 2-08_2]
+sta=2760
+dat1=조명을 켜서
+
+[Night 2-08_3]
+sta=3915
+end=6300
+dat1=제대로 작동하는지
+dat2=확인해 봅시다.
+
+--------------------
+[Night 2-09_1]
+sta=100
+dat1=Circus Baby, 우린 지금
+dat2=숨바꼭질하러 온 게 아니라고.
+
+[Night 2-09_2]
+sta=3305
+dat1=Baby가 숨은 곳에서
+dat2=나오도록
+
+[Night 2-09_3]
+sta=5495
+end=6750
+dat1=전기 충격을 줘봅시다.
+
+--------------------
+[Night 2-10_1]
+sta=145
+end=2000
+dat1=다시 한 번 전기 충격을 줘보세요.
+
+--------------------
+[Night 2-11_1]
+sta=150
+dat1=Baby의 작동에 영향을 주는
+
+
+[Night 2-11_2]
+sta=2050
+dat1=전원 공급 장치에
+dat2=문제가 발생한 것 같습니다.
+
+[Night 2-11_3]
+sta=5495
+dat1=시스템을 재시작하는 동안
+dat2=기다려주세요.
+
+[Night 2-11_4]
+sta=8490
+dat1=이 과정에 저는
+dat2=잠시 오프라인 상태가 됩니다.
+
+[Night 2-11_5]
+sta=11680
+dat1=보안문, 환기구 잠금장치,
+dat2=산소와 같은
+
+[Night 2-11_6]
+sta=14550
+dat1=기타 여러 시스템도
+dat2=가동이 중단될 수 있습니다.
+
+[Night 2-11_7]
+sta=18745
+dat1=시스템 재시작을 진행합니다.
+
+||||||==================40==================|
+// Computer
+
+[Ballora_gallery_1]
+sta=130
+end=2500
+dat1=Ballora 갤러리,
+dat2=관리 환기구 열림.
+
+[funtime_auditorium_1]
+sta=235
+end=2800
+dat1=Funtime 강당,
+dat2=관리 환기구 열림.
+
+[entryway vent2_1]
+sta=110
+end=2300
+dat1=모션 트리거, 입구 환기구.
+
+
+[technicial control_1]
+sta=10
+end=2550
+dat1=모션 트리거, 기술자 통제.
+
+
+[circus gallery_1]
+sta=95
+end=2550
+dat1=모션 트리거, Circus 갤러리 환기구.
+
+
+[breaker room_1]
+sta=35
+end=1850
+dat1=모션 트리거, 차단실.
+
+
+||||||==================40==================|
+// Circus Baby to Player
+// use the T-form of distinction (if applicable in your language)
+
+[Baby01_1]
+sta=840
+dat1=널 알아보지 못하겠는데. 신입이구나.
+
+[Baby01_2]
+sta=4890
+dat1=하지만, 이런 걸...
+dat2=..예전에 겪어본 기억은 있어.
+
+[Baby01_3]
+sta=9675
+dat1=사람들이 여기에 오고 싶어하다니,
+dat2=참 이상한 일이야.
+
+[Baby01_4]
+sta=13850
+dat1=도대체 왜 사람들이 
+dat2=자진해서
+
+[/]alt0=이런 곳에서 기꺼이
+[/]alt0=밤을 보내고 싶어하는지...
+[/]alt0=..궁금하네.
+
+[Baby01_5]
+sta=17080
+dat1=이런 곳에서 기꺼이
+dat2=밤을 보내고 싶어 하는지.
+
+[Baby01_6]
+sta=22745
+dat1=호기심 때문에? 아니면 무지해서?
+
+
+[Baby01_7]
+sta=27350
+dat1=책상 밑에 공간이 있어.
+
+[Baby01_8]
+sta=29565
+dat1=네 전임자가
+dat2=은신처를 마련했고
+
+[Baby01_9]
+sta=33280
+dat1=결국 자신에겐 도움이 되었지.
+
+[Baby01_10]
+sta=35105
+dat1=서두르는 게 좋아.
+
+
+[Baby01_11]
+sta=38260
+dat1=거기는 안전할 거야.
+dat2=눈을 마주치지 않도록 주의해.
+
+[Baby01_12]
+sta=44260
+end=48100
+dat1=곧 지나갈 거야.
+dat2=그들은 금방 싫증을 내니까.
+
+||||||==================40==================|
+// Bidybabs to Player
+// use the T-form of distinction (if applicable in your language)
+
+[hello_in_there_1]
+sta=515
+end=3200
+dat1=반갑다.
+
+[some_is_inside_1]
+sta=305
+end=1900
+dat1=(누군가 안에 있어.)
+
+[is_it_the_same_person_1]
+sta=500
+end=2000
+dat1=(같은 사람인가?)
+
+[knock_knock_1]
+sta=225
+end=1400
+dat1=똑똑.
+
+[we_always_find_a_way_inside_1]
+sta=60
+end=3200
+dat1=(숨으려고 해 봤자 소용 없어.)
+
+[psst-shes_watching_us_1]
+sta=30
+end=1800
+dat1=(그녀가 우릴 보고 있어!)
+
+[we_have_to_leave_now_1]
+sta=250
+end=2600
+dat1=(아, 얼른 빠져나가야 해!)
+
+[we_will_see_you_again_soon_1]
+sta=65
+end=2100
+dat1=곧 다시 보자.
+
+||||||==================40==================|
+// Circus Baby to Player
+// use the T-form of distinction (if applicable in your language)
+
+[Baby02_1]
+sta=235
+dat1=길잡이가 다시 온라인 상태가 되면,
+
+[Baby02_2]
+sta=3130
+dat1=그는 시스템 자동 재시작에 실패했으니
+dat2=당신이 직접
+
+[Baby02_3]
+sta=6550
+dat1=수동으로
+dat2=재시작해야 한다고 말할 거야.
+
+[Baby02_4]
+sta=9960
+dat1=그리고 최대한 빨리
+
+[Baby02_5]
+sta=11145
+dat1=Ballora 갤러리를 기어서 통과하여
+dat2=변전실에
+
+[Baby02_6]
+sta=14570
+dat1=도달하라고 하겠지.
+
+[Baby02_7]
+sta=16480
+dat1=만약 그 지시를 곧이곧대로 따른다면,
+dat2=넌 죽을 거야.
+
+[Baby02_8]
+sta=20905
+dat1=Ballora는 결코 무대로
+dat2=돌아가지 않을 거다.
+
+[Baby02_9]
+sta=24350
+dat1=널 잡으러 올 거라고.
+
+[Baby02_10]
+sta=26220
+dat1=곧 전원 공급이 재개될 거야.
+
+[/]alt0=Ballora 갤러리를
+[/]alt0=기어서 지날 때는
+[/]alt0=천천히 이동해.
+
+[Baby02_11]
+sta=28730
+dat1=Ballora 갤러리를 기어서 지날 때는
+dat2=천천히 이동해.
+
+[/]alt0=Ballora는 널 보진 못하고
+[/]alt0=움직이는 소리만
+[/]alt0=들을 수 있어.
+
+[Baby02_12]
+sta=32494
+dat1=Ballora는 널 보진 못하고
+dat2=움직이는 소리만 들을 수 있어.
+
+[/]alt0=Ballorar가 부르는 노랫소리가
+[/]alt0=더 크게 들린다면,
+[/]alt0=네 소리를 듣기 위해
+[/]alt0=가까이 와 있다는 뜻이야.
+
+[Baby02_13]
+sta=37225
+dat1=그녀의 음악이 노래가 더 크게 들린다면,
+dat2=네 소리를 듣기 위해 가까이 와 있다는 뜻이야.
+
+[Baby02_14]
+sta=44210
+dat1=그 땐 가만히 기다려.
+
+||||||==================40==================|
+// HandUnit to Player
+// use the V-form of distinction (if applicable in your language)
+
+[thank_you_1]
+sta=460
+dat1=기다려주셔서 감사합니다.
+
+[thank_you_2]
+sta=2025
+dat1=전원 시스템을 자동으로
+dat2=재시작할 수 없는 것 같습니다.
+
+[thank_you_3]
+sta=5755
+dat1=전원 시스템을 수동으로
+dat2=재시작해야 합니다.
+
+[thank_you_4]
+sta=8570
+end=11200
+dat1=주 제어 모듈로
+dat2=돌아가 주십시오.
+
+--------------------
+[Ballora_1]
+sta=65
+dat1=이제 왼쪽에 있는
+dat2=환기구를 통해 Ballora 갤러리를
+
+[Ballora_2]
+sta=3355
+dat1=기어서 통과해야 차단실에
+dat2=도달할 수 있습니다.
+
+[Ballora_3]
+sta=6620
+dat1=Ballora를 방해하지 않도록
+dat2=최대한 자세를 낮추는 게 좋으며
+
+[Ballora_4]
+sta=9220
+dat1=가능한 한 빠르게
+dat2=반대편으로
+
+[Ballora_5]
+sta=11615
+dat1=이동하세요.
+
+[Ballora_6]
+sta=13852
+dat1=소리가 방해되면 안 되니까
+
+[Ballora_7]
+sta=16270
+dat1=저는 잠시
+dat2=비활성화 모드로 진입하겠습니다.
+
+[Ballora_8]
+sta=19330
+end=20350
+dat1=비활성화하는 중.
+
+--------------------
+[quickly_1]
+sta=470
+dat1=시간이 오래 걸리는 것 같군요.
+
+
+[quickly_2]
+sta=2595
+end=6700
+dat1=최대한 빠르게
+dat2=조용히 이동해 주세요.
+
+||||||==================40==================|
+// Ballora singing
+// use the T-form of distinction (if applicable in your language)
+
+[Ballora2_1]
+sta=295
+dat1=# 홀에는 음악이 울려 퍼지는데
+
+[Ballora2_2]
+sta=5235
+dat1=# 너는 왜 벽 안으로 숨는 거야?
+
+[Ballora2_3]
+sta=12400
+dat1=# 빈방밖에 보이지 않아
+
+[Ballora2_4]
+sta=17405
+dat1=# 기쁨은 끝났고, 빈 무덤뿐이네
+
+[Ballora2_5]
+sta=23710
+dat1=# 온종일 노래하는 게 너무 좋아
+
+[Ballora2_6]
+sta=28665
+end=34000
+dat1=# 춤추고 회전하며 날아간다네. #
+
+||||||==================40==================|
+// Ballora
+
+[whisper1b_1]
+sta=135
+end=2300
+dat1=누구 있나요?
+
+--------------------
+[whisper2b_1]
+sta=235
+end=4400
+dat1=누군가 내 방을
+dat2=기어가는 소리가 들리는데.
+
+--------------------
+[whisper3b_1]
+sta=180
+end=2400
+dat1=아마...아닐 거야.
+
+||||||==================40==================|
+// HandUnit to Player
+// use the V-form of distinction (if applicable in your language)
+
+[Breaker_1]
+sta=275
+dat1=이제 차단기 제어 장치를
+dat2=사용할 수 있습니다.
+
+[Breaker_2]
+sta=3720
+dat1=이 제어 장치를 사용하면
+dat2=주변 전자 장비에 간섭을 일으킬 수 있습니다.
+
+[Breaker_3]
+sta=6935
+dat1=위험하다는 느낌이 든다면
+
+[Breaker_4]
+sta=8605
+dat1=언제든지 장치 연결을 해제하고
+dat2=안전해질 때까지 기다린 후
+
+[Breaker_5]
+sta=11230
+end=12900
+dat1=다시 연결하세요.
+
+
+--------------------
+[good_job_1]
+sta=145
+dat1=잘하셨습니다.
+
+[good_job_2]
+sta=1270
+dat1=이로써 밤 근무가 끝났습니다.
+
+[good_job_3]
+sta=3580
+dat1=Ballora 갤러리를 통해
+dat2=조심히 돌아가세요.
+
+[good_job_4]
+sta=6725
+end=8500
+dat1=내일 여기서 뵙겠습니다.
+
+||||||==================40==================|
+// Bon-Bon to Funtime Freddy
+// use the T-form of distinction (if applicable in your language)
+
+[bon01_1]
+sta=215
+end=9999
+dat1=진정하고 돌아가서 자!
+dat2=여기 아무도 없어!
+
+--------------------
+[bon02_1]
+sta=150
+end=9999
+dat1=쉿, 무대로 돌아가!
+dat2=아무 문제 없어.
+
+--------------------
+[bon03_1]
+sta=95
+end=9999
+dat1=아무 문제 없어.
+dat2=다시 자러 가자고.
+
+--------------------
+[bon04_1]
+sta=85
+end=9999
+dat1=오, 진정해.
+dat2=쥐였나 봐!
+
+--------------------
+[bon05_1]
+sta=40
+end=9999
+dat1=아니! 여긴 아무도 없는데!
+
+--------------------
+[bon06_1]
+sta=60
+end=9999
+dat1=쉿, 이제 잘 시간이야.
+dat2=무대로 돌아가자고.
+
+--------------------
+[bon07_1]
+sta=55
+end=9999
+dat1=뭔가 잘못 들은 거겠지!
+
+||||||==================40==================|
+// Funtime Freddy to Bon-Bon
+// use the T-form of distinction (if applicable in your language)
+
+[Freddy02_1]
+sta=690
+end=3600
+dat1=Bon-Bon이 친구들에게 안부를 전해!
+
+--------------------
+[Freddy03_1]
+sta=425
+end=3900
+dat1=Bon-Bon이 친구들에게 안부를 전해!
+
+--------------------
+[Freddy07_1]
+sta=690
+dat1=저기 Bon-Bon, 내 생-생각엔
+dat2=저-어기 생일을 맞게 된 친구가 있어.
+
+[Freddy07_2]
+sta=5020
+end=7500
+dat1=가서 놀라게 해 주자!
+
+||||||==================40==================|
+// Funtime Freddy to Player
+// use the T-form of distinction (if applicable in your language)
+
+[Freddy04_1]
+sta=370
+end=4000
+dat1=네-네가 저기 어-어딘가에 있다는 걸 알아!
+
+--------------------
+[Freddy05_1]
+sta=500
+end=3800
+dat1=네가 저기 어딘가에 있다는 걸 알아.
+
+--------------------
+[Freddy06_1]
+sta=470
+end=4800
+dat1=어둠 속에서 네가 보여!
+dat2=나-나와!
+
+--------------------
+[Freddy09_1]
+sta=240
+end=2800
+dat1=다시 보네!
+
+--------------------
+[Freddy10_1]
+sta=535
+end=4200
+dat1=다시 보네!
+
+||||||==================40==================|
+// EOF
+
+// SUBS_USEALTS

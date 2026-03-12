@@ -1,0 +1,4 @@
+# MMFS2 Play Ordinal Whitelist (fallback if play_map is missing)
+# Only these ordinals will trigger subtitle matching
+876
+487

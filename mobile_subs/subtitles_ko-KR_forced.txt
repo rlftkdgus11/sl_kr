@@ -1,0 +1,127 @@
+
+||||||==================40==================|
+// blueprints from Afont Robotics, LLC
+
+[05-load_0]
+steps=8
+
+dat1=이름: Circus Baby
+dat2=
+
+dat3=이름: Circus Baby
+dat4=
+
+dat5=키: 7.2 ft
+dat6=무게: 585 lbs
+
+dat7=A: 공기 호스 부가 장치
+dat8=B: 내부 아이스크림 기계
+
+dat9=C: 노래 데이터뱅크
+dat10=D: 비상 정지
+
+dat11=Copyright © xxxx Afton Robotics, LLC
+dat12=
+
+dat13=Copyright © xxxx Afton Robotics, LLC
+dat14=
+
+--------------------
+[05-load_1]
+steps=9
+
+dat1=이름: Ballora
+dat2=
+
+dat3=이름: Ballora
+dat4=
+
+dat5=키: 6.2 ft
+dat6=무게: 347 lbs
+
+dat7=A: 오디오 활성화 센서
+dat8=
+
+dat9=B: 원격 활성화 방지 및 잘못된 지시
+dat10=보기: Circus Baby dir07
+
+dat11=C: 균형/ 안정성
+dat12=D: 충돌 센서
+
+dat13=Copyright © xxxx Afton Robotics, LLC
+dat14=
+
+dat15=Copyright © xxxx Afton Robotics, LLC
+dat16=
+
+--------------------
+[05-load_2]
+steps=9
+
+dat1=이름: Funtime Foxy
+dat2=
+
+dat3=이름: Funtime Foxy
+dat4=
+
+dat5=키: 5.9 ft
+dat6=무게: 290 lbs
+
+dat7=A: 빛 활성화 센서
+dat8=
+
+dat9=B: 부모 음성 동기화 및 재생
+dat10=C: 다양한 향기 방출
+
+dat11=D: 원격 바닥 앵커
+dat12=보기: Circus Baby dir07
+
+dat13=Copyright © xxxx Afton Robotics, LLC
+dat14=
+
+dat15=Copyright © xxxx Afton Robotics, LLC
+dat16=
+
+--------------------
+[05-load_3]
+steps=9
+
+dat1=이름: Funtime Freddy
+dat2=
+
+dat3=이름: Funtime Freddy
+dat4=
+
+dat5=키: 6.0 ft
+dat6=무게: 350 lbs
+
+dat7=A: 근접 센서/
+dat8=그룹화 조정
+
+dat9=B: 부모 추적/ 360 중심축
+dat10=
+
+dat11=C: 성대모사/ 유인
+dat12=D: 저장 탱크
+
+dat13=Copyright © xxxx Afton Robotics, LLC
+dat14=
+
+dat15=Copyright © xxxx Afton Robotics, LLC
+dat16=
+
+||||||==================40==================|
+// use the V-form of distinction (if applicable in your language)
+
+[13-win night]
+dat1=근무 완료
+dat2=
+
+dat3=근무 완료
+dat4=집에서 즐거운 시간 보내세요!
+
+||||||==================40==================|
+// EOF
+
+// SUBS_ENABLED
+// SUBS_STEPPED

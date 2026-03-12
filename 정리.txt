@@ -1,0 +1,423 @@
+﻿Sister Location KR 자막 패치 - 상세 인수인계 문서
+작성 시각: 2026-02-24
+
+====================================================================
+0) 현재 스냅샷 (새 세션 시작 전 가장 먼저 확인)
+====================================================================
+- 게임 루트: C:\Program Files (x86)\Steam\steamapps\common\Five Nights at Freddy's Sister Location
+- 현재 배포 DLL: dsound.dll
+- 현재 build_id: 2026-02-24-baby-handunit-balance-v1
+- 현재 SHA256: 49EA066475F8993342270242C0BFDBDD7E0326CB466FE480CFA11FD851AF9FA9
+- 현재 플래그 파일 상태:
+  - hash_only.txt: 존재 (활성)
+  - probe_mode.txt: 기본 미사용 (없으면 0)
+  - mmfs2_play_map.txt: 존재
+  - mmfs2_play_ordinals.txt: 존재
+  - mmfs2_play_ptr_map.txt: 존재
+  - mmfs2_subtitle_ordinals.txt: 존재
+  - mmfs2_handle_map.txt: 존재
+
+중요:
+- 새 세션 시작 시 이 스냅샷과 실제 파일 상태가 다르면, 먼저 상태를 다시 맞춘다.
+
+====================================================================
+1) 프로젝트 목표 (정확히 무엇을 달성해야 하는가)
+====================================================================
+최종 목표:
+1. 대사 음성에만 자막 출력
+2. 효과음/배경음/잡음에는 자막 미출력
+3. HandUnit 구간 안정성 유지
+4. Baby 스트림 구간 누락 최소화(사실상 1:1에 가까운 동기)
+5. 같은 시나리오 재실행 시 동일 결과(재현성)
+
+현재 핵심 난점:
+- Baby 경로(스트림/링버퍼) 복구와 HandUnit 안정성은 서로 충돌하기 쉬움.
+- Baby를 위해 Unlock 트리거를 넓히면 HandUnit/효과음 갑툭튀가 생기고,
+  반대로 강하게 막으면 Baby가 사라질 수 있음.
+
+====================================================================
+2) 런타임 아키텍처 (어떻게 동작하는가)
+====================================================================
+2-1. 주입 방식
+- 게임 폴더의 dsound.dll 프록시를 통해 런타임 훅 동작.
+- SisterLocation.exe 실행 시 프록시 DLL이 먼저 로딩됨.
+
+2-2. 훅 대상
+- DirectSound 계열:
+  - CreateSoundBuffer
+  - Play
+  - Unlock
+  - Stop
+- MMFS2.dll 계열:
+  - GetProcAddress 가로채서 ordinal 훅 스텁 주입
+  - 핵심 재생 관련 ordinal: 1077 / 190 / 388
+
+2-3. 자막 트리거 경로(우선순위 관점)
+A) HASH 경로:
+- Play/Unlock 시점 PCM 해시 계산
+- sound_hash_map.tsv와 매칭
+- matched handle -> subtitles_by_handle/name로 자막 출력
+
+B) STREAM 경로:
+- 단일 해시로 잡기 어려운 스트림 구간용
+- Unlock 청크/스트림 캡처 + SoundTracker 바인딩 사용
+- Baby 계열에서 특히 중요
+
+C) 모바일 스케줄 경로:
+- mobile_subs 타임라인이 있으면 line-by-line 출력
+- 긴 대사를 "한 번에 전체 출력"하지 않게 제어
+
+====================================================================
+3) 데이터 파일과 의미
+====================================================================
+- subtitles_by_handle.txt
+  - handle 기반 자막 본문
+  - 포맷: handle, color, duration, text(파이프 분할 가능)
+
+- subtitles_by_name.txt
+  - 이름 기반 자막
+  - handle 미매칭/보조 경로에 사용
+
+- sound_names.csv
+  - handle <-> 오디오명 매핑
+  - safe non-stream 핸들 판정에도 간접 활용
+
+- sound_hash_map.tsv
+  - PCM 해시 기반 정적 매핑
+  - 안정적인 단발/비스트림 음성에서 강함
+
+- sound_stream_chunk_map.tsv
+  - 스트림 청크쌍 기반 매핑
+  - 링버퍼/분할 쓰기 Unlock에서 보조
+
+- proxy_dsound.log
+  - 모든 판단의 근거 로그
+  - 새 런마다 초기화하고 읽는 것이 원칙
+
+====================================================================
+4) 정적 분석으로 확정된 구조 (중요)
+====================================================================
+- 오디오 플레이 루트는 Ordinal_1077/190 축이 핵심.
+- Ordinal_388 이후 sound_instance + 0x60 에 DS 버퍼 포인터 연결.
+- Ordinal_61/74/75/187/786은 오디오 핸들 확정 신호로 쓰면 오탐 유발.
+- sample_handle(0-based) vs bank handle(+1) 기저 차이 존재.
+- Baby 포함 일부는 wav 확장자여도 내부 MP3 비트스트림 특성.
+
+의미:
+- "ord74 등에서 보이는 값"을 오디오 핸들로 직접 쓰면 망가진다.
+- 실제 자막 출력은 DS 버퍼 수명과 MMFS2 슬롯 바인딩을 같이 봐야 한다.
+
+====================================================================
+5) patch_src/proxy_dsound.cpp 내부 핵심 메커니즘
+====================================================================
+5-1. SoundTracker
+- 목적: MMFS2 엔트리/슬롯 정보와 DS 버퍼를 묶음.
+- 메타: handle, tick, pending, entry
+- pending one-shot 소비:
+  - 올바른 Unlock 타이밍에서만 소모되어 잘못된 조기 트리거를 줄임
+
+5-2. MMFS2 슬롯 바인딩 (TryBindBufferFromMmfs2Slots)
+- ctx2 + 0x3C: 슬롯 개수
+- ctx2 + 0x40: 슬롯 테이블 시작 (stride 7 ints)
+- slot + 0x0C: sound instance 포인터
+- instance + 0x60: DS buffer 포인터
+
+5-3. control_shift remap 처리
+- raw_id(저도메인) -> 실제 handle remap이 발생하는 경로가 있음
+- 이 경로를 무제한 허용하면 비대사/갑툭튀가 재발함
+- 현재는 stream_expected + safe_nonstream + freshness 조건으로 제한
+
+5-4. UNLOCK_TRACK 게이트
+- 우선 경로에서 stream_expected(Baby 등) 우선
+- safe non-stream(HandUnit/denied/granted)은 age <= 450ms 조건으로만 허용
+- 핵심 취지: HandUnit 복구 + 갑툭튀 억제 동시 달성
+
+====================================================================
+6) 지금까지 반복된 실패 패턴
+====================================================================
+패턴 A: Baby 경로만 살리려고 비스트림 전역 차단
+- 결과: HandUnit 자막이 사라짐
+
+패턴 B: HandUnit 살리려고 비스트림 Unlock 허용 확대
+- 결과: 효과음/엉뚱한 대사 갑툭튀
+
+패턴 C: ord61/74/786 류를 핸들 힌트로 직접 사용
+- 결과: 대사 타이밍 불일치 + 랜덤 오탐
+
+패턴 D: hash_only 환경인데 stream 경로를 충분히 확인하지 않음
+- 결과: Baby 누락인데 원인 판단이 흔들림
+
+====================================================================
+7) 새 세션 운영 절차 (실전 Runbook)
+====================================================================
+7-1. 실행 전 준비
+PowerShell:
+- Remove-Item "C:\Program Files (x86)\Steam\steamapps\common\Five Nights at Freddy's Sister Location\proxy_dsound.log" -ErrorAction SilentlyContinue
+
+7-2. 게임 실행 시나리오
+- 시작 -> 엘리베이터(HandUnit 대사 구간)
+- -> Baby 첫 대사(숨는 디펜스 구간)까지 진행
+- 종료
+
+7-3. 1차 로그 확인 명령
+PowerShell:
+- Select-String -Path "C:\Program Files (x86)\Steam\steamapps\common\Five Nights at Freddy's Sister Location\proxy_dsound.log" -Pattern "build_id=|Triggered subtitle|UNLOCK_TRACK|UNLOCK_CHUNK|UNLOCK_STREAM|MMFS2_BIND ok|MMFS2_BIND_SUPPRESS|MMFS2_BIND_FAIL|HASH rejected" | Select-Object -Last 200
+
+7-4. 합격 기준
+- HandUnit:
+  - 음성 타이밍에 맞는 자막이 나와야 함
+  - 무음/다른 효과음 타이밍 갑툭튀가 없어야 함
+- Baby:
+  - Baby 구간에서 최소 1회 이상 stream 계열 트리거가 관측되어야 함
+- 전반:
+  - 엘베/메뉴에서 엉뚱한 대사 연쇄 출력 없어야 함
+
+====================================================================
+8) 증상별 진단 테이블 (바로 쓰는 체크리스트)
+====================================================================
+증상: HandUnit 자막이 안 뜬다
+- 체크:
+  1) MMFS2_BIND ok raw_id=7 id=68 ... 있는가?
+  2) 이후 UNLOCK_TRACK handle=68 트리거가 있는가?
+- 없으면:
+  - control_shift suppress 과도
+  - safe non-stream age 게이트 과도
+
+증상: HandUnit 자막이 갑자기 튄다
+- 체크:
+  1) UNLOCK_TRACK handle=68 발생 시점의 age/pending 맥락
+  2) 직전 MMFS2_BIND_SUPPRESS/noise 여부
+- 원인 후보:
+  - non-stream 허용 범위 과다
+  - freshness 기준 느슨
+
+증상: Baby 자막이 안 뜬다
+- 체크:
+  1) Baby 구간에서 stream_expected 핸들 관련 bind/peek 흔적
+  2) UNLOCK_CHUNK/UNLOCK_STREAM 시도 흔적
+  3) HASH only에서 실질적으로 stream fallback이 발화했는지
+- 원인 후보:
+  - pending 바인딩 미형성
+  - 스트림 캡처 시작 조건 미충족
+
+증상: 엉뚱한 자막 출력
+- 체크:
+  1) control_shift remap id가 무엇으로 결론났는지
+  2) 해당 handle이 실제 대사인지(sound_names.csv 기준)
+  3) g_dialogue_only 필터 통과 이유
+
+====================================================================
+9) 작업 원칙 (회귀 방지)
+====================================================================
+- ord61/74/75/187/786을 직접 재생 핸들 확정 근거로 쓰지 않는다.
+- 한 번에 게이트 1개만 바꾸고 재실행한다.
+- 변경 후 반드시:
+  - build_id 확인
+  - hash 확인
+  - 로그 초기화 후 1회 시나리오 재현
+- "어디가 좋아졌는지"와 "어디가 깨졌는지"를 반드시 같이 기록.
+
+====================================================================
+10) 백업/롤백
+====================================================================
+- 직전 백업 예시:
+  - dsound.dll.bak_20260224_handunit_pop
+- 롤백 원칙:
+  - 지금 빌드가 전체를 망가뜨리면 즉시 직전 안정 빌드로 복귀
+  - 복귀 후 Baby 보강은 좁은 경로(스트림 전용)부터 재시도
+
+====================================================================
+11) 다음 세션의 권장 첫 목표
+====================================================================
+1) HandUnit 안정성 1차 확정
+- 엘베 구간에서 누락/갑툭튀 없는지 먼저 고정
+
+2) Baby 1차 확정
+- "Baby 첫 대사 시점"에 stream 경로 트리거가 관측되는지 고정
+
+3) 그 다음 확장
+- Day2 이후 구간/VampSoap/기타 장면으로 넓힘
+
+순서가 중요하다.
+- HandUnit/Baby 두 축 중 하나가 불안정하면 전체 구간 확장은 실패한다.
+
+====================================================================
+12) 참고 파일
+====================================================================
+- SSOT: .ai_context.md (반드시 먼저 읽을 것)
+- 빠른 인수인계: 이 정리.txt
+- 핵심 코드: patch_src/proxy_dsound.cpp
+- 핵심 로그: proxy_dsound.log
+
+====================================================================
+13) 정적 분석 경로 지도 (어디를 먼저/어떻게 볼지)
+====================================================================
+13-1. 최우선(SSOT + 핵심 코드)
+- C:\Program Files (x86)\Steam\steamapps\common\Five Nights at Freddy's Sister Location\.ai_context.md
+  - 현재 확정 사실/반증/미확정 경계의 단일 기준
+- C:\Program Files (x86)\Steam\steamapps\common\Five Nights at Freddy's Sister Location\정리.txt
+  - 새 세션 빠른 진입용 요약
+- C:\Program Files (x86)\Steam\steamapps\common\Five Nights at Freddy's Sister Location\patch_src\proxy_dsound.cpp
+  - 실제 트리거/필터/바인딩 로직
+- C:\Program Files (x86)\Steam\steamapps\common\Five Nights at Freddy's Sister Location\patch_src\build_dsound.cmd
+  - 재빌드/배포 진입점
+
+13-2. 런타임-정적 교차 검증 경로
+- C:\Program Files (x86)\Steam\steamapps\common\Five Nights at Freddy's Sister Location\proxy_dsound.log
+  - 실제 이벤트 타임라인 근거
+- C:\Program Files (x86)\Steam\steamapps\common\Five Nights at Freddy's Sister Location\forensic_runtime_trace.tsv
+  - 포렌식용 이벤트 집계
+- C:\Program Files (x86)\Steam\steamapps\common\Five Nights at Freddy's Sister Location\mmfs2_play_trace.tsv
+  - MMFS2 play 계열 추적
+- C:\Program Files (x86)\Steam\steamapps\common\Five Nights at Freddy's Sister Location\sweep_handles.txt
+  - 핸들 스윕 관측값
+
+13-3. 정적 매핑/자막 데이터 경로
+- C:\Program Files (x86)\Steam\steamapps\common\Five Nights at Freddy's Sister Location\sound_hash_map.tsv
+- C:\Program Files (x86)\Steam\steamapps\common\Five Nights at Freddy's Sister Location\sound_stream_chunk_map.tsv
+- C:\Program Files (x86)\Steam\steamapps\common\Five Nights at Freddy's Sister Location\subtitles_by_handle.txt
+- C:\Program Files (x86)\Steam\steamapps\common\Five Nights at Freddy's Sister Location\subtitles_by_name.txt
+- C:\Program Files (x86)\Steam\steamapps\common\Five Nights at Freddy's Sister Location\sound_names.csv
+
+13-4. 대형 정적 산출물 클러스터(게임 루트)
+- C:\Program Files (x86)\Steam\steamapps\common\Five Nights at Freddy's Sister Location\_static_*.tsv/.txt/.ps1
+  - 결론형 아티팩트(가설 검증/폐기/클로저)
+- C:\Program Files (x86)\Steam\steamapps\common\Five Nights at Freddy's Sister Location\_tmp_*.txt/.py/.tsv
+  - 중간 추출/슬라이스/스크립트 산출물
+- 핵심 접두사 우선순위:
+  1) _static_current_run_
+  2) _static_mmfs2_
+  3) _static_ord1077_ / _static_ord388_
+  4) _static_fp1_
+  5) _static_mfa_
+  6) _static_proxy_
+
+13-5. 소스/배포/빌드 경로
+- C:\Program Files (x86)\Steam\steamapps\common\Five Nights at Freddy's Sister Location\patch_src
+- C:\Program Files (x86)\Steam\steamapps\common\Five Nights at Freddy's Sister Location\Release
+- C:\Program Files (x86)\Steam\steamapps\common\Five Nights at Freddy's Sister Location\patcher_src
+- C:\Program Files (x86)\Steam\steamapps\common\Five Nights at Freddy's Sister Location\dsound.dll (배포본)
+
+13-6. 외부 디컴파일/원천 데이터 경로(참조)
+- C:\Users\user\Downloads\SL_extract_anaconda2\SisterLocation-compressed.mfa
+- C:\Users\user\Downloads\SL_extract\analysis
+- C:\Users\user\Downloads\SL_extract\sounds
+- C:\Users\user\Downloads\NebulaFD-2024\Dumps\Sister Location\Packed Data
+- C:\Users\user\Downloads\NebulaFD-2024\Dumps\Sister Location\Sounds
+- C:\Users\user\Downloads\NebulaFD-2024\Dumps\Sister Location\Sounds_PCM
+- C:\Users\user\SL_analysis
+
+13-7. 새 세션 정적 분석 시작 순서(권장)
+1) .ai_context.md 의 Current Priority Bug / Static RE Findings / Work Log 최신 구간 확인
+2) proxy_dsound.log 최신 run에서 실패 시점 키라인 추출
+3) _static_current_run_*에서 동일 키라인의 집계/분포 파일 교차 확인
+4) proxy_dsound.cpp에서 해당 분기 로직(게이트/필터/바인딩) 역추적
+5) 필요 시 외부 참조(NebulaFD/SL_extract)로 id-space/샘플명 정합 확인
+6) 변경은 한 게이트씩만 적용 후 재검증
+
+13-8. 자주 쓰는 검색 명령(정적 분석용)
+PowerShell (게임 루트 기준):
+- Get-ChildItem -Name "_static_*"
+- Get-ChildItem -Name "_tmp_*"
+- rg -n "Ordinal_1077|Ordinal_190|Ordinal_388|TryBindBufferFromMmfs2Slots|UNLOCK_TRACK|SUB_TRIGGER" patch_src\\proxy_dsound.cpp
+- rg -n "MMFS2_BIND ok|MMFS2_BIND_FAIL|UNLOCK_TRACK|UNLOCK_STREAM|Triggered subtitle|HASH rejected" proxy_dsound.log
+- rg -n "FP1|id-space|slot\\[0\\]|0x60|control_shift|stream_expected" .ai_context.md
+
+====================================================================
+14) 정적 분석/디컴파일 도구와 사용법
+====================================================================
+14-1. Ghidra (MMFS2/SisterLocation.exe 함수 구조 확인)
+- 용도:
+  - ordinal 함수 관계, callgraph, 구조체 오프셋(+0x3C/+0x40/+0x60) 추적
+  - ord1077/190/388 경로 정적 근거 확보
+- GUI 분석:
+  1) Ghidra 실행 -> Project 생성
+  2) SisterLocation.exe / mmfs2.dll Import
+  3) Auto Analysis 실행
+  4) Symbol Tree(Exports)에서 ordinal 함수 진입
+- Headless 기본 템플릿:
+  - set JAVA_HOME=C:\Program Files\Eclipse Adoptium\jdk-21.0.9.10-hotspot
+  - "C:\Users\user\Downloads\ghidra_12.0_PUBLIC_20251205\ghidra_12.0_PUBLIC\support\analyzeHeadless.bat" ^
+    "C:\Users\user\Downloads\ghidra_proj" "tmp_proj" ^
+    -import "C:\Users\user\Downloads\SL_extract\mmfs2.dll" ^
+    -scriptPath "C:\Users\user\ghidra_scripts" ^
+    -postScript DumpAsm.java "C:\Users\user\SL_analysis\mmfs2\asm.txt" ^
+    -deleteProject
+- 주의:
+  - Java 스크립트는 public class 이름 == 파일명 이어야 함.
+  - import 경로 오류 시 "class could not be found" 발생.
+
+14-2. IDA (빠른 xref/분기 확인)
+- 용도:
+  - 특정 함수의 호출자/피호출자, early-return 분기, 조건 점프 확인
+  - Ghidra 결과 교차 검증
+- 사용:
+  1) SisterLocation.exe 또는 mmfs2.dll 로드
+  2) Exports에서 ordinal 함수 찾기
+  3) xref(호출자/피호출자)와 decompile 창 동시 확인
+- 산출물:
+  - 함수별 오프셋/분기 조건을 .txt/.tsv로 정리 후 루트에 보관
+
+14-3. NebulaFD (Fusion 에셋 덤프)
+- 경로:
+  - C:\Users\user\Downloads\NebulaFD-2024
+- 용도:
+  - Sounds/Sounds_PCM/Packed Data 덤프
+  - 오디오 원본명(Baby01.wav 등)과 정적 맵 교차 검증
+- 실행:
+  - C:\Users\user\Downloads\NebulaFD-2024\Nebula.exe
+  - Task에서 Dump Sounds / Dump Packed Data 선택
+- 결과 폴더:
+  - C:\Users\user\Downloads\NebulaFD-2024\Dumps\Sister Location\
+
+14-4. Anaconda-main(mmfparser) 기반 MFA 분석
+- 경로:
+  - C:\Users\user\Downloads\Anaconda-main\Anaconda-main
+- 용도:
+  - MFA 이벤트/사운드 사용 위치 추출
+  - sound_actions.tsv, sound_usage.tsv 등 생성
+- 기본 절차(PowerShell):
+  1) Set-Location "C:\Users\user\Downloads\Anaconda-main\Anaconda-main"
+  2) $env:PYTHONPATH = (Get-Location).Path
+  3) New-Item -ItemType Directory -Force "C:\Users\user\Downloads\SL_extract\analysis" | Out-Null
+  4) C:\Python27\python.exe C:\Users\user\Downloads\SL_extract\dump_sound_mapping.py `
+       "C:\Users\user\Downloads\SL_extract\SisterLocation-compressed.mfa" `
+       "C:\Users\user\Downloads\SL_extract\analysis"
+- 출력:
+  - sound_bank.tsv
+  - sound_actions.tsv
+  - sound_usage.tsv
+  - sound_actions_other.tsv
+
+14-5. 프로젝트 내부 스크립트 (정적 보조)
+- patch_src\build_sound_hash_map.py
+  - 사운드 해시 맵 재생성
+- patch_src\build_subtitles_by_handle.py
+  - handle 기반 자막 데이터 가공
+- 실행 예:
+  - python patch_src\build_sound_hash_map.py
+  - python patch_src\build_subtitles_by_handle.py
+
+14-6. 정적 분석 작업 표준 루프
+1) .ai_context.md에서 현재 미확정 항목 확인
+2) 정적 도구(Ghidra/IDA)로 호출 경로/오프셋 근거 확보
+3) NebulaFD/Anaconda 산출물로 오디오명/이벤트 매핑 교차검증
+4) 결과를 _static_*.tsv/.txt로 저장
+5) 마지막에 proxy_dsound.cpp 변경 여부 결정
+
+====================================================================
+15) 도구 설치/환경 체크 (초기 세팅 빠른 점검)
+====================================================================
+- JDK:
+  - java -version
+  - JAVA_HOME 확인
+- Python:
+  - Python27 경로(C:\Python27\python.exe) 확인
+  - Python3 경로 확인(스크립트별 분리)
+- .NET (NebulaFD 실행 필요):
+  - dotnet --list-runtimes
+  - 없으면 .NET Desktop Runtime 설치
+- 빌드 툴:
+  - patch_src\build_dsound.cmd 실행 가능 여부 확인
+
+끝.
